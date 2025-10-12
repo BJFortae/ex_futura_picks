@@ -120,4 +120,6 @@ f_df['target_share'] = f_df['targets'] / f_df['total_pass_attempts']
 f_df['share_of_backfield'] = f_df['rush_attempts'] / f_df['total_rush_attempts']
 f_df['ypa'] = f_df['pass_yds'].astype('int64') / f_df['pass_attempts'].astype('int64')
 
+f_df.to_csv("player_prop_data.csv", index=True)
+
 print(f_df)
