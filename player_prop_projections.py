@@ -2,43 +2,40 @@ import argparse
 import numpy as np
 import pandas as pd
 import player_prop_data as ppd
+import next_week_function as nwf
+import bambi as bmb
 
-df = ppd.f_df.copy
+# import player prop data
+df = ppd.df.copy()
+team_week = ppd.team_week.copy()
 
-import pandas as pd
+# =======================
+# Example wiring
+# =======================
+# 1) If starting from player-level rows
+# team_week = make_team_week(df_players)
 
-def team_stats(df):
-    stats_list = []
+# 2) Add EWMAs
 
-    # group by team and week
-    grouped = df.groupby(['team', 'week'])
+# 3) Train set is all historical rows (exclude last if you want a true out of sample test
+# res_nb = fit_team_pass_attempts_nb(team_week_ewma)
 
-    for (team, week), group in grouped:
-        # total pass attempts by the team that week
-        total_pass_attempts = group['pass_attempts'].sum()
+# 4) Build df_next_team (you proivde sched_next & vegas_next)
+# df_next_team = build_df_next_team(team_week_ewma, sched_next, vegas_next)
 
-        # loop through players on that team/week
-        for player_id, player_data in group.groupby('player_id'):
-            player_receptions = player_data['receptions'].sum()
+# 5) Predict
+# team_volume_pred = predict_team_volume(res_nb, df_next_team)
+# print(team_volume_pred.head())
 
-            # avoid divide by zero
-            player_target_pct = (
-                player_receptions / total_pass_attempts
-                if total_pass_attempts > 0
-                else 0
-            )
 
-            stats_list.append({
-                'team': team,
-                'week': week,
-                'player_id': player_id,
-                'player_target_pct': player_target_pct
-            })
 
-    stats_df = pd.DataFrame(stats_list)
-    return stats_df
+# Example features; adjust to your columns
+formula = "targets ~ completion_pct + team_pass_pct + ewma_targets + (1|player_id)"
+m_tar = bmb.Model(formula, data=df, family="negativebinomial")
+idata_tar = m_tar.fit(draws=1000, tune=1000, target_accept=0.9, chains=4, cores=4)
 
-team_stats_df = team_stats(df)
+# Predict expected targets for next week (mean on the posterior predictive)
+targets_pred = m_tar.predict(df_next, kind="mean")  # mean of posterior predictive
 
-print(team_stats_df)
+
 
