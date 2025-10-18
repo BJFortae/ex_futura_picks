@@ -4,8 +4,24 @@ import pymysql
 import numpy as np
 from itertools import combinations
 
+today = pd.Timestamp.today().strftime('%Y%m%d')
+
+# formatting settings
 pd.set_option("display.max_columns", None)
 pd.set_option('future.no_silent_downcasting', True)
+
+# historical odds file import
+file = "historical_weekly_oddsData_formatted_20251018.csv"
+hist_odds = pd.read_csv(file)
+
+# formatting historical odds df
+hist_odds.reset_index(drop=True, inplace=True)
+hist_odds.drop(columns=['Unnamed: 0'], inplace=True)
+hist_odds.rename(columns={'season_year': 'year', 'week_label': 'period'}, inplace=True)
+
+#####################################################
+#################### PLAYER STATS ###################
+#####################################################
 
 # Step 1: Establish a connection to the MySQL database
 connection = pymysql.connect(
@@ -97,7 +113,7 @@ df['ewma_targets'] = (
 )
 
 # define columns by position
-drop_columns = ['adp', 'owner_id', 'auction_value', 'position_id', 'position', 'position_rank', 'total_rank', 'season_pts', 'sacks', 'avg_yds_allowed_perPlay', 'offensive_yds_allowed', 'tds_allowed', 'pts_against', 'def_ints', 'created_at', 'updated_at', 'pp.player_id', 'pp.player_name', 'pp.created_at']
+drop_columns = ['adp', 'owner_id', 'auction_value', 'position_id', 'position_rank', 'total_rank', 'season_pts', 'sacks', 'avg_yds_allowed_perPlay', 'offensive_yds_allowed', 'tds_allowed', 'pts_against', 'def_ints', 'created_at', 'updated_at', 'pp.player_id', 'pp.player_name', 'pp.created_at']
 
 # create a filtered df by dropping specific columns
 keep_cols = [c for c in df.columns if c not in drop_columns]
@@ -178,32 +194,90 @@ def team_stats(df):
 team_stats_df = team_stats(f_df)
 
 # merge incremental team stats with player stats df
-df = f_df.merge(team_stats_df, on=['pro_team_id','year','period','player_id'], how='outer')
-df = df.sort_values(['year','period','pro_team_id','player_id'])
+player_df = f_df.merge(team_stats_df, on=['pro_team_id','year','period','player_id'], how='outer')
+player_df = player_df.sort_values(['year','period','pro_team_id','player_id'])
+
+#####################################################
+################ TEAM STATS SUMMARY #################
+#####################################################
 
 # creating a team week df with ewma values; one row per team per year per week
 # creating a copy from df and filtering to desired columns
-team_week = df[['year','period','pro_team_id','total_team_plays','team_pass_pct','team_rush_pct']].copy()
+team_week = player_df[['year','period','pro_team_id','total_team_plays','team_pass_pct','team_rush_pct']].copy()
 
 # transforming values to EWMAs
 team_week = (
     team_week.sort_values(['year','period','pro_team_id'])
-    .assign(ewma_total_team_plays = team_week.groupby('pro_team_id')['total_team_plays']
-            .transform(lambda x: x.ewm(alpha=0.5, adjust=False).mean()),
-            ewma_pass_rate = team_week.groupby('pro_team_id')['team_pass_pct']
-            .transform(lambda x: x.ewm(alpha=0.5, adjust=False).mean()),
-            ewma_rush_rate = team_week.groupby('pro_team_id')['team_rush_pct']
-            .transform(lambda x: x.ewm(alpha=0.5, adjust=False).mean())
-
-            )
+    .assign(
+        ewma_total_team_plays = lambda df: df.groupby('pro_team_id')['total_team_plays']
+                                             .transform(lambda x: x.ewm(alpha=0.5, adjust=False).mean()),
+        ewma_pass_rate = lambda df: df.groupby('pro_team_id')['team_pass_pct']
+                                      .transform(lambda x: x.ewm(alpha=0.5, adjust=False).mean()),
+        ewma_rush_rate = lambda df: df.groupby('pro_team_id')['team_rush_pct']
+                                      .transform(lambda x: x.ewm(alpha=0.5, adjust=False).mean())
+    )
 )
 
 # dropping duplicates created by original df containing multiple players per team
 team_week = team_week.drop_duplicates(subset=['year','period','pro_team_id'])
 
+#####################################################
+############ JOINING BOOKMAKER DATA #################
+#####################################################
+team_week = team_week.merge(hist_odds, on=['year','period','pro_team_id'], how='right')
+
+# removing empty rows to prep for training
+required_cols = [
+    'total_team_plays',
+    'team_pass_pct',
+    'team_rush_pct',
+    'ewma_total_team_plays',
+    'ewma_pass_rate',
+    'ewma_rush_rate'
+]
+team_week = team_week.dropna(subset=required_cols)
+
+####################################################
+############### BUILD DF FOR TRAINING ##############
+####################################################
+
+train_df = team_week.copy()
+player_data_copy = player_df.copy()
+
+# prep player data for training by filtering down to QBs
+keep_cols_player_training = ['year', 'period', 'pro_team_id', 'player_id', 'player_name', 'pass_attempts']
+player_data_copy = player_data_copy[player_data_copy['pass_attempts'] > 0]
+player_data_copy = player_data_copy[keep_cols_player_training]
+player_data_copy['player_id'] = player_data_copy['player_id'].astype("Int64").astype("category")
+player_data_copy['pro_team_id'] = player_data_copy['pro_team_id'].astype("category")
+
+# df formatting
+train_df.set_index('event_id', inplace=True)
+train_df["pro_team_id"] = train_df["pro_team_id"].astype("category")
+
+# Create a numeric week field
+train_df['week_num'] = train_df['period'].str.replace("Week ", "").astype(int).drop(columns=['period'])
+
+# drop columns not needed for training
+train_df.drop(columns=['total_team_plays', 'team_pass_pct', 'team_rush_pct', 'commence_date', 'bookmaker','moneyline','home_team', 'away_team', 'spread_odds','over_odds','under_odds'], inplace=True)
+
+# merge with QB Pass Attempts
+train_df = train_df.merge(player_data_copy, on=['year', 'period', 'pro_team_id'], how='left')
+
+# defining train and holdout sets
+holdout_df = train_df[(train_df['year'] == 2025) & (train_df['week_num'].isin([4,5,6]))]
+train_df   = train_df[~((train_df['year'] == 2025) & (train_df['week_num'].isin([4,5,6])))]
+
+
+
+# player_df.to_csv(f"player_df_{today}.csv", index=True)
+# team_week.to_csv(f'team_summary_data_{today}.csv', index=True)
+# train_df.to_csv(f'training_data_{today}.csv', index=True)
+# holdout_df.to_csv(f'holdout_data_{today}.csv', index=True)
 
 # df to csv
 # f_df.to_csv("player_prop_data.csv", index=True)
+# eam_week.to_csv(f'team_training_data_{today}.csv', index=True)
 
 
 

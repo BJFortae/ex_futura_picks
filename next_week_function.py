@@ -84,3 +84,12 @@ def build_df_next_team(team_week: pd.DataFrame,
                .sort_values(['pro_team_id']))
 
     return df_next
+
+def train_team_pass_attempts(df: pd.DataFrame):
+    df = df.copy()
+    df['log_ewma_total_players'] = np.log(df['ewma_total_team_plays']).clip(lower=1)
+
+    formula = "pass_attempts ~ log_ewma_total_plays + ewma_pass_rate + moneyline + spread + ou"
+    model = smf.glm(formula, data=df, family=sm.families.NegativeBinomial())
+    res = model.fit()
+    return res

@@ -36,19 +36,6 @@ def get_odds(
     r.raise_for_status()
     return r.json(), r.headers  # x-requests-remaining / used / last
 
-team_odds = get_odds(sport="americanfootball_nfl",
-    regions="us",
-    markets="h2h,spreads,totals",
-    odds_format="american",
-    bookmakers=None,
-    commence_from=None,
-    commence_to=None,
-    event_ids=None,
-    date_format="iso",
-)
-
-print(team_odds)
-
 # --- usage ---
 sports, hdr = get_sports()                    # list of in-season sports
 odds, hdr = get_odds(                         # NFL moneyline + spreads + totals, US books
@@ -58,34 +45,45 @@ odds, hdr = get_odds(                         # NFL moneyline + spreads + totals
     bookmakers="draftkings,fanduel"
 )
 
-def extract_odds(odds_json, book_key="draftkings", wanted=("h2h","spreads","totals")):
+# example: flatten DraftKings H2H prices for each game
+def extract_moneyline(odds_json, book_key="draftkings"):
     rows = []
     for g in odds_json:
-        for bk in g.get("bookmakers", []):
-            if book_key and bk.get("key") != book_key:
-                continue
-            for m in bk.get("markets", []):
-                if m.get("key") not in wanted:
-                    continue
-                for o in m.get("outcomes", []):
-                    rows.append({
-                        "event_id": g.get("id"),
-                        "commence_time": g.get("commence_time"),
-                        "home_team": g.get("home_team"),
-                        "away_team": g.get("away_team"),
-                        "bookmaker": bk.get("key"),
-                        "market": m.get("key"),        # h2h | spreads | totals
-                        "outcome": o.get("name"),      # team or Over/Under
-                        "price": o.get("price"),
-                        "line": o.get("point") if m.get("key") in ("spreads","totals") else None
-                    })
+        bk = next((b for b in g.get("bookmakers", []) if b["key"] == book_key), None)
+        if not bk:
+            continue
+        m = next((m for m in bk.get("markets", [])), None)
+        if not m:
+            continue
+        for o in m["outcomes"]:
+            if m["key"] == "h2h":
+                rows.append({
+                    "event_id": g["id"],
+                    "commence_time": g["commence_time"],
+                    "home_team": g["home_team"],
+                    "away_team": g["away_team"],
+                    "bookmaker": bk["key"],
+                    "team": o["name"],
+                    "price": o["price"]
+            })
+            if m["key"] == "spread":
+                rows.append({
+                    "event_id": g["id"],
+                    "commence_time": g["commence_time"],
+                    "home_team": g["home_team"],
+                    "away_team": g["away_team"],
+                    "bookmaker": bk["key"],
+                    "team": o["name"],
+                    "spread": o["point"],
+                    "price" : o["[price"]
+                })
     return rows
 
-rows = extract_odds(odds, book_key="draftkings")  # or "draftkings"
+rows = extract_moneyline(odds)
 
-pd.set_option('display.max_columns', None)
-df = pd.DataFrame(rows, columns=["event_id","commence_time","home_team","away_team","bookmaker","market","outcome","price", "line"])
+df = pd.DataFrame(rows, columns=["event_id","commence_time","home_team","away_team","bookmaker","team","price", "spread"])
 
-print(df)
+print(rows)
 print(f"Rows: {len(rows)}  | Requests remaining: {hdr.get('x-requests-remaining')}")
+print(df)
 df.to_csv('sports_book_odds.csv', index=True)
