@@ -86,4 +86,4 @@ df = pd.DataFrame(rows, columns=["event_id","commence_time","home_team","away_te
 print(rows)
 print(f"Rows: {len(rows)}  | Requests remaining: {hdr.get('x-requests-remaining')}")
 print(df)
-df.to_csv('sports_book_odds.csv', index=True)
+# df.to_csv('sports_book_odds.csv', index=True)
