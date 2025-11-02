@@ -1,5 +1,8 @@
 import os, requests
 import pandas as pd
+from datetime import datetime, date
+
+today = date.today().strftime("%Y%m%d")
 
 API_KEY = '063c3e01050dac6fe698c6676fb5abcf'
 BASE = "https://api.the-odds-api.com/v4"
@@ -45,45 +48,35 @@ odds, hdr = get_odds(                         # NFL moneyline + spreads + totals
     bookmakers="draftkings,fanduel"
 )
 
-# example: flatten DraftKings H2H prices for each game
-def extract_moneyline(odds_json, book_key="draftkings"):
+def flatten_odds(odds_json, book_key: list = None, wanted=("h2h","spreads","totals")) -> list:
     rows = []
     for g in odds_json:
-        bk = next((b for b in g.get("bookmakers", []) if b["key"] == book_key), None)
-        if not bk:
-            continue
-        m = next((m for m in bk.get("markets", [])), None)
-        if not m:
-            continue
-        for o in m["outcomes"]:
-            if m["key"] == "h2h":
-                rows.append({
-                    "event_id": g["id"],
-                    "commence_time": g["commence_time"],
-                    "home_team": g["home_team"],
-                    "away_team": g["away_team"],
-                    "bookmaker": bk["key"],
-                    "team": o["name"],
-                    "price": o["price"]
-            })
-            if m["key"] == "spread":
-                rows.append({
-                    "event_id": g["id"],
-                    "commence_time": g["commence_time"],
-                    "home_team": g["home_team"],
-                    "away_team": g["away_team"],
-                    "bookmaker": bk["key"],
-                    "team": o["name"],
-                    "spread": o["point"],
-                    "price" : o["[price"]
-                })
-    return rows
+        for bk in g.get("bookmakers", []):
+            if book_key and bk.get("key") != book_key:
+                continue
+            for m in bk.get("markets", []):
+                if m.get("key") not in wanted:
+                    continue
+                for o in m.get("outcomes", []):
+                    rows.append({
+                        "event_id": g.get("id"),
+                        "commence_time": g.get("commence_time"),
+                        "home_team": g.get("home_team"),
+                        "away_team": g.get("away_team"),
+                        "bookmaker": bk.get("key"),
+                        "market": m.get("key"),            # h2h | spreads | totals | ...
+                        "outcome": o.get("name"),          # team or Over/Under
+                        "price": o.get("price"),
+                        "line": o.get("point"),            # None for h2h
+                    })
+    print(f"Rows: {len(rows)}  | Requests remaining: {hdr.get('x-requests-remaining')}")
+    df = pd.DataFrame(rows,
+                      columns=["event_id", "commence_time", "home_team", "away_team", "bookmaker", "market", "outcome",
+                               "price", "line"])
+    df.to_csv(f'~/documents/personal/ex_futura_picks/weekly_files/bookmaker_odds_weekly_{today}.csv', index=True)
+    return df
 
-rows = extract_moneyline(odds)
 
-df = pd.DataFrame(rows, columns=["event_id","commence_time","home_team","away_team","bookmaker","team","price", "spread"])
+df = flatten_odds(odds, book_key="draftkings")
 
-print(rows)
-print(f"Rows: {len(rows)}  | Requests remaining: {hdr.get('x-requests-remaining')}")
 print(df)
-# df.to_csv('sports_book_odds.csv', index=True)

@@ -2,6 +2,7 @@ import math
 import pandas as pd
 from pandas import DataFrame
 import pymysql
+from functions import *
 import numpy as np
 from itertools import combinations
 
@@ -106,131 +107,19 @@ df = pd.DataFrame(rows, columns = [
 'pp.created_at'
     ]
 )
-df.set_index('stat_id', inplace=True)
-df['period'] = df['period'].apply(
-    lambda x: f"Week {int(x.split()[-1]):02d}" if str(x).startswith("Week") else x
-)
 
-# adding a ewma for targets
-df = df.sort_values(['player_id', 'period'])
-df['ewma_targets'] = (
-    df.groupby('player_id')['targets']
-      .transform(lambda x: x.ewm(alpha=0.3, adjust=False).mean())
-)
+clean_player_df = clean_player_df(df)
 
-# define columns by position
-drop_columns = ['adp', 'owner_id', 'auction_value', 'position_id', 'position_rank', 'total_rank', 'season_pts', 'sacks', 'avg_yds_allowed_perPlay', 'offensive_yds_allowed', 'tds_allowed', 'pts_against', 'def_ints', 'created_at', 'updated_at', 'pp.player_id', 'pp.player_name', 'pp.created_at']
-
-# create a filtered df by dropping specific columns
-keep_cols = [c for c in df.columns if c not in drop_columns]
-f_df = df.loc[
-    ((df['period'].ne('Total Year')) & (df['stat_type'] == 'Actual Stats'))
-    , keep_cols
-].copy()
-f_df['catch_rate'] = (f_df['receptions'] / f_df['targets']).fillna(0.0)
-
-# defining a team stats function
-def team_stats(df):
-    # per-player targets within (team,year,week)
-    player_targets = (
-        df.groupby(['pro_team_id','year','period', 'player_id'])['targets']
-          .sum()
-          .rename('player_targets')
-          .reset_index()
-    )
-
-
-    # team total pass attempts within (team,year,week)
-    team_patts = (
-        df[['pro_team_id','year','period', 'pass_attempts']]
-          .groupby(['pro_team_id','year','period'])['pass_attempts']
-          .sum()
-          .rename('team_pass_attempts')
-          .reset_index()
-    )
-
-
-    # calculating player target %
-    passing = player_targets.merge(team_patts, on=['pro_team_id', 'year', 'period'], how='outer')
-    passing['player_target_pct'] = passing['player_targets'].div(passing['team_pass_attempts']).fillna(0.0)
-
-
-    # per-player rushes within (team,year,week)
-    player_rushes = (
-        df.groupby(['pro_team_id', 'year', 'period', 'player_id'])['rush_attempts']
-        .sum()
-        .rename('player_rushes')
-        .reset_index()
-    )
-
-
-    # team total rush attempts within (team,year,week)
-    team_ratts = (
-        df[['pro_team_id','year','period','rush_attempts']]
-          .groupby(['pro_team_id','year','period'])['rush_attempts']
-          .sum()
-          .rename('team_rush_attempts')
-          .reset_index()
-    )
-
-    # calculating player backfield %
-    rushing = player_rushes.merge(team_ratts, on=['pro_team_id', 'year', 'period'], how='outer')
-    rushing['backfield_pct'] = rushing['player_rushes'].div(rushing['team_rush_attempts']).fillna(0.0)
-
-    # combining passing and rushing dfs
-    out = passing.merge(
-        rushing,
-        on=['pro_team_id', 'year', 'period','player_id'],
-        how='outer'
-    )
-
-    # calculating total team plays
-    out['total_team_plays'] = out[['team_rush_attempts','team_pass_attempts']].sum(axis=1)
-
-
-    # calculating team level run vs. pass
-    denom = (out[['team_pass_attempts','team_rush_attempts']].sum(axis=1)).replace(0, pd.NA)
-    out['team_pass_pct'] = (out['team_pass_attempts']/ denom).fillna(0.0)
-    out['team_rush_pct'] = (out['team_rush_attempts']/ denom).fillna(0.0)
-
-    # return values from function
-    return out[['pro_team_id','year','period','player_id','player_target_pct','backfield_pct', 'total_team_plays', 'team_pass_pct', 'team_rush_pct']]
 
 # call team stats function
-team_stats_df = team_stats(f_df)
+team_stats_df = team_stats(clean_player_df)
+print(team_stats_df.head())
 
-# merge incremental team stats with player stats df
-player_df = f_df.merge(team_stats_df, on=['pro_team_id','year','period','player_id'], how='outer')
-player_df = player_df.sort_values(['year','period','pro_team_id','player_id'])
-
-#####################################################
-################ TEAM STATS SUMMARY #################
-#####################################################
-
-# creating a team week df with ewma values; one row per team per year per week
-# creating a copy from df and filtering to desired columns
-team_week = player_df[['year','period','pro_team_id','total_team_plays','team_pass_pct','team_rush_pct']].copy()
-
-# transforming values to EWMAs
-team_week = (
-    team_week.sort_values(['year','period','pro_team_id'])
-    .assign(
-        ewma_total_team_plays = lambda df: df.groupby('pro_team_id')['total_team_plays']
-                                             .transform(lambda x: x.ewm(alpha=0.5, adjust=False).mean()),
-        ewma_pass_rate = lambda df: df.groupby('pro_team_id')['team_pass_pct']
-                                      .transform(lambda x: x.ewm(alpha=0.5, adjust=False).mean()),
-        ewma_rush_rate = lambda df: df.groupby('pro_team_id')['team_rush_pct']
-                                      .transform(lambda x: x.ewm(alpha=0.5, adjust=False).mean())
-    )
-)
-
-# dropping duplicates created by original df containing multiple players per team
-team_week = team_week.drop_duplicates(subset=['year','period','pro_team_id'])
 
 #####################################################
 ############ JOINING BOOKMAKER DATA #################
 #####################################################
-team_week = team_week.merge(hist_odds, on=['year','period','pro_team_id'], how='right')
+team_week = team_stats_df.merge(hist_odds, on=['year','period','pro_team_id'], how='right')
 
 # removing empty rows to prep for training
 required_cols = [
@@ -279,7 +168,7 @@ def build_train_df (team_df: DataFrame, player_data: DataFrame) -> DataFrame:
 
     return train_df, holdout_df
 
-train_df, holdout_df = build_train_df(team_week, player_df)
+train_df, holdout_df = build_train_df(team_week, clean_player_df)
 
 corr_test = train_df.select_dtypes(include='number').corr()['pass_attempts'][
     ['opponent_plays_perGame_rank','opponent_pts_perGame_rank','rush_yds_perGame_rank',

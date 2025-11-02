@@ -1,0 +1,31 @@
+,event_id,commence_time,home_team,away_team,bookmaker,market,outcome,price,line
+0,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:40Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,h2h,New Orleans Saints,500,
+1,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:40Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,h2h,Tampa Bay Buccaneers,-810,
+2,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:40Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,spreads,New Orleans Saints,-115,8.5
+3,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:40Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,spreads,Tampa Bay Buccaneers,-115,-8.5
+4,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:40Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,totals,Over,-120,34.5
+5,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:40Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,totals,Under,-110,34.5
+6,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:25Z,Denver Broncos,Dallas Cowboys,draftkings,h2h,Dallas Cowboys,325,
+7,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:25Z,Denver Broncos,Dallas Cowboys,draftkings,h2h,Denver Broncos,-475,
+8,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:25Z,Denver Broncos,Dallas Cowboys,draftkings,spreads,Dallas Cowboys,-110,7.5
+9,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:25Z,Denver Broncos,Dallas Cowboys,draftkings,spreads,Denver Broncos,-120,-7.5
+10,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:25Z,Denver Broncos,Dallas Cowboys,draftkings,totals,Over,-110,60.5
+11,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:25Z,Denver Broncos,Dallas Cowboys,draftkings,totals,Under,-120,60.5
+12,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:33Z,Indianapolis Colts,Tennessee Titans,draftkings,h2h,Indianapolis Colts,-1950,
+13,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:33Z,Indianapolis Colts,Tennessee Titans,draftkings,h2h,Tennessee Titans,950,
+14,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:33Z,Indianapolis Colts,Tennessee Titans,draftkings,spreads,Indianapolis Colts,-110,-15.5
+15,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:33Z,Indianapolis Colts,Tennessee Titans,draftkings,spreads,Tennessee Titans,-120,15.5
+16,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:33Z,Indianapolis Colts,Tennessee Titans,draftkings,totals,Over,-105,48.5
+17,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:33Z,Indianapolis Colts,Tennessee Titans,draftkings,totals,Under,-125,48.5
+18,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,h2h,Green Bay Packers,-155,
+19,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,h2h,Pittsburgh Steelers,130,
+20,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,spreads,Green Bay Packers,100,-3.0
+21,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,spreads,Pittsburgh Steelers,-120,3.0
+22,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,totals,Over,-118,45.5
+23,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,totals,Under,-102,45.5
+24,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,h2h,Kansas City Chiefs,-750,
+25,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,h2h,Washington Commanders,525,
+26,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,spreads,Kansas City Chiefs,-105,-11.5
+27,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,spreads,Washington Commanders,-115,11.5
+28,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,totals,Over,-112,47.5
+29,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,totals,Under,-108,47.5

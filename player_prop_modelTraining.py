@@ -42,6 +42,8 @@ train_df = ppd.train_df.copy()
 # train_df["pro_team_id"] = train_df["pro_team_id"].astype("category")
 
 # Drop rows with any missing target/predictors used below
+def create_training_data(df):
+df = df.copy()
 training_cols = ["ewma_total_team_plays","ewma_pass_rate","spread","total_ou","pass_yds_perGame_rank","rush_def_rank"]
 cat_cols = ["is_home", "player_id","pro_team_id"]
 target_cols = ["pass_attempts"]

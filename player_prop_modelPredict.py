@@ -44,20 +44,7 @@ with open("artifacts/qb_pass_attempts_levels.json") as f:
 # normalizing df
 # ______________________________
 
-# identifying last week played by each team
-target_year = holdout_df['year'].max()  # or set explicitly, e.g., 2025
-cur = holdout_df.loc[holdout_df['year'].eq(target_year)]
 
-idx = cur.groupby('pro_team_id')['period'].idxmax()
-df_next = cur.loc[idx].reset_index(drop=True)
-df_next = df_next[['pro_team_id', 'player_id', 'ewma_total_team_plays','ewma_pass_rate']]
-
-pd.set_option('display.max_rows', None)
-
-# building next_df with future data (e.g. odds from next weeks games)
-df_next['period'] = f'Week {next_week:02d}'
-
-print(df_next)
 
 
 # Drop rows with any missing target/predictors used below
