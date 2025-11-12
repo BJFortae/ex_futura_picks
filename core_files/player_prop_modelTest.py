@@ -6,6 +6,7 @@ import arviz as az
 import bambi as bmb
 import create_passAttempts_training_df as tdf
 from sklearn.metrics import r2_score
+from datetime import date
 from xarray import DataArray
 
 # import holdout df
@@ -196,4 +197,5 @@ plt.ylabel("Actual pass attempts")
 plt.plot([0, 60], [0, 60], "r--")  # 1:1 line
 plt.show()
 
-
+today = date.today()
+# by_team.to_csv(f"/Users/brendenforte/documents/personal/ex_futura_picks/predictions/qb_pass_attempts_predictions_{today}.csv")

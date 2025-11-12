@@ -7,7 +7,7 @@ import bambi as bmb
 from next_week_function import df_next, clean_player_data
 
 # ------------------ Config ------------------
-run_id   = "26a298"  # your simplified unique id
+run_id   =  # your simplified unique id
 base_dir = "/Users/brendenforte/documents/personal/ex_futura_picks"
 model_path_default   = f"{base_dir}/models/qb_pass_attempts_idata_{run_id}.nc"
 artifact_dir_default = f"{base_dir}/artifacts/{run_id}"
