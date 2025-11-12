@@ -130,5 +130,9 @@ def get_historical_dataframe(
         ).sort_values(["snapshot_ts","event_id","bookmaker","market","outcome"])
     return df
 
-df = get_historical_dataframe(sport="americanfootball_nfl", start=dt.datetime(2024, 9, 4, 0, 0, 0, tzinfo=dt.timezone.utc), bookmakers="draftkings")
+df = get_historical_dataframe(sport="americanfootball_nfl", start=dt.datetime(2025, 10, 13, 0, 0, 0, tzinfo=dt.timezone.utc), bookmakers="draftkings")
 print(df)
+
+# save to CSV
+today = date.today()
+df = pd.read_csv(f'bookmaker_historical_odds_{today}.csv')
