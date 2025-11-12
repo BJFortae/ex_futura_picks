@@ -1,4 +1,4 @@
-arviz==0.22.0
+arviz
 asttokens==3.0.0
 bambi==0.13.0
 cachetools==6.2.1
