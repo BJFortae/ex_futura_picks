@@ -40,11 +40,11 @@ pro_team_df = pd.DataFrame(rows, columns = [
 print(pro_team_df.head())
 
 # defining today variable
-today = date.today().strftime("%Y%m%d")
+today = date.today()
 
 from datetime import datetime, date, time, timedelta
 pd.set_option('display.max_columns', None)
-df = pd.read_csv('bookmaker_historical_odds_101525.csv')
+df = pd.read_csv(f'bookmaker_historical_odds_{today}.csv')
 df = df[df['bookmaker'] == 'draftkings']
 
 # converting commence time to local date/ time instead of UTC
