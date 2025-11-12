@@ -129,11 +129,10 @@ formula = f"""
     {total_term} +
     {pass_def_term} +
     {rush_def_term} +
-    (1|player_id_collapsed) +
-    (1|pro_team_id)
-
-
+    (1 | player_id_collapsed) +
+    (1 + {plays_term} + {prate_term} | pro_team_id)
 """
+
 
 # Family: Negative Binomial (default log link)
 model = bmb.Model(formula, train_dfm, family="negativebinomial")
@@ -142,7 +141,7 @@ model = bmb.Model(formula, train_dfm, family="negativebinomial")
 idata = model.fit(
    draws=2000,
    tune=2000,
-   target_accept=0.96,
+   target_accept=0.98,
    chains=4,
    random_seed=42,
    init = "jitter+adapt_diag"

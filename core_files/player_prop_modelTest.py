@@ -5,6 +5,7 @@ import json
 import arviz as az
 import bambi as bmb
 import create_passAttempts_training_df as tdf
+from sklearn.metrics import r2_score
 from xarray import DataArray
 
 # import holdout df
@@ -15,7 +16,7 @@ holdout_df = tdf.holdout_df.copy()
 # ______________________________
 
 # file paths for model and artifacts
-run_id = "26a298"
+run_id = "673c2a"
 model_path = f"/Users/brendenforte/documents/personal/ex_futura_picks/models/qb_pass_attempts_idata_{run_id}.nc"
 artifact_dir = f"/Users/brendenforte/documents/personal/ex_futura_picks/artifacts/{run_id}"
 
@@ -38,6 +39,8 @@ with open(f'{artifact_dir}/qb_pass_attempts_levels.json') as f:
 # import manifest used for training
 with open(f'{artifact_dir}/manifest.json') as f:
     manifest = json.load(f)
+
+print(manifest)
 
 # ------------------------------
 # normalizing df
@@ -167,8 +170,9 @@ out["abs_error"] = out["error"].abs()
 
 MAE = float(out["abs_error"].mean())
 RMSE = float(np.sqrt((out["error"] ** 2).mean()))
+r2 = r2_score(y_true=out[target_col], y_pred=out["predicted"])
 
-print(f"Holdout size: {len(out)}  |  MAE: {MAE:.2f}  |  RMSE: {RMSE:.2f}")
+print(f"Holdout size: {len(out)}  |  MAE: {MAE:.2f}  |  RMSE: {RMSE:.2f} | R2: {r2:.2f}")
 
 print(holdout_df[['pro_team_id','pass_attempts']])
 
@@ -178,7 +182,7 @@ by_team = (out[out['pass_attempts'] != 0]
     .mean()
     .sort_values("error"))
 
-print(by_team)
+print(len(by_team),by_team)
 
 # Coverage of 90% credible intervals
 coverage = np.mean((out[target_col] >= out["lower_90"]) & (out[target_col] <= out["upper_90"]))
