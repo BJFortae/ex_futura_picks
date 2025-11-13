@@ -104,5 +104,5 @@ print(corr_test)
 
 # player_df.to_csv(f"player_df_{today}.csv", index=True)
 # team_week.to_csv(f'team_summary_data_{today}.csv', index=True)
-# train_df.to_csv(f'{root_path}training_data_{today}.csv', index=True)
-# holdout_df.to_csv(f'{root_path}holdout_data_{today}.csv', index=True)
+train_df.to_csv(f'{root_path}training_data_{today}.csv', index=True)
+holdout_df.to_csv(f'{root_path}holdout_data_{today}.csv', index=True)

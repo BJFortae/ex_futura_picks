@@ -7,7 +7,7 @@ import bambi as bmb
 from next_week_function import df_next, clean_player_data
 
 # ------------------ Config ------------------
-run_id   =  # your simplified unique id
+run_id   = '673c2a' # your simplified unique id
 base_dir = "/Users/brendenforte/documents/personal/ex_futura_picks"
 model_path_default   = f"{base_dir}/models/qb_pass_attempts_idata_{run_id}.nc"
 artifact_dir_default = f"{base_dir}/artifacts/{run_id}"
@@ -87,8 +87,6 @@ df_nextm["pro_team_id"] = pd.Categorical(
 # Binary int
 df_nextm["is_home"] = df_nextm["is_home"].fillna(0).astype(int)
 
-print(df_nextm)
-
 # ------------------ Rebuild z-scores (manifest formula uses *_z) ------------------
 for col in features:
     if col in df_nextm.columns and col in z_params and z_params[col].get("std", 0):
@@ -111,14 +109,29 @@ obs_dim = next(d for d in da.dims if d.endswith("_obs") or d == "obs")
 pps = da.stack(sample=("chain","draw")).transpose("sample", obs_dim).values
 
 pred_mean = pps.mean(axis=0)
-lower, upper = np.percentile(pps, [5, 95], axis=0)
+lower_90, upper_90 = np.percentile(pps, [5, 95], axis=0)
+lower_80, upper_80 = np.percentile(pps, [10, 90], axis=0)
+lower_70, upper_70 = np.percentile(pps, [15, 85], axis=0)
+lower_60, upper_60 = np.percentile(pps, [20, 80], axis=0)
+
+
 
 # ------------------ Output ------------------
 out = df_nextm.copy()
 out["predicted"] = pred_mean
-out["lower_90"]  = lower
-out["upper_90"]  = upper
-out[["predicted","lower_90","upper_90"]] = out[["predicted","lower_90","upper_90"]].round(1)
+out["lower_90"]  = lower_90
+out["upper_90"]  = upper_90
+out["lower_80"]  = lower_80
+out["upper_80"]  = upper_80
+out["lower_70"]  = lower_70
+out["upper_70"]  = upper_70
+out["lower_60"]  = lower_60
+out["upper_60"]  = upper_60
+out[["predicted","lower_90","upper_90",'lower_80','upper_80','lower_70','upper_70','lower_60','upper_60']] = out[["predicted","lower_90","upper_90", 'lower_80','upper_80','lower_70','upper_70','lower_60','upper_60']].round(1)
+out['delta_90'] = out['upper_90'] - out['lower_90']
+out['delta_80'] = out['upper_80'] - out['lower_80']
+out['delta_70'] = out['upper_70'] - out['lower_70']
+out['delta_60'] = out['upper_60'] - out['lower_60']
 
 #formatting
 out['player_id'] = out['player_id'].astype(str)
@@ -128,10 +141,17 @@ clean_player_data = clean_player_data.drop_duplicates()
 clean_player_data['player_id'] = clean_player_data['player_id'].astype(str)
 
 out = out.merge(clean_player_data[['player_name','player_id']], on = "player_id", how = "left")
-cols_show = [c for c in ["period","player_id","player_id_collapsed","player_name","pro_team_id","is_home","predicted","lower_90","upper_90"] if c in out.columns]
-print(out[cols_show][['player_name','predicted','lower_90','upper_90']])
+cols_show = [c for c in ["period","player_id","player_id_collapsed","player_name","pro_team_id","is_home","predicted","lower_90","upper_90",'lower_80','upper_80','lower_70','upper_70','lower_60','upper_60','delta_90','delta_80','delta_70','delta_60'] if c in out.columns]
+print(out[cols_show].sort_values(by='delta_90', ascending=True))
+
+
+next_week_pa = out[['player_id','player_name','pro_team_id','predicted']]
+next_week_pa = next_week_pa.rename(columns={'predicted': 'pass_attempts'})
+next_week_pa['pass_attempts'] = next_week_pa['pass_attempts'].round()
+print(next_week_pa)
+next_week_pa.to_csv(f"{base_dir}/next_week_pa.csv", index=False)
 
 # Optional: save
 save_path = f"{base_dir}/predictions/qb_pass_attempts_pred_{run_id}.csv"
 os.makedirs(os.path.dirname(save_path), exist_ok=True)
-out[cols_show].to_csv(save_path, index=False); print("Saved:", save_path)
+out[cols_show].sort_values(by='delta_90', ascending=True).to_csv(save_path, index=False); print("Saved:", save_path)

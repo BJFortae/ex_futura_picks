@@ -4,7 +4,7 @@ from pandas import DataFrame
 import pymysql
 
 # setting today variable
-today = pd.Timestamp.today().strftime('%Y%m%d')
+today = pd.Timestamp.today()
 
 # formatting settings
 pd.set_option("display.max_columns", None)
@@ -110,3 +110,5 @@ cols = [
 
 corr_test = corr_pass.loc[corr_pass.index.intersection(cols)]
 # print(corr_test.sort_values(ascending=False))
+
+df.to_csv(f"player_df_{today}.csv", index=True)

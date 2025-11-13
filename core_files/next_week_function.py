@@ -73,8 +73,11 @@ file_path = f'~/documents/personal/ex_futura_picks/weekly_files/bookmaker_odds_w
 odds_df = pd.read_csv(file_path)
 
 odds_df = odds_formatter(odds_df)
-odds_df['week_label'].rename('period', inplace=True)
-odds_df['period'] = f'Week {next_week_num:02d}'
+# Rename the column
+odds_df = odds_df.rename(columns={'week_label': 'period'})
+# Format with leading zeros
+odds_df['period'] = odds_df['period'].apply(lambda x: f"Week {int(x):02d}")
+
 
 # _____________________________________
 # Create Defensive DF rankings
@@ -102,9 +105,10 @@ df_next = df_next.copy().reset_index(drop=True)
 odds_df = odds_df.copy()
 def_stats = def_stats.copy()
 
+
 # filtering to needed columns
 df_next = df_next[['pro_team_id','player_id','player_name','ewma_total_team_plays','ewma_pass_rate','period','pass_attempts']]
-odds_df = odds_df[['pro_team_id', 'opponent_pro_team_id', 'spread','total_ou','period','is_home']]
+odds_df = odds_df[['period','pro_team_id', 'opponent_pro_team_id', 'spread','total_ou','is_home']]
 def_stats = def_stats[['pro_team_id','pass_yds_perGame_rank','rush_def_rank']]
 def_stats.rename(columns={'pro_team_id': 'opponent_pro_team_id'}, inplace=True)
 def_stats = def_stats.sort_values(by='opponent_pro_team_id')
@@ -112,6 +116,9 @@ def_stats = def_stats.sort_values(by='opponent_pro_team_id')
 # merging dfs together
 odds_df = odds_df.merge(def_stats, on=['opponent_pro_team_id'], how='left')
 df_next = df_next.merge(odds_df, on=['pro_team_id','period'], how='left')
+df_next.dropna(subset='opponent_pro_team_id', inplace=True)
+
+
 
 # ---------- Build next-week inference DF ----------
 ## Requires:

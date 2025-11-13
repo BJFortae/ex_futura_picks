@@ -1,0 +1,847 @@
+snapshot_ts,event_id,commence_time,home_team,away_team,bookmaker,market,outcome,price,line
+2025-10-14T23:55:39Z,1036171316ac51350b388c99e000cfc1,2025-10-19T20:25:00Z,Arizona Cardinals,Green Bay Packers,draftkings,h2h,Arizona Cardinals,275,
+2025-10-14T23:55:39Z,1036171316ac51350b388c99e000cfc1,2025-10-19T20:25:00Z,Arizona Cardinals,Green Bay Packers,draftkings,h2h,Green Bay Packers,-345,
+2025-10-14T23:55:39Z,1036171316ac51350b388c99e000cfc1,2025-10-19T20:25:00Z,Arizona Cardinals,Green Bay Packers,draftkings,spreads,Arizona Cardinals,-105,6.5
+2025-10-14T23:55:39Z,1036171316ac51350b388c99e000cfc1,2025-10-19T20:25:00Z,Arizona Cardinals,Green Bay Packers,draftkings,spreads,Green Bay Packers,-115,-6.5
+2025-10-14T23:55:39Z,1036171316ac51350b388c99e000cfc1,2025-10-19T20:25:00Z,Arizona Cardinals,Green Bay Packers,draftkings,totals,Over,-108,44.5
+2025-10-14T23:55:39Z,1036171316ac51350b388c99e000cfc1,2025-10-19T20:25:00Z,Arizona Cardinals,Green Bay Packers,draftkings,totals,Under,-112,44.5
+2025-10-14T23:55:39Z,3127c0dd6ed51a44354af51791bc3e5a,2025-10-19T17:00:00Z,Kansas City Chiefs,Las Vegas Raiders,draftkings,h2h,Kansas City Chiefs,-850,
+2025-10-14T23:55:39Z,3127c0dd6ed51a44354af51791bc3e5a,2025-10-19T17:00:00Z,Kansas City Chiefs,Las Vegas Raiders,draftkings,h2h,Las Vegas Raiders,575,
+2025-10-14T23:55:39Z,3127c0dd6ed51a44354af51791bc3e5a,2025-10-19T17:00:00Z,Kansas City Chiefs,Las Vegas Raiders,draftkings,spreads,Kansas City Chiefs,-108,-12.5
+2025-10-14T23:55:39Z,3127c0dd6ed51a44354af51791bc3e5a,2025-10-19T17:00:00Z,Kansas City Chiefs,Las Vegas Raiders,draftkings,spreads,Las Vegas Raiders,-112,12.5
+2025-10-14T23:55:39Z,3127c0dd6ed51a44354af51791bc3e5a,2025-10-19T17:00:00Z,Kansas City Chiefs,Las Vegas Raiders,draftkings,totals,Over,-108,45.5
+2025-10-14T23:55:39Z,3127c0dd6ed51a44354af51791bc3e5a,2025-10-19T17:00:00Z,Kansas City Chiefs,Las Vegas Raiders,draftkings,totals,Under,-112,45.5
+2025-10-14T23:55:39Z,3536a3e857050d2dd6e2019ceb668f67,2025-10-26T17:00:00Z,New England Patriots,Cleveland Browns,draftkings,h2h,Cleveland Browns,260,
+2025-10-14T23:55:39Z,3536a3e857050d2dd6e2019ceb668f67,2025-10-26T17:00:00Z,New England Patriots,Cleveland Browns,draftkings,h2h,New England Patriots,-325,
+2025-10-14T23:55:39Z,3536a3e857050d2dd6e2019ceb668f67,2025-10-26T17:00:00Z,New England Patriots,Cleveland Browns,draftkings,spreads,Cleveland Browns,-102,6.5
+2025-10-14T23:55:39Z,3536a3e857050d2dd6e2019ceb668f67,2025-10-26T17:00:00Z,New England Patriots,Cleveland Browns,draftkings,spreads,New England Patriots,-118,-6.5
+2025-10-14T23:55:39Z,3536a3e857050d2dd6e2019ceb668f67,2025-10-26T17:00:00Z,New England Patriots,Cleveland Browns,draftkings,totals,Over,-110,40.5
+2025-10-14T23:55:39Z,3536a3e857050d2dd6e2019ceb668f67,2025-10-26T17:00:00Z,New England Patriots,Cleveland Browns,draftkings,totals,Under,-110,40.5
+2025-10-14T23:55:39Z,3be866344dfa050e602a6e69170b3cbe,2025-10-19T20:05:00Z,Denver Broncos,New York Giants,draftkings,h2h,Denver Broncos,-345,
+2025-10-14T23:55:39Z,3be866344dfa050e602a6e69170b3cbe,2025-10-19T20:05:00Z,Denver Broncos,New York Giants,draftkings,h2h,New York Giants,275,
+2025-10-14T23:55:39Z,3be866344dfa050e602a6e69170b3cbe,2025-10-19T20:05:00Z,Denver Broncos,New York Giants,draftkings,spreads,Denver Broncos,-110,-7.0
+2025-10-14T23:55:39Z,3be866344dfa050e602a6e69170b3cbe,2025-10-19T20:05:00Z,Denver Broncos,New York Giants,draftkings,spreads,New York Giants,-110,7.0
+2025-10-14T23:55:39Z,3be866344dfa050e602a6e69170b3cbe,2025-10-19T20:05:00Z,Denver Broncos,New York Giants,draftkings,totals,Over,-115,39.5
+2025-10-14T23:55:39Z,3be866344dfa050e602a6e69170b3cbe,2025-10-19T20:05:00Z,Denver Broncos,New York Giants,draftkings,totals,Under,-105,39.5
+2025-10-14T23:55:39Z,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:00Z,Denver Broncos,Dallas Cowboys,draftkings,h2h,Dallas Cowboys,200,
+2025-10-14T23:55:39Z,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:00Z,Denver Broncos,Dallas Cowboys,draftkings,h2h,Denver Broncos,-245,
+2025-10-14T23:55:39Z,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:00Z,Denver Broncos,Dallas Cowboys,draftkings,spreads,Dallas Cowboys,-110,5.5
+2025-10-14T23:55:39Z,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:00Z,Denver Broncos,Dallas Cowboys,draftkings,spreads,Denver Broncos,-110,-5.5
+2025-10-14T23:55:39Z,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:00Z,Denver Broncos,Dallas Cowboys,draftkings,totals,Over,-110,47.5
+2025-10-14T23:55:39Z,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:00Z,Denver Broncos,Dallas Cowboys,draftkings,totals,Under,-110,47.5
+2025-10-14T23:55:39Z,53d4369464c66630f03a5d128cd39b08,2025-10-26T17:00:00Z,Carolina Panthers,Buffalo Bills,draftkings,h2h,Buffalo Bills,-355,
+2025-10-14T23:55:39Z,53d4369464c66630f03a5d128cd39b08,2025-10-26T17:00:00Z,Carolina Panthers,Buffalo Bills,draftkings,h2h,Carolina Panthers,280,
+2025-10-14T23:55:39Z,53d4369464c66630f03a5d128cd39b08,2025-10-26T17:00:00Z,Carolina Panthers,Buffalo Bills,draftkings,spreads,Buffalo Bills,-110,-7.0
+2025-10-14T23:55:39Z,53d4369464c66630f03a5d128cd39b08,2025-10-26T17:00:00Z,Carolina Panthers,Buffalo Bills,draftkings,spreads,Carolina Panthers,-110,7.0
+2025-10-14T23:55:39Z,53d4369464c66630f03a5d128cd39b08,2025-10-26T17:00:00Z,Carolina Panthers,Buffalo Bills,draftkings,totals,Over,-110,48.5
+2025-10-14T23:55:39Z,53d4369464c66630f03a5d128cd39b08,2025-10-26T17:00:00Z,Carolina Panthers,Buffalo Bills,draftkings,totals,Under,-110,48.5
+2025-10-14T23:55:39Z,6076f9eab496770efc0ab7095b27c122,2025-10-17T00:15:00Z,Cincinnati Bengals,Pittsburgh Steelers,draftkings,h2h,Cincinnati Bengals,225,
+2025-10-14T23:55:39Z,6076f9eab496770efc0ab7095b27c122,2025-10-17T00:15:00Z,Cincinnati Bengals,Pittsburgh Steelers,draftkings,h2h,Pittsburgh Steelers,-278,
+2025-10-14T23:55:39Z,6076f9eab496770efc0ab7095b27c122,2025-10-17T00:15:00Z,Cincinnati Bengals,Pittsburgh Steelers,draftkings,spreads,Cincinnati Bengals,-110,5.5
+2025-10-14T23:55:39Z,6076f9eab496770efc0ab7095b27c122,2025-10-17T00:15:00Z,Cincinnati Bengals,Pittsburgh Steelers,draftkings,spreads,Pittsburgh Steelers,-110,-5.5
+2025-10-14T23:55:39Z,6076f9eab496770efc0ab7095b27c122,2025-10-17T00:15:00Z,Cincinnati Bengals,Pittsburgh Steelers,draftkings,totals,Over,-110,43.5
+2025-10-14T23:55:39Z,6076f9eab496770efc0ab7095b27c122,2025-10-17T00:15:00Z,Cincinnati Bengals,Pittsburgh Steelers,draftkings,totals,Under,-110,43.5
+2025-10-14T23:55:39Z,6439b16f4a038f1c351dc3f1aef27471,2025-10-24T00:15:00Z,Los Angeles Chargers,Minnesota Vikings,draftkings,h2h,Los Angeles Chargers,-162,
+2025-10-14T23:55:39Z,6439b16f4a038f1c351dc3f1aef27471,2025-10-24T00:15:00Z,Los Angeles Chargers,Minnesota Vikings,draftkings,h2h,Minnesota Vikings,136,
+2025-10-14T23:55:39Z,6439b16f4a038f1c351dc3f1aef27471,2025-10-24T00:15:00Z,Los Angeles Chargers,Minnesota Vikings,draftkings,spreads,Los Angeles Chargers,-110,-3.0
+2025-10-14T23:55:39Z,6439b16f4a038f1c351dc3f1aef27471,2025-10-24T00:15:00Z,Los Angeles Chargers,Minnesota Vikings,draftkings,spreads,Minnesota Vikings,-110,3.0
+2025-10-14T23:55:39Z,6439b16f4a038f1c351dc3f1aef27471,2025-10-24T00:15:00Z,Los Angeles Chargers,Minnesota Vikings,draftkings,totals,Over,-110,42.5
+2025-10-14T23:55:39Z,6439b16f4a038f1c351dc3f1aef27471,2025-10-24T00:15:00Z,Los Angeles Chargers,Minnesota Vikings,draftkings,totals,Under,-110,42.5
+2025-10-14T23:55:39Z,6a8d2daf7f75100d02656bc0217737e8,2025-10-19T17:00:00Z,Minnesota Vikings,Philadelphia Eagles,draftkings,h2h,Minnesota Vikings,114,
+2025-10-14T23:55:39Z,6a8d2daf7f75100d02656bc0217737e8,2025-10-19T17:00:00Z,Minnesota Vikings,Philadelphia Eagles,draftkings,h2h,Philadelphia Eagles,-135,
+2025-10-14T23:55:39Z,6a8d2daf7f75100d02656bc0217737e8,2025-10-19T17:00:00Z,Minnesota Vikings,Philadelphia Eagles,draftkings,spreads,Minnesota Vikings,-115,2.5
+2025-10-14T23:55:39Z,6a8d2daf7f75100d02656bc0217737e8,2025-10-19T17:00:00Z,Minnesota Vikings,Philadelphia Eagles,draftkings,spreads,Philadelphia Eagles,-105,-2.5
+2025-10-14T23:55:39Z,6a8d2daf7f75100d02656bc0217737e8,2025-10-19T17:00:00Z,Minnesota Vikings,Philadelphia Eagles,draftkings,totals,Over,-105,43.5
+2025-10-14T23:55:39Z,6a8d2daf7f75100d02656bc0217737e8,2025-10-19T17:00:00Z,Minnesota Vikings,Philadelphia Eagles,draftkings,totals,Under,-115,43.5
+2025-10-14T23:55:39Z,79de65f1b97c9145ebdcb019eb486500,2025-10-19T13:30:00Z,Jacksonville Jaguars,Los Angeles Rams,draftkings,h2h,Jacksonville Jaguars,140,
+2025-10-14T23:55:39Z,79de65f1b97c9145ebdcb019eb486500,2025-10-19T13:30:00Z,Jacksonville Jaguars,Los Angeles Rams,draftkings,h2h,Los Angeles Rams,-166,
+2025-10-14T23:55:39Z,79de65f1b97c9145ebdcb019eb486500,2025-10-19T13:30:00Z,Jacksonville Jaguars,Los Angeles Rams,draftkings,spreads,Jacksonville Jaguars,-105,3.0
+2025-10-14T23:55:39Z,79de65f1b97c9145ebdcb019eb486500,2025-10-19T13:30:00Z,Jacksonville Jaguars,Los Angeles Rams,draftkings,spreads,Los Angeles Rams,-115,-3.0
+2025-10-14T23:55:39Z,79de65f1b97c9145ebdcb019eb486500,2025-10-19T13:30:00Z,Jacksonville Jaguars,Los Angeles Rams,draftkings,totals,Over,-105,45.5
+2025-10-14T23:55:39Z,79de65f1b97c9145ebdcb019eb486500,2025-10-19T13:30:00Z,Jacksonville Jaguars,Los Angeles Rams,draftkings,totals,Under,-115,45.5
+2025-10-14T23:55:39Z,7b2ded52498efcf97a08ef10ee99b0f3,2025-10-20T00:20:00Z,San Francisco 49ers,Atlanta Falcons,draftkings,h2h,Atlanta Falcons,114,
+2025-10-14T23:55:39Z,7b2ded52498efcf97a08ef10ee99b0f3,2025-10-20T00:20:00Z,San Francisco 49ers,Atlanta Falcons,draftkings,h2h,San Francisco 49ers,-135,
+2025-10-14T23:55:39Z,7b2ded52498efcf97a08ef10ee99b0f3,2025-10-20T00:20:00Z,San Francisco 49ers,Atlanta Falcons,draftkings,spreads,Atlanta Falcons,-112,2.5
+2025-10-14T23:55:39Z,7b2ded52498efcf97a08ef10ee99b0f3,2025-10-20T00:20:00Z,San Francisco 49ers,Atlanta Falcons,draftkings,spreads,San Francisco 49ers,-108,-2.5
+2025-10-14T23:55:39Z,7b2ded52498efcf97a08ef10ee99b0f3,2025-10-20T00:20:00Z,San Francisco 49ers,Atlanta Falcons,draftkings,totals,Over,-105,47.5
+2025-10-14T23:55:39Z,7b2ded52498efcf97a08ef10ee99b0f3,2025-10-20T00:20:00Z,San Francisco 49ers,Atlanta Falcons,draftkings,totals,Under,-115,47.5
+2025-10-14T23:55:39Z,7ca953ab786f70b22cabbe4946d330fa,2025-10-21T02:00:00Z,Seattle Seahawks,Houston Texans,draftkings,h2h,Houston Texans,142,
+2025-10-14T23:55:39Z,7ca953ab786f70b22cabbe4946d330fa,2025-10-21T02:00:00Z,Seattle Seahawks,Houston Texans,draftkings,h2h,Seattle Seahawks,-170,
+2025-10-14T23:55:39Z,7ca953ab786f70b22cabbe4946d330fa,2025-10-21T02:00:00Z,Seattle Seahawks,Houston Texans,draftkings,spreads,Houston Texans,100,3.0
+2025-10-14T23:55:39Z,7ca953ab786f70b22cabbe4946d330fa,2025-10-21T02:00:00Z,Seattle Seahawks,Houston Texans,draftkings,spreads,Seattle Seahawks,-120,-3.0
+2025-10-14T23:55:39Z,7ca953ab786f70b22cabbe4946d330fa,2025-10-21T02:00:00Z,Seattle Seahawks,Houston Texans,draftkings,totals,Over,-108,41.5
+2025-10-14T23:55:39Z,7ca953ab786f70b22cabbe4946d330fa,2025-10-21T02:00:00Z,Seattle Seahawks,Houston Texans,draftkings,totals,Under,-112,41.5
+2025-10-14T23:55:39Z,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,h2h,Kansas City Chiefs,-250,
+2025-10-14T23:55:39Z,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,h2h,Washington Commanders,205,
+2025-10-14T23:55:39Z,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,spreads,Kansas City Chiefs,-115,-4.5
+2025-10-14T23:55:39Z,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,spreads,Washington Commanders,-105,4.5
+2025-10-14T23:55:39Z,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,totals,Over,-110,50.5
+2025-10-14T23:55:39Z,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,totals,Under,-110,50.5
+2025-10-14T23:55:39Z,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:00Z,Indianapolis Colts,Tennessee Titans,draftkings,h2h,Indianapolis Colts,-750,
+2025-10-14T23:55:39Z,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:00Z,Indianapolis Colts,Tennessee Titans,draftkings,h2h,Tennessee Titans,525,
+2025-10-14T23:55:39Z,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:00Z,Indianapolis Colts,Tennessee Titans,draftkings,spreads,Indianapolis Colts,-110,-11.5
+2025-10-14T23:55:39Z,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:00Z,Indianapolis Colts,Tennessee Titans,draftkings,spreads,Tennessee Titans,-110,11.5
+2025-10-14T23:55:39Z,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:00Z,Indianapolis Colts,Tennessee Titans,draftkings,totals,Over,-110,45.5
+2025-10-14T23:55:39Z,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:00Z,Indianapolis Colts,Tennessee Titans,draftkings,totals,Under,-110,45.5
+2025-10-14T23:55:39Z,8f06a4b503cc7309cb0df4a8b67f9930,2025-10-19T17:00:00Z,Chicago Bears,New Orleans Saints,draftkings,h2h,Chicago Bears,-245,
+2025-10-14T23:55:39Z,8f06a4b503cc7309cb0df4a8b67f9930,2025-10-19T17:00:00Z,Chicago Bears,New Orleans Saints,draftkings,h2h,New Orleans Saints,200,
+2025-10-14T23:55:39Z,8f06a4b503cc7309cb0df4a8b67f9930,2025-10-19T17:00:00Z,Chicago Bears,New Orleans Saints,draftkings,spreads,Chicago Bears,-110,-5.5
+2025-10-14T23:55:39Z,8f06a4b503cc7309cb0df4a8b67f9930,2025-10-19T17:00:00Z,Chicago Bears,New Orleans Saints,draftkings,spreads,New Orleans Saints,-110,5.5
+2025-10-14T23:55:39Z,8f06a4b503cc7309cb0df4a8b67f9930,2025-10-19T17:00:00Z,Chicago Bears,New Orleans Saints,draftkings,totals,Over,-105,47.5
+2025-10-14T23:55:39Z,8f06a4b503cc7309cb0df4a8b67f9930,2025-10-19T17:00:00Z,Chicago Bears,New Orleans Saints,draftkings,totals,Under,-115,47.5
+2025-10-14T23:55:39Z,9c1f73e48ca9750f6e7d5d64874057c2,2025-10-26T17:00:00Z,Cincinnati Bengals,New York Jets,draftkings,h2h,Cincinnati Bengals,-135,
+2025-10-14T23:55:39Z,9c1f73e48ca9750f6e7d5d64874057c2,2025-10-26T17:00:00Z,Cincinnati Bengals,New York Jets,draftkings,h2h,New York Jets,114,
+2025-10-14T23:55:39Z,9c1f73e48ca9750f6e7d5d64874057c2,2025-10-26T17:00:00Z,Cincinnati Bengals,New York Jets,draftkings,spreads,Cincinnati Bengals,-110,-2.5
+2025-10-14T23:55:39Z,9c1f73e48ca9750f6e7d5d64874057c2,2025-10-26T17:00:00Z,Cincinnati Bengals,New York Jets,draftkings,spreads,New York Jets,-110,2.5
+2025-10-14T23:55:39Z,9c1f73e48ca9750f6e7d5d64874057c2,2025-10-26T17:00:00Z,Cincinnati Bengals,New York Jets,draftkings,totals,Over,-115,42.5
+2025-10-14T23:55:39Z,9c1f73e48ca9750f6e7d5d64874057c2,2025-10-26T17:00:00Z,Cincinnati Bengals,New York Jets,draftkings,totals,Under,-105,42.5
+2025-10-14T23:55:39Z,a061e80d1f50eab193b34d19f8e59f62,2025-10-26T17:00:00Z,Baltimore Ravens,Chicago Bears,draftkings,h2h,Baltimore Ravens,-305,
+2025-10-14T23:55:39Z,a061e80d1f50eab193b34d19f8e59f62,2025-10-26T17:00:00Z,Baltimore Ravens,Chicago Bears,draftkings,h2h,Chicago Bears,245,
+2025-10-14T23:55:39Z,a061e80d1f50eab193b34d19f8e59f62,2025-10-26T17:00:00Z,Baltimore Ravens,Chicago Bears,draftkings,spreads,Baltimore Ravens,-110,-6.5
+2025-10-14T23:55:39Z,a061e80d1f50eab193b34d19f8e59f62,2025-10-26T17:00:00Z,Baltimore Ravens,Chicago Bears,draftkings,spreads,Chicago Bears,-110,6.5
+2025-10-14T23:55:39Z,a061e80d1f50eab193b34d19f8e59f62,2025-10-26T17:00:00Z,Baltimore Ravens,Chicago Bears,draftkings,totals,Over,-115,49.5
+2025-10-14T23:55:39Z,a061e80d1f50eab193b34d19f8e59f62,2025-10-26T17:00:00Z,Baltimore Ravens,Chicago Bears,draftkings,totals,Under,-105,49.5
+2025-10-14T23:55:39Z,a0ad5501e9d1d2ee9f61d9f293374f17,2025-10-19T20:05:00Z,Los Angeles Chargers,Indianapolis Colts,draftkings,h2h,Indianapolis Colts,110,
+2025-10-14T23:55:39Z,a0ad5501e9d1d2ee9f61d9f293374f17,2025-10-19T20:05:00Z,Los Angeles Chargers,Indianapolis Colts,draftkings,h2h,Los Angeles Chargers,-130,
+2025-10-14T23:55:39Z,a0ad5501e9d1d2ee9f61d9f293374f17,2025-10-19T20:05:00Z,Los Angeles Chargers,Indianapolis Colts,draftkings,spreads,Indianapolis Colts,-108,1.5
+2025-10-14T23:55:39Z,a0ad5501e9d1d2ee9f61d9f293374f17,2025-10-19T20:05:00Z,Los Angeles Chargers,Indianapolis Colts,draftkings,spreads,Los Angeles Chargers,-112,-1.5
+2025-10-14T23:55:39Z,a0ad5501e9d1d2ee9f61d9f293374f17,2025-10-19T20:05:00Z,Los Angeles Chargers,Indianapolis Colts,draftkings,totals,Over,-110,48.5
+2025-10-14T23:55:39Z,a0ad5501e9d1d2ee9f61d9f293374f17,2025-10-19T20:05:00Z,Los Angeles Chargers,Indianapolis Colts,draftkings,totals,Under,-110,48.5
+2025-10-14T23:55:39Z,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:00Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,h2h,New Orleans Saints,215,
+2025-10-14T23:55:39Z,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:00Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,h2h,Tampa Bay Buccaneers,-265,
+2025-10-14T23:55:39Z,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:00Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,spreads,New Orleans Saints,-110,6.0
+2025-10-14T23:55:39Z,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:00Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,spreads,Tampa Bay Buccaneers,-110,-6.0
+2025-10-14T23:55:39Z,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:00Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,totals,Over,-110,47.5
+2025-10-14T23:55:39Z,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:00Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,totals,Under,-110,47.5
+2025-10-14T23:55:39Z,a8ebe01e05675c109b53a97f653f8653,2025-10-26T17:00:00Z,Philadelphia Eagles,New York Giants,draftkings,h2h,New York Giants,300,
+2025-10-14T23:55:39Z,a8ebe01e05675c109b53a97f653f8653,2025-10-26T17:00:00Z,Philadelphia Eagles,New York Giants,draftkings,h2h,Philadelphia Eagles,-380,
+2025-10-14T23:55:39Z,a8ebe01e05675c109b53a97f653f8653,2025-10-26T17:00:00Z,Philadelphia Eagles,New York Giants,draftkings,spreads,New York Giants,-110,7.5
+2025-10-14T23:55:39Z,a8ebe01e05675c109b53a97f653f8653,2025-10-26T17:00:00Z,Philadelphia Eagles,New York Giants,draftkings,spreads,Philadelphia Eagles,-110,-7.5
+2025-10-14T23:55:39Z,a8ebe01e05675c109b53a97f653f8653,2025-10-26T17:00:00Z,Philadelphia Eagles,New York Giants,draftkings,totals,Over,-110,42.5
+2025-10-14T23:55:39Z,a8ebe01e05675c109b53a97f653f8653,2025-10-26T17:00:00Z,Philadelphia Eagles,New York Giants,draftkings,totals,Under,-110,42.5
+2025-10-14T23:55:39Z,abc4104a9ac597ce37d703613256fd6c,2025-10-26T17:00:00Z,Houston Texans,San Francisco 49ers,draftkings,h2h,Houston Texans,-135,
+2025-10-14T23:55:39Z,abc4104a9ac597ce37d703613256fd6c,2025-10-26T17:00:00Z,Houston Texans,San Francisco 49ers,draftkings,h2h,San Francisco 49ers,114,
+2025-10-14T23:55:39Z,abc4104a9ac597ce37d703613256fd6c,2025-10-26T17:00:00Z,Houston Texans,San Francisco 49ers,draftkings,spreads,Houston Texans,-110,-2.5
+2025-10-14T23:55:39Z,abc4104a9ac597ce37d703613256fd6c,2025-10-26T17:00:00Z,Houston Texans,San Francisco 49ers,draftkings,spreads,San Francisco 49ers,-110,2.5
+2025-10-14T23:55:39Z,abc4104a9ac597ce37d703613256fd6c,2025-10-26T17:00:00Z,Houston Texans,San Francisco 49ers,draftkings,totals,Over,-115,43.5
+2025-10-14T23:55:39Z,abc4104a9ac597ce37d703613256fd6c,2025-10-26T17:00:00Z,Houston Texans,San Francisco 49ers,draftkings,totals,Under,-105,43.5
+2025-10-14T23:55:39Z,ac02b1b59aa0623845378a02bc530c68,2025-10-26T17:00:00Z,Atlanta Falcons,Miami Dolphins,draftkings,h2h,Atlanta Falcons,-245,
+2025-10-14T23:55:39Z,ac02b1b59aa0623845378a02bc530c68,2025-10-26T17:00:00Z,Atlanta Falcons,Miami Dolphins,draftkings,h2h,Miami Dolphins,200,
+2025-10-14T23:55:39Z,ac02b1b59aa0623845378a02bc530c68,2025-10-26T17:00:00Z,Atlanta Falcons,Miami Dolphins,draftkings,spreads,Atlanta Falcons,-110,-5.5
+2025-10-14T23:55:39Z,ac02b1b59aa0623845378a02bc530c68,2025-10-26T17:00:00Z,Atlanta Falcons,Miami Dolphins,draftkings,spreads,Miami Dolphins,-110,5.5
+2025-10-14T23:55:39Z,ac02b1b59aa0623845378a02bc530c68,2025-10-26T17:00:00Z,Atlanta Falcons,Miami Dolphins,draftkings,totals,Over,-115,46.5
+2025-10-14T23:55:39Z,ac02b1b59aa0623845378a02bc530c68,2025-10-26T17:00:00Z,Atlanta Falcons,Miami Dolphins,draftkings,totals,Under,-105,46.5
+2025-10-14T23:55:39Z,b808059d3ccc754ace4a3d23b58e47e8,2025-10-20T23:00:00Z,Detroit Lions,Tampa Bay Buccaneers,draftkings,h2h,Detroit Lions,-250,
+2025-10-14T23:55:39Z,b808059d3ccc754ace4a3d23b58e47e8,2025-10-20T23:00:00Z,Detroit Lions,Tampa Bay Buccaneers,draftkings,h2h,Tampa Bay Buccaneers,205,
+2025-10-14T23:55:39Z,b808059d3ccc754ace4a3d23b58e47e8,2025-10-20T23:00:00Z,Detroit Lions,Tampa Bay Buccaneers,draftkings,spreads,Detroit Lions,-110,-5.5
+2025-10-14T23:55:39Z,b808059d3ccc754ace4a3d23b58e47e8,2025-10-20T23:00:00Z,Detroit Lions,Tampa Bay Buccaneers,draftkings,spreads,Tampa Bay Buccaneers,-110,5.5
+2025-10-14T23:55:39Z,b808059d3ccc754ace4a3d23b58e47e8,2025-10-20T23:00:00Z,Detroit Lions,Tampa Bay Buccaneers,draftkings,totals,Over,-118,52.5
+2025-10-14T23:55:39Z,b808059d3ccc754ace4a3d23b58e47e8,2025-10-20T23:00:00Z,Detroit Lions,Tampa Bay Buccaneers,draftkings,totals,Under,-102,52.5
+2025-10-14T23:55:39Z,ba4e8bfa1f4eeaa74c7b09f409361c0d,2025-10-19T17:00:00Z,New York Jets,Carolina Panthers,draftkings,h2h,Carolina Panthers,-125,
+2025-10-14T23:55:39Z,ba4e8bfa1f4eeaa74c7b09f409361c0d,2025-10-19T17:00:00Z,New York Jets,Carolina Panthers,draftkings,h2h,New York Jets,105,
+2025-10-14T23:55:39Z,ba4e8bfa1f4eeaa74c7b09f409361c0d,2025-10-19T17:00:00Z,New York Jets,Carolina Panthers,draftkings,spreads,Carolina Panthers,-110,-1.5
+2025-10-14T23:55:39Z,ba4e8bfa1f4eeaa74c7b09f409361c0d,2025-10-19T17:00:00Z,New York Jets,Carolina Panthers,draftkings,spreads,New York Jets,-110,1.5
+2025-10-14T23:55:39Z,ba4e8bfa1f4eeaa74c7b09f409361c0d,2025-10-19T17:00:00Z,New York Jets,Carolina Panthers,draftkings,totals,Over,-115,42.5
+2025-10-14T23:55:39Z,ba4e8bfa1f4eeaa74c7b09f409361c0d,2025-10-19T17:00:00Z,New York Jets,Carolina Panthers,draftkings,totals,Under,-105,42.5
+2025-10-14T23:55:39Z,f0336c9a3749716250afba387d157377,2025-10-19T17:00:00Z,Cleveland Browns,Miami Dolphins,draftkings,h2h,Cleveland Browns,-148,
+2025-10-14T23:55:39Z,f0336c9a3749716250afba387d157377,2025-10-19T17:00:00Z,Cleveland Browns,Miami Dolphins,draftkings,h2h,Miami Dolphins,124,
+2025-10-14T23:55:39Z,f0336c9a3749716250afba387d157377,2025-10-19T17:00:00Z,Cleveland Browns,Miami Dolphins,draftkings,spreads,Cleveland Browns,-120,-2.5
+2025-10-14T23:55:39Z,f0336c9a3749716250afba387d157377,2025-10-19T17:00:00Z,Cleveland Browns,Miami Dolphins,draftkings,spreads,Miami Dolphins,100,2.5
+2025-10-14T23:55:39Z,f0336c9a3749716250afba387d157377,2025-10-19T17:00:00Z,Cleveland Browns,Miami Dolphins,draftkings,totals,Over,-115,40.5
+2025-10-14T23:55:39Z,f0336c9a3749716250afba387d157377,2025-10-19T17:00:00Z,Cleveland Browns,Miami Dolphins,draftkings,totals,Under,-105,40.5
+2025-10-14T23:55:39Z,f7fa9341eeffb08f7e6e769398cd32e2,2025-10-19T17:00:00Z,Tennessee Titans,New England Patriots,draftkings,h2h,New England Patriots,-355,
+2025-10-14T23:55:39Z,f7fa9341eeffb08f7e6e769398cd32e2,2025-10-19T17:00:00Z,Tennessee Titans,New England Patriots,draftkings,h2h,Tennessee Titans,280,
+2025-10-14T23:55:39Z,f7fa9341eeffb08f7e6e769398cd32e2,2025-10-19T17:00:00Z,Tennessee Titans,New England Patriots,draftkings,spreads,New England Patriots,-115,-7.0
+2025-10-14T23:55:39Z,f7fa9341eeffb08f7e6e769398cd32e2,2025-10-19T17:00:00Z,Tennessee Titans,New England Patriots,draftkings,spreads,Tennessee Titans,-105,7.0
+2025-10-14T23:55:39Z,f7fa9341eeffb08f7e6e769398cd32e2,2025-10-19T17:00:00Z,Tennessee Titans,New England Patriots,draftkings,totals,Over,-115,42.5
+2025-10-14T23:55:39Z,f7fa9341eeffb08f7e6e769398cd32e2,2025-10-19T17:00:00Z,Tennessee Titans,New England Patriots,draftkings,totals,Under,-105,42.5
+2025-10-14T23:55:39Z,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,h2h,Green Bay Packers,-162,
+2025-10-14T23:55:39Z,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,h2h,Pittsburgh Steelers,136,
+2025-10-14T23:55:39Z,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,spreads,Green Bay Packers,-110,-3.0
+2025-10-14T23:55:39Z,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,spreads,Pittsburgh Steelers,-110,3.0
+2025-10-14T23:55:39Z,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,totals,Over,-110,43.5
+2025-10-14T23:55:39Z,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,totals,Under,-110,43.5
+2025-10-14T23:55:39Z,ff0c1ce30d562926ce40fc9bbaa2b7b1,2025-10-19T20:25:00Z,Dallas Cowboys,Washington Commanders,draftkings,h2h,Dallas Cowboys,114,
+2025-10-14T23:55:39Z,ff0c1ce30d562926ce40fc9bbaa2b7b1,2025-10-19T20:25:00Z,Dallas Cowboys,Washington Commanders,draftkings,h2h,Washington Commanders,-135,
+2025-10-14T23:55:39Z,ff0c1ce30d562926ce40fc9bbaa2b7b1,2025-10-19T20:25:00Z,Dallas Cowboys,Washington Commanders,draftkings,spreads,Dallas Cowboys,-110,2.5
+2025-10-14T23:55:39Z,ff0c1ce30d562926ce40fc9bbaa2b7b1,2025-10-19T20:25:00Z,Dallas Cowboys,Washington Commanders,draftkings,spreads,Washington Commanders,-110,-2.5
+2025-10-14T23:55:39Z,ff0c1ce30d562926ce40fc9bbaa2b7b1,2025-10-19T20:25:00Z,Dallas Cowboys,Washington Commanders,draftkings,totals,Over,-115,54.5
+2025-10-14T23:55:39Z,ff0c1ce30d562926ce40fc9bbaa2b7b1,2025-10-19T20:25:00Z,Dallas Cowboys,Washington Commanders,draftkings,totals,Under,-105,54.5
+2025-10-21T23:55:39Z,016f76d8237e8d4eb62b9c2ef68381bb,2025-11-02T18:00:00Z,Cincinnati Bengals,Chicago Bears,draftkings,h2h,Chicago Bears,-118,
+2025-10-21T23:55:39Z,016f76d8237e8d4eb62b9c2ef68381bb,2025-11-02T18:00:00Z,Cincinnati Bengals,Chicago Bears,draftkings,h2h,Cincinnati Bengals,-102,
+2025-10-21T23:55:39Z,016f76d8237e8d4eb62b9c2ef68381bb,2025-11-02T18:00:00Z,Cincinnati Bengals,Chicago Bears,draftkings,spreads,Chicago Bears,-105,-1.5
+2025-10-21T23:55:39Z,016f76d8237e8d4eb62b9c2ef68381bb,2025-11-02T18:00:00Z,Cincinnati Bengals,Chicago Bears,draftkings,spreads,Cincinnati Bengals,-115,1.5
+2025-10-21T23:55:39Z,016f76d8237e8d4eb62b9c2ef68381bb,2025-11-02T18:00:00Z,Cincinnati Bengals,Chicago Bears,draftkings,totals,Over,-110,48.5
+2025-10-21T23:55:39Z,016f76d8237e8d4eb62b9c2ef68381bb,2025-11-02T18:00:00Z,Cincinnati Bengals,Chicago Bears,draftkings,totals,Under,-110,48.5
+2025-10-21T23:55:39Z,2340a6e0794d5688996dcf8aaf634742,2025-11-02T18:00:00Z,Pittsburgh Steelers,Indianapolis Colts,draftkings,h2h,Indianapolis Colts,-125,
+2025-10-21T23:55:39Z,2340a6e0794d5688996dcf8aaf634742,2025-11-02T18:00:00Z,Pittsburgh Steelers,Indianapolis Colts,draftkings,h2h,Pittsburgh Steelers,105,
+2025-10-21T23:55:39Z,2340a6e0794d5688996dcf8aaf634742,2025-11-02T18:00:00Z,Pittsburgh Steelers,Indianapolis Colts,draftkings,spreads,Indianapolis Colts,-110,-1.5
+2025-10-21T23:55:39Z,2340a6e0794d5688996dcf8aaf634742,2025-11-02T18:00:00Z,Pittsburgh Steelers,Indianapolis Colts,draftkings,spreads,Pittsburgh Steelers,-110,1.5
+2025-10-21T23:55:39Z,2340a6e0794d5688996dcf8aaf634742,2025-11-02T18:00:00Z,Pittsburgh Steelers,Indianapolis Colts,draftkings,totals,Over,-110,49.5
+2025-10-21T23:55:39Z,2340a6e0794d5688996dcf8aaf634742,2025-11-02T18:00:00Z,Pittsburgh Steelers,Indianapolis Colts,draftkings,totals,Under,-110,49.5
+2025-10-21T23:55:39Z,3536a3e857050d2dd6e2019ceb668f67,2025-10-26T17:00:00Z,New England Patriots,Cleveland Browns,draftkings,h2h,Cleveland Browns,295,
+2025-10-21T23:55:39Z,3536a3e857050d2dd6e2019ceb668f67,2025-10-26T17:00:00Z,New England Patriots,Cleveland Browns,draftkings,h2h,New England Patriots,-375,
+2025-10-21T23:55:39Z,3536a3e857050d2dd6e2019ceb668f67,2025-10-26T17:00:00Z,New England Patriots,Cleveland Browns,draftkings,spreads,Cleveland Browns,-112,7.0
+2025-10-21T23:55:39Z,3536a3e857050d2dd6e2019ceb668f67,2025-10-26T17:00:00Z,New England Patriots,Cleveland Browns,draftkings,spreads,New England Patriots,-108,-7.0
+2025-10-21T23:55:39Z,3536a3e857050d2dd6e2019ceb668f67,2025-10-26T17:00:00Z,New England Patriots,Cleveland Browns,draftkings,totals,Over,-110,40.5
+2025-10-21T23:55:39Z,3536a3e857050d2dd6e2019ceb668f67,2025-10-26T17:00:00Z,New England Patriots,Cleveland Browns,draftkings,totals,Under,-110,40.5
+2025-10-21T23:55:39Z,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:00Z,Denver Broncos,Dallas Cowboys,draftkings,h2h,Dallas Cowboys,150,
+2025-10-21T23:55:39Z,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:00Z,Denver Broncos,Dallas Cowboys,draftkings,h2h,Denver Broncos,-180,
+2025-10-21T23:55:39Z,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:00Z,Denver Broncos,Dallas Cowboys,draftkings,spreads,Dallas Cowboys,-120,3.5
+2025-10-21T23:55:39Z,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:00Z,Denver Broncos,Dallas Cowboys,draftkings,spreads,Denver Broncos,100,-3.5
+2025-10-21T23:55:39Z,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:00Z,Denver Broncos,Dallas Cowboys,draftkings,totals,Over,-105,50.5
+2025-10-21T23:55:39Z,40c2ebd9ddd5ce8ff5b1ada730bb1785,2025-10-26T20:25:00Z,Denver Broncos,Dallas Cowboys,draftkings,totals,Under,-115,50.5
+2025-10-21T23:55:39Z,53d4369464c66630f03a5d128cd39b08,2025-10-26T17:00:00Z,Carolina Panthers,Buffalo Bills,draftkings,h2h,Buffalo Bills,-355,
+2025-10-21T23:55:39Z,53d4369464c66630f03a5d128cd39b08,2025-10-26T17:00:00Z,Carolina Panthers,Buffalo Bills,draftkings,h2h,Carolina Panthers,280,
+2025-10-21T23:55:39Z,53d4369464c66630f03a5d128cd39b08,2025-10-26T17:00:00Z,Carolina Panthers,Buffalo Bills,draftkings,spreads,Buffalo Bills,-120,-7.0
+2025-10-21T23:55:39Z,53d4369464c66630f03a5d128cd39b08,2025-10-26T17:00:00Z,Carolina Panthers,Buffalo Bills,draftkings,spreads,Carolina Panthers,100,7.0
+2025-10-21T23:55:39Z,53d4369464c66630f03a5d128cd39b08,2025-10-26T17:00:00Z,Carolina Panthers,Buffalo Bills,draftkings,totals,Over,-105,46.5
+2025-10-21T23:55:39Z,53d4369464c66630f03a5d128cd39b08,2025-10-26T17:00:00Z,Carolina Panthers,Buffalo Bills,draftkings,totals,Under,-115,46.5
+2025-10-21T23:55:39Z,6031b513e188fc19a2311499566c9258,2025-11-02T18:00:00Z,Green Bay Packers,Carolina Panthers,draftkings,h2h,Carolina Panthers,455,
+2025-10-21T23:55:39Z,6031b513e188fc19a2311499566c9258,2025-11-02T18:00:00Z,Green Bay Packers,Carolina Panthers,draftkings,h2h,Green Bay Packers,-625,
+2025-10-21T23:55:39Z,6031b513e188fc19a2311499566c9258,2025-11-02T18:00:00Z,Green Bay Packers,Carolina Panthers,draftkings,spreads,Carolina Panthers,-110,10.5
+2025-10-21T23:55:39Z,6031b513e188fc19a2311499566c9258,2025-11-02T18:00:00Z,Green Bay Packers,Carolina Panthers,draftkings,spreads,Green Bay Packers,-110,-10.5
+2025-10-21T23:55:39Z,6031b513e188fc19a2311499566c9258,2025-11-02T18:00:00Z,Green Bay Packers,Carolina Panthers,draftkings,totals,Over,-110,44.5
+2025-10-21T23:55:39Z,6031b513e188fc19a2311499566c9258,2025-11-02T18:00:00Z,Green Bay Packers,Carolina Panthers,draftkings,totals,Under,-110,44.5
+2025-10-21T23:55:39Z,61531628516decd1ee8116da5f6f9056,2025-11-02T21:25:00Z,Buffalo Bills,Kansas City Chiefs,draftkings,h2h,Buffalo Bills,105,
+2025-10-21T23:55:39Z,61531628516decd1ee8116da5f6f9056,2025-11-02T21:25:00Z,Buffalo Bills,Kansas City Chiefs,draftkings,h2h,Kansas City Chiefs,-125,
+2025-10-21T23:55:39Z,61531628516decd1ee8116da5f6f9056,2025-11-02T21:25:00Z,Buffalo Bills,Kansas City Chiefs,draftkings,spreads,Buffalo Bills,-110,1.5
+2025-10-21T23:55:39Z,61531628516decd1ee8116da5f6f9056,2025-11-02T21:25:00Z,Buffalo Bills,Kansas City Chiefs,draftkings,spreads,Kansas City Chiefs,-110,-1.5
+2025-10-21T23:55:39Z,61531628516decd1ee8116da5f6f9056,2025-11-02T21:25:00Z,Buffalo Bills,Kansas City Chiefs,draftkings,totals,Over,-110,50.5
+2025-10-21T23:55:39Z,61531628516decd1ee8116da5f6f9056,2025-11-02T21:25:00Z,Buffalo Bills,Kansas City Chiefs,draftkings,totals,Under,-110,50.5
+2025-10-21T23:55:39Z,6439b16f4a038f1c351dc3f1aef27471,2025-10-24T00:15:00Z,Los Angeles Chargers,Minnesota Vikings,draftkings,h2h,Los Angeles Chargers,-175,
+2025-10-21T23:55:39Z,6439b16f4a038f1c351dc3f1aef27471,2025-10-24T00:15:00Z,Los Angeles Chargers,Minnesota Vikings,draftkings,h2h,Minnesota Vikings,145,
+2025-10-21T23:55:39Z,6439b16f4a038f1c351dc3f1aef27471,2025-10-24T00:15:00Z,Los Angeles Chargers,Minnesota Vikings,draftkings,spreads,Los Angeles Chargers,-120,-3.0
+2025-10-21T23:55:39Z,6439b16f4a038f1c351dc3f1aef27471,2025-10-24T00:15:00Z,Los Angeles Chargers,Minnesota Vikings,draftkings,spreads,Minnesota Vikings,100,3.0
+2025-10-21T23:55:39Z,6439b16f4a038f1c351dc3f1aef27471,2025-10-24T00:15:00Z,Los Angeles Chargers,Minnesota Vikings,draftkings,totals,Over,-112,44.5
+2025-10-21T23:55:39Z,6439b16f4a038f1c351dc3f1aef27471,2025-10-24T00:15:00Z,Los Angeles Chargers,Minnesota Vikings,draftkings,totals,Under,-108,44.5
+2025-10-21T23:55:39Z,677dbbb6ad96fc5f5b36bb20b43139dd,2025-10-31T00:15:00Z,Miami Dolphins,Baltimore Ravens,draftkings,h2h,Baltimore Ravens,-395,
+2025-10-21T23:55:39Z,677dbbb6ad96fc5f5b36bb20b43139dd,2025-10-31T00:15:00Z,Miami Dolphins,Baltimore Ravens,draftkings,h2h,Miami Dolphins,310,
+2025-10-21T23:55:39Z,677dbbb6ad96fc5f5b36bb20b43139dd,2025-10-31T00:15:00Z,Miami Dolphins,Baltimore Ravens,draftkings,spreads,Baltimore Ravens,-110,-7.5
+2025-10-21T23:55:39Z,677dbbb6ad96fc5f5b36bb20b43139dd,2025-10-31T00:15:00Z,Miami Dolphins,Baltimore Ravens,draftkings,spreads,Miami Dolphins,-110,7.5
+2025-10-21T23:55:39Z,677dbbb6ad96fc5f5b36bb20b43139dd,2025-10-31T00:15:00Z,Miami Dolphins,Baltimore Ravens,draftkings,totals,Over,-110,50.5
+2025-10-21T23:55:39Z,677dbbb6ad96fc5f5b36bb20b43139dd,2025-10-31T00:15:00Z,Miami Dolphins,Baltimore Ravens,draftkings,totals,Under,-110,50.5
+2025-10-21T23:55:39Z,6dd3b8a705ed0db85d59fa19b9062cc8,2025-11-02T18:00:00Z,New England Patriots,Atlanta Falcons,draftkings,h2h,Atlanta Falcons,124,
+2025-10-21T23:55:39Z,6dd3b8a705ed0db85d59fa19b9062cc8,2025-11-02T18:00:00Z,New England Patriots,Atlanta Falcons,draftkings,h2h,New England Patriots,-148,
+2025-10-21T23:55:39Z,6dd3b8a705ed0db85d59fa19b9062cc8,2025-11-02T18:00:00Z,New England Patriots,Atlanta Falcons,draftkings,spreads,Atlanta Falcons,-102,2.5
+2025-10-21T23:55:39Z,6dd3b8a705ed0db85d59fa19b9062cc8,2025-11-02T18:00:00Z,New England Patriots,Atlanta Falcons,draftkings,spreads,New England Patriots,-118,-2.5
+2025-10-21T23:55:39Z,6dd3b8a705ed0db85d59fa19b9062cc8,2025-11-02T18:00:00Z,New England Patriots,Atlanta Falcons,draftkings,totals,Over,-110,45.5
+2025-10-21T23:55:39Z,6dd3b8a705ed0db85d59fa19b9062cc8,2025-11-02T18:00:00Z,New England Patriots,Atlanta Falcons,draftkings,totals,Under,-110,45.5
+2025-10-21T23:55:39Z,72e2ce6652bbb3901f60b38bec05bf5f,2025-11-02T18:00:00Z,Houston Texans,Denver Broncos,draftkings,h2h,Denver Broncos,-125,
+2025-10-21T23:55:39Z,72e2ce6652bbb3901f60b38bec05bf5f,2025-11-02T18:00:00Z,Houston Texans,Denver Broncos,draftkings,h2h,Houston Texans,105,
+2025-10-21T23:55:39Z,72e2ce6652bbb3901f60b38bec05bf5f,2025-11-02T18:00:00Z,Houston Texans,Denver Broncos,draftkings,spreads,Denver Broncos,-110,-1.5
+2025-10-21T23:55:39Z,72e2ce6652bbb3901f60b38bec05bf5f,2025-11-02T18:00:00Z,Houston Texans,Denver Broncos,draftkings,spreads,Houston Texans,-110,1.5
+2025-10-21T23:55:39Z,72e2ce6652bbb3901f60b38bec05bf5f,2025-11-02T18:00:00Z,Houston Texans,Denver Broncos,draftkings,totals,Over,-110,38.5
+2025-10-21T23:55:39Z,72e2ce6652bbb3901f60b38bec05bf5f,2025-11-02T18:00:00Z,Houston Texans,Denver Broncos,draftkings,totals,Under,-110,38.5
+2025-10-21T23:55:39Z,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,h2h,Kansas City Chiefs,-625,
+2025-10-21T23:55:39Z,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,h2h,Washington Commanders,455,
+2025-10-21T23:55:39Z,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,spreads,Kansas City Chiefs,-115,-10.0
+2025-10-21T23:55:39Z,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,spreads,Washington Commanders,-105,10.0
+2025-10-21T23:55:39Z,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,totals,Over,-110,47.5
+2025-10-21T23:55:39Z,7e3361e84d5223a8d210a887b249f247,2025-10-28T00:15:00Z,Kansas City Chiefs,Washington Commanders,draftkings,totals,Under,-110,47.5
+2025-10-21T23:55:39Z,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:00Z,Indianapolis Colts,Tennessee Titans,draftkings,h2h,Indianapolis Colts,-1200,
+2025-10-21T23:55:39Z,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:00Z,Indianapolis Colts,Tennessee Titans,draftkings,h2h,Tennessee Titans,750,
+2025-10-21T23:55:39Z,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:00Z,Indianapolis Colts,Tennessee Titans,draftkings,spreads,Indianapolis Colts,-110,-14.0
+2025-10-21T23:55:39Z,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:00Z,Indianapolis Colts,Tennessee Titans,draftkings,spreads,Tennessee Titans,-110,14.0
+2025-10-21T23:55:39Z,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:00Z,Indianapolis Colts,Tennessee Titans,draftkings,totals,Over,-102,47.5
+2025-10-21T23:55:39Z,88187a33b007c088d75c6cd14c83086c,2025-10-26T20:25:00Z,Indianapolis Colts,Tennessee Titans,draftkings,totals,Under,-118,47.5
+2025-10-21T23:55:39Z,9c1f73e48ca9750f6e7d5d64874057c2,2025-10-26T17:00:00Z,Cincinnati Bengals,New York Jets,draftkings,h2h,Cincinnati Bengals,-310,
+2025-10-21T23:55:39Z,9c1f73e48ca9750f6e7d5d64874057c2,2025-10-26T17:00:00Z,Cincinnati Bengals,New York Jets,draftkings,h2h,New York Jets,250,
+2025-10-21T23:55:39Z,9c1f73e48ca9750f6e7d5d64874057c2,2025-10-26T17:00:00Z,Cincinnati Bengals,New York Jets,draftkings,spreads,Cincinnati Bengals,-110,-6.5
+2025-10-21T23:55:39Z,9c1f73e48ca9750f6e7d5d64874057c2,2025-10-26T17:00:00Z,Cincinnati Bengals,New York Jets,draftkings,spreads,New York Jets,-110,6.5
+2025-10-21T23:55:39Z,9c1f73e48ca9750f6e7d5d64874057c2,2025-10-26T17:00:00Z,Cincinnati Bengals,New York Jets,draftkings,totals,Over,-110,44.5
+2025-10-21T23:55:39Z,9c1f73e48ca9750f6e7d5d64874057c2,2025-10-26T17:00:00Z,Cincinnati Bengals,New York Jets,draftkings,totals,Under,-110,44.5
+2025-10-21T23:55:39Z,a061e80d1f50eab193b34d19f8e59f62,2025-10-26T17:00:00Z,Baltimore Ravens,Chicago Bears,draftkings,h2h,Baltimore Ravens,-290,
+2025-10-21T23:55:39Z,a061e80d1f50eab193b34d19f8e59f62,2025-10-26T17:00:00Z,Baltimore Ravens,Chicago Bears,draftkings,h2h,Chicago Bears,235,
+2025-10-21T23:55:39Z,a061e80d1f50eab193b34d19f8e59f62,2025-10-26T17:00:00Z,Baltimore Ravens,Chicago Bears,draftkings,spreads,Baltimore Ravens,-110,-6.5
+2025-10-21T23:55:39Z,a061e80d1f50eab193b34d19f8e59f62,2025-10-26T17:00:00Z,Baltimore Ravens,Chicago Bears,draftkings,spreads,Chicago Bears,-110,6.5
+2025-10-21T23:55:39Z,a061e80d1f50eab193b34d19f8e59f62,2025-10-26T17:00:00Z,Baltimore Ravens,Chicago Bears,draftkings,totals,Over,-120,49.5
+2025-10-21T23:55:39Z,a061e80d1f50eab193b34d19f8e59f62,2025-10-26T17:00:00Z,Baltimore Ravens,Chicago Bears,draftkings,totals,Under,100,49.5
+2025-10-21T23:55:39Z,a788e7cebff4b5fe10034710090e4529,2025-11-02T18:00:00Z,New York Giants,San Francisco 49ers,draftkings,h2h,New York Giants,136,
+2025-10-21T23:55:39Z,a788e7cebff4b5fe10034710090e4529,2025-11-02T18:00:00Z,New York Giants,San Francisco 49ers,draftkings,h2h,San Francisco 49ers,-162,
+2025-10-21T23:55:39Z,a788e7cebff4b5fe10034710090e4529,2025-11-02T18:00:00Z,New York Giants,San Francisco 49ers,draftkings,spreads,New York Giants,-110,3.0
+2025-10-21T23:55:39Z,a788e7cebff4b5fe10034710090e4529,2025-11-02T18:00:00Z,New York Giants,San Francisco 49ers,draftkings,spreads,San Francisco 49ers,-110,-3.0
+2025-10-21T23:55:39Z,a788e7cebff4b5fe10034710090e4529,2025-11-02T18:00:00Z,New York Giants,San Francisco 49ers,draftkings,totals,Over,-110,46.5
+2025-10-21T23:55:39Z,a788e7cebff4b5fe10034710090e4529,2025-11-02T18:00:00Z,New York Giants,San Francisco 49ers,draftkings,totals,Under,-110,46.5
+2025-10-21T23:55:39Z,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:00Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,h2h,New Orleans Saints,200,
+2025-10-21T23:55:39Z,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:00Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,h2h,Tampa Bay Buccaneers,-245,
+2025-10-21T23:55:39Z,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:00Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,spreads,New Orleans Saints,-120,5.5
+2025-10-21T23:55:39Z,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:00Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,spreads,Tampa Bay Buccaneers,100,-5.5
+2025-10-21T23:55:39Z,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:00Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,totals,Over,-110,46.5
+2025-10-21T23:55:39Z,a8dd9bb0681692540d067bd0e9e66989,2025-10-26T20:05:00Z,New Orleans Saints,Tampa Bay Buccaneers,draftkings,totals,Under,-110,46.5
+2025-10-21T23:55:39Z,a8ebe01e05675c109b53a97f653f8653,2025-10-26T17:00:00Z,Philadelphia Eagles,New York Giants,draftkings,h2h,New York Giants,310,
+2025-10-21T23:55:39Z,a8ebe01e05675c109b53a97f653f8653,2025-10-26T17:00:00Z,Philadelphia Eagles,New York Giants,draftkings,h2h,Philadelphia Eagles,-395,
+2025-10-21T23:55:39Z,a8ebe01e05675c109b53a97f653f8653,2025-10-26T17:00:00Z,Philadelphia Eagles,New York Giants,draftkings,spreads,New York Giants,-105,7.0
+2025-10-21T23:55:39Z,a8ebe01e05675c109b53a97f653f8653,2025-10-26T17:00:00Z,Philadelphia Eagles,New York Giants,draftkings,spreads,Philadelphia Eagles,-115,-7.0
+2025-10-21T23:55:39Z,a8ebe01e05675c109b53a97f653f8653,2025-10-26T17:00:00Z,Philadelphia Eagles,New York Giants,draftkings,totals,Over,-120,43.5
+2025-10-21T23:55:39Z,a8ebe01e05675c109b53a97f653f8653,2025-10-26T17:00:00Z,Philadelphia Eagles,New York Giants,draftkings,totals,Under,100,43.5
+2025-10-21T23:55:39Z,abc4104a9ac597ce37d703613256fd6c,2025-10-26T17:00:00Z,Houston Texans,San Francisco 49ers,draftkings,h2h,Houston Texans,-112,
+2025-10-21T23:55:39Z,abc4104a9ac597ce37d703613256fd6c,2025-10-26T17:00:00Z,Houston Texans,San Francisco 49ers,draftkings,h2h,San Francisco 49ers,-108,
+2025-10-21T23:55:39Z,abc4104a9ac597ce37d703613256fd6c,2025-10-26T17:00:00Z,Houston Texans,San Francisco 49ers,draftkings,spreads,Houston Texans,-105,-1.5
+2025-10-21T23:55:39Z,abc4104a9ac597ce37d703613256fd6c,2025-10-26T17:00:00Z,Houston Texans,San Francisco 49ers,draftkings,spreads,San Francisco 49ers,-115,1.5
+2025-10-21T23:55:39Z,abc4104a9ac597ce37d703613256fd6c,2025-10-26T17:00:00Z,Houston Texans,San Francisco 49ers,draftkings,totals,Over,-110,41.5
+2025-10-21T23:55:39Z,abc4104a9ac597ce37d703613256fd6c,2025-10-26T17:00:00Z,Houston Texans,San Francisco 49ers,draftkings,totals,Under,-110,41.5
+2025-10-21T23:55:39Z,ac02b1b59aa0623845378a02bc530c68,2025-10-26T17:00:00Z,Atlanta Falcons,Miami Dolphins,draftkings,h2h,Atlanta Falcons,-345,
+2025-10-21T23:55:39Z,ac02b1b59aa0623845378a02bc530c68,2025-10-26T17:00:00Z,Atlanta Falcons,Miami Dolphins,draftkings,h2h,Miami Dolphins,275,
+2025-10-21T23:55:39Z,ac02b1b59aa0623845378a02bc530c68,2025-10-26T17:00:00Z,Atlanta Falcons,Miami Dolphins,draftkings,spreads,Atlanta Falcons,-115,-7.0
+2025-10-21T23:55:39Z,ac02b1b59aa0623845378a02bc530c68,2025-10-26T17:00:00Z,Atlanta Falcons,Miami Dolphins,draftkings,spreads,Miami Dolphins,-105,7.0
+2025-10-21T23:55:39Z,ac02b1b59aa0623845378a02bc530c68,2025-10-26T17:00:00Z,Atlanta Falcons,Miami Dolphins,draftkings,totals,Over,-115,44.5
+2025-10-21T23:55:39Z,ac02b1b59aa0623845378a02bc530c68,2025-10-26T17:00:00Z,Atlanta Falcons,Miami Dolphins,draftkings,totals,Under,-105,44.5
+2025-10-21T23:55:39Z,b08df670a95f1809707b335dc75081c6,2025-11-02T21:05:00Z,Los Angeles Rams,New Orleans Saints,draftkings,h2h,Los Angeles Rams,-800,
+2025-10-21T23:55:39Z,b08df670a95f1809707b335dc75081c6,2025-11-02T21:05:00Z,Los Angeles Rams,New Orleans Saints,draftkings,h2h,New Orleans Saints,550,
+2025-10-21T23:55:39Z,b08df670a95f1809707b335dc75081c6,2025-11-02T21:05:00Z,Los Angeles Rams,New Orleans Saints,draftkings,spreads,Los Angeles Rams,-110,-12.5
+2025-10-21T23:55:39Z,b08df670a95f1809707b335dc75081c6,2025-11-02T21:05:00Z,Los Angeles Rams,New Orleans Saints,draftkings,spreads,New Orleans Saints,-110,12.5
+2025-10-21T23:55:39Z,b08df670a95f1809707b335dc75081c6,2025-11-02T21:05:00Z,Los Angeles Rams,New Orleans Saints,draftkings,totals,Over,-110,45.5
+2025-10-21T23:55:39Z,b08df670a95f1809707b335dc75081c6,2025-11-02T21:05:00Z,Los Angeles Rams,New Orleans Saints,draftkings,totals,Under,-110,45.5
+2025-10-21T23:55:39Z,b60025aea576e2e89ef7bc7303f847ec,2025-11-02T18:00:00Z,Tennessee Titans,Los Angeles Chargers,draftkings,h2h,Los Angeles Chargers,-395,
+2025-10-21T23:55:39Z,b60025aea576e2e89ef7bc7303f847ec,2025-11-02T18:00:00Z,Tennessee Titans,Los Angeles Chargers,draftkings,h2h,Tennessee Titans,310,
+2025-10-21T23:55:39Z,b60025aea576e2e89ef7bc7303f847ec,2025-11-02T18:00:00Z,Tennessee Titans,Los Angeles Chargers,draftkings,spreads,Los Angeles Chargers,-110,-7.5
+2025-10-21T23:55:39Z,b60025aea576e2e89ef7bc7303f847ec,2025-11-02T18:00:00Z,Tennessee Titans,Los Angeles Chargers,draftkings,spreads,Tennessee Titans,-110,7.5
+2025-10-21T23:55:39Z,b60025aea576e2e89ef7bc7303f847ec,2025-11-02T18:00:00Z,Tennessee Titans,Los Angeles Chargers,draftkings,totals,Over,-110,43.5
+2025-10-21T23:55:39Z,b60025aea576e2e89ef7bc7303f847ec,2025-11-02T18:00:00Z,Tennessee Titans,Los Angeles Chargers,draftkings,totals,Under,-110,43.5
+2025-10-21T23:55:39Z,c2fd8a23091a954fb21ff6d3537db826,2025-11-03T01:20:00Z,Washington Commanders,Seattle Seahawks,draftkings,h2h,Seattle Seahawks,-148,
+2025-10-21T23:55:39Z,c2fd8a23091a954fb21ff6d3537db826,2025-11-03T01:20:00Z,Washington Commanders,Seattle Seahawks,draftkings,h2h,Washington Commanders,124,
+2025-10-21T23:55:39Z,c2fd8a23091a954fb21ff6d3537db826,2025-11-03T01:20:00Z,Washington Commanders,Seattle Seahawks,draftkings,spreads,Seattle Seahawks,-115,-2.5
+2025-10-21T23:55:39Z,c2fd8a23091a954fb21ff6d3537db826,2025-11-03T01:20:00Z,Washington Commanders,Seattle Seahawks,draftkings,spreads,Washington Commanders,-105,2.5
+2025-10-21T23:55:39Z,c2fd8a23091a954fb21ff6d3537db826,2025-11-03T01:20:00Z,Washington Commanders,Seattle Seahawks,draftkings,totals,Over,-110,46.5
+2025-10-21T23:55:39Z,c2fd8a23091a954fb21ff6d3537db826,2025-11-03T01:20:00Z,Washington Commanders,Seattle Seahawks,draftkings,totals,Under,-110,46.5
+2025-10-21T23:55:39Z,cf95657d78ab3e515203df1d19c3b0c2,2025-11-02T18:00:00Z,Detroit Lions,Minnesota Vikings,draftkings,h2h,Detroit Lions,-380,
+2025-10-21T23:55:39Z,cf95657d78ab3e515203df1d19c3b0c2,2025-11-02T18:00:00Z,Detroit Lions,Minnesota Vikings,draftkings,h2h,Minnesota Vikings,300,
+2025-10-21T23:55:39Z,cf95657d78ab3e515203df1d19c3b0c2,2025-11-02T18:00:00Z,Detroit Lions,Minnesota Vikings,draftkings,spreads,Detroit Lions,-120,-7.0
+2025-10-21T23:55:39Z,cf95657d78ab3e515203df1d19c3b0c2,2025-11-02T18:00:00Z,Detroit Lions,Minnesota Vikings,draftkings,spreads,Minnesota Vikings,100,7.0
+2025-10-21T23:55:39Z,cf95657d78ab3e515203df1d19c3b0c2,2025-11-02T18:00:00Z,Detroit Lions,Minnesota Vikings,draftkings,totals,Over,-110,48.5
+2025-10-21T23:55:39Z,cf95657d78ab3e515203df1d19c3b0c2,2025-11-02T18:00:00Z,Detroit Lions,Minnesota Vikings,draftkings,totals,Under,-110,48.5
+2025-10-21T23:55:39Z,d0bf341e7959d69b55f1a8ff09065234,2025-11-02T21:05:00Z,Las Vegas Raiders,Jacksonville Jaguars,draftkings,h2h,Jacksonville Jaguars,-166,
+2025-10-21T23:55:39Z,d0bf341e7959d69b55f1a8ff09065234,2025-11-02T21:05:00Z,Las Vegas Raiders,Jacksonville Jaguars,draftkings,h2h,Las Vegas Raiders,140,
+2025-10-21T23:55:39Z,d0bf341e7959d69b55f1a8ff09065234,2025-11-02T21:05:00Z,Las Vegas Raiders,Jacksonville Jaguars,draftkings,spreads,Jacksonville Jaguars,-115,-3.0
+2025-10-21T23:55:39Z,d0bf341e7959d69b55f1a8ff09065234,2025-11-02T21:05:00Z,Las Vegas Raiders,Jacksonville Jaguars,draftkings,spreads,Las Vegas Raiders,-105,3.0
+2025-10-21T23:55:39Z,d0bf341e7959d69b55f1a8ff09065234,2025-11-02T21:05:00Z,Las Vegas Raiders,Jacksonville Jaguars,draftkings,totals,Over,-110,44.5
+2025-10-21T23:55:39Z,d0bf341e7959d69b55f1a8ff09065234,2025-11-02T21:05:00Z,Las Vegas Raiders,Jacksonville Jaguars,draftkings,totals,Under,-110,44.5
+2025-10-21T23:55:39Z,f3dfb574e0a542375a480534525ee6cf,2025-11-04T01:15:00Z,Dallas Cowboys,Arizona Cardinals,draftkings,h2h,Arizona Cardinals,136,
+2025-10-21T23:55:39Z,f3dfb574e0a542375a480534525ee6cf,2025-11-04T01:15:00Z,Dallas Cowboys,Arizona Cardinals,draftkings,h2h,Dallas Cowboys,-162,
+2025-10-21T23:55:39Z,f3dfb574e0a542375a480534525ee6cf,2025-11-04T01:15:00Z,Dallas Cowboys,Arizona Cardinals,draftkings,spreads,Arizona Cardinals,-110,3.0
+2025-10-21T23:55:39Z,f3dfb574e0a542375a480534525ee6cf,2025-11-04T01:15:00Z,Dallas Cowboys,Arizona Cardinals,draftkings,spreads,Dallas Cowboys,-110,-3.0
+2025-10-21T23:55:39Z,f3dfb574e0a542375a480534525ee6cf,2025-11-04T01:15:00Z,Dallas Cowboys,Arizona Cardinals,draftkings,totals,Over,-110,52.5
+2025-10-21T23:55:39Z,f3dfb574e0a542375a480534525ee6cf,2025-11-04T01:15:00Z,Dallas Cowboys,Arizona Cardinals,draftkings,totals,Under,-110,52.5
+2025-10-21T23:55:39Z,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,h2h,Green Bay Packers,-180,
+2025-10-21T23:55:39Z,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,h2h,Pittsburgh Steelers,150,
+2025-10-21T23:55:39Z,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,spreads,Green Bay Packers,-118,-3.0
+2025-10-21T23:55:39Z,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,spreads,Pittsburgh Steelers,-102,3.0
+2025-10-21T23:55:39Z,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,totals,Over,-110,45.5
+2025-10-21T23:55:39Z,fb900eef07307ebf5c1930341ecd852a,2025-10-27T00:20:00Z,Pittsburgh Steelers,Green Bay Packers,draftkings,totals,Under,-110,45.5
+2025-10-28T23:55:39Z,016f76d8237e8d4eb62b9c2ef68381bb,2025-11-02T18:00:00Z,Cincinnati Bengals,Chicago Bears,draftkings,h2h,Chicago Bears,-148,
+2025-10-28T23:55:39Z,016f76d8237e8d4eb62b9c2ef68381bb,2025-11-02T18:00:00Z,Cincinnati Bengals,Chicago Bears,draftkings,h2h,Cincinnati Bengals,124,
+2025-10-28T23:55:39Z,016f76d8237e8d4eb62b9c2ef68381bb,2025-11-02T18:00:00Z,Cincinnati Bengals,Chicago Bears,draftkings,spreads,Chicago Bears,-110,-2.5
+2025-10-28T23:55:39Z,016f76d8237e8d4eb62b9c2ef68381bb,2025-11-02T18:00:00Z,Cincinnati Bengals,Chicago Bears,draftkings,spreads,Cincinnati Bengals,-110,2.5
+2025-10-28T23:55:39Z,016f76d8237e8d4eb62b9c2ef68381bb,2025-11-02T18:00:00Z,Cincinnati Bengals,Chicago Bears,draftkings,totals,Over,-110,52.5
+2025-10-28T23:55:39Z,016f76d8237e8d4eb62b9c2ef68381bb,2025-11-02T18:00:00Z,Cincinnati Bengals,Chicago Bears,draftkings,totals,Under,-110,52.5
+2025-10-28T23:55:39Z,13bdffda97e8fb13179fe3f2f69d66f8,2025-11-07T01:15:00Z,Denver Broncos,Las Vegas Raiders,draftkings,h2h,Denver Broncos,-575,
+2025-10-28T23:55:39Z,13bdffda97e8fb13179fe3f2f69d66f8,2025-11-07T01:15:00Z,Denver Broncos,Las Vegas Raiders,draftkings,h2h,Las Vegas Raiders,425,
+2025-10-28T23:55:39Z,13bdffda97e8fb13179fe3f2f69d66f8,2025-11-07T01:15:00Z,Denver Broncos,Las Vegas Raiders,draftkings,spreads,Denver Broncos,-110,-10.5
+2025-10-28T23:55:39Z,13bdffda97e8fb13179fe3f2f69d66f8,2025-11-07T01:15:00Z,Denver Broncos,Las Vegas Raiders,draftkings,spreads,Las Vegas Raiders,-110,10.5
+2025-10-28T23:55:39Z,13bdffda97e8fb13179fe3f2f69d66f8,2025-11-07T01:15:00Z,Denver Broncos,Las Vegas Raiders,draftkings,totals,Over,-110,42.5
+2025-10-28T23:55:39Z,13bdffda97e8fb13179fe3f2f69d66f8,2025-11-07T01:15:00Z,Denver Broncos,Las Vegas Raiders,draftkings,totals,Under,-110,42.5
+2025-10-28T23:55:39Z,21f47a328fb2ab65c01360a7a2bd9571,2025-11-09T18:00:00Z,Carolina Panthers,New Orleans Saints,draftkings,h2h,Carolina Panthers,-185,
+2025-10-28T23:55:39Z,21f47a328fb2ab65c01360a7a2bd9571,2025-11-09T18:00:00Z,Carolina Panthers,New Orleans Saints,draftkings,h2h,New Orleans Saints,154,
+2025-10-28T23:55:39Z,21f47a328fb2ab65c01360a7a2bd9571,2025-11-09T18:00:00Z,Carolina Panthers,New Orleans Saints,draftkings,spreads,Carolina Panthers,-110,-3.5
+2025-10-28T23:55:39Z,21f47a328fb2ab65c01360a7a2bd9571,2025-11-09T18:00:00Z,Carolina Panthers,New Orleans Saints,draftkings,spreads,New Orleans Saints,-110,3.5
+2025-10-28T23:55:39Z,21f47a328fb2ab65c01360a7a2bd9571,2025-11-09T18:00:00Z,Carolina Panthers,New Orleans Saints,draftkings,totals,Over,-110,42.5
+2025-10-28T23:55:39Z,21f47a328fb2ab65c01360a7a2bd9571,2025-11-09T18:00:00Z,Carolina Panthers,New Orleans Saints,draftkings,totals,Under,-110,42.5
+2025-10-28T23:55:39Z,2340a6e0794d5688996dcf8aaf634742,2025-11-02T18:00:00Z,Pittsburgh Steelers,Indianapolis Colts,draftkings,h2h,Indianapolis Colts,-170,
+2025-10-28T23:55:39Z,2340a6e0794d5688996dcf8aaf634742,2025-11-02T18:00:00Z,Pittsburgh Steelers,Indianapolis Colts,draftkings,h2h,Pittsburgh Steelers,142,
+2025-10-28T23:55:39Z,2340a6e0794d5688996dcf8aaf634742,2025-11-02T18:00:00Z,Pittsburgh Steelers,Indianapolis Colts,draftkings,spreads,Indianapolis Colts,-115,-3.0
+2025-10-28T23:55:39Z,2340a6e0794d5688996dcf8aaf634742,2025-11-02T18:00:00Z,Pittsburgh Steelers,Indianapolis Colts,draftkings,spreads,Pittsburgh Steelers,-105,3.0
+2025-10-28T23:55:39Z,2340a6e0794d5688996dcf8aaf634742,2025-11-02T18:00:00Z,Pittsburgh Steelers,Indianapolis Colts,draftkings,totals,Over,-110,50.5
+2025-10-28T23:55:39Z,2340a6e0794d5688996dcf8aaf634742,2025-11-02T18:00:00Z,Pittsburgh Steelers,Indianapolis Colts,draftkings,totals,Under,-110,50.5
+2025-10-28T23:55:39Z,2710103fe4fb0170ae03b4e34bde8132,2025-11-09T21:25:00Z,San Francisco 49ers,Los Angeles Rams,draftkings,h2h,Los Angeles Rams,-162,
+2025-10-28T23:55:39Z,2710103fe4fb0170ae03b4e34bde8132,2025-11-09T21:25:00Z,San Francisco 49ers,Los Angeles Rams,draftkings,h2h,San Francisco 49ers,136,
+2025-10-28T23:55:39Z,2710103fe4fb0170ae03b4e34bde8132,2025-11-09T21:25:00Z,San Francisco 49ers,Los Angeles Rams,draftkings,spreads,Los Angeles Rams,-110,-3.0
+2025-10-28T23:55:39Z,2710103fe4fb0170ae03b4e34bde8132,2025-11-09T21:25:00Z,San Francisco 49ers,Los Angeles Rams,draftkings,spreads,San Francisco 49ers,-110,3.0
+2025-10-28T23:55:39Z,2710103fe4fb0170ae03b4e34bde8132,2025-11-09T21:25:00Z,San Francisco 49ers,Los Angeles Rams,draftkings,totals,Over,-110,48.5
+2025-10-28T23:55:39Z,2710103fe4fb0170ae03b4e34bde8132,2025-11-09T21:25:00Z,San Francisco 49ers,Los Angeles Rams,draftkings,totals,Under,-110,48.5
+2025-10-28T23:55:39Z,349d53a4f89591312ea528e81b786474,2025-11-10T01:20:00Z,Los Angeles Chargers,Pittsburgh Steelers,draftkings,h2h,Los Angeles Chargers,-218,
+2025-10-28T23:55:39Z,349d53a4f89591312ea528e81b786474,2025-11-10T01:20:00Z,Los Angeles Chargers,Pittsburgh Steelers,draftkings,h2h,Pittsburgh Steelers,180,
+2025-10-28T23:55:39Z,349d53a4f89591312ea528e81b786474,2025-11-10T01:20:00Z,Los Angeles Chargers,Pittsburgh Steelers,draftkings,spreads,Los Angeles Chargers,-110,-4.5
+2025-10-28T23:55:39Z,349d53a4f89591312ea528e81b786474,2025-11-10T01:20:00Z,Los Angeles Chargers,Pittsburgh Steelers,draftkings,spreads,Pittsburgh Steelers,-110,4.5
+2025-10-28T23:55:39Z,349d53a4f89591312ea528e81b786474,2025-11-10T01:20:00Z,Los Angeles Chargers,Pittsburgh Steelers,draftkings,totals,Over,-110,46.5
+2025-10-28T23:55:39Z,349d53a4f89591312ea528e81b786474,2025-11-10T01:20:00Z,Los Angeles Chargers,Pittsburgh Steelers,draftkings,totals,Under,-110,46.5
+2025-10-28T23:55:39Z,39e7c1f6e36d5bc4d2613ebf7bb83c10,2025-11-09T18:00:00Z,Tampa Bay Buccaneers,New England Patriots,draftkings,h2h,New England Patriots,124,
+2025-10-28T23:55:39Z,39e7c1f6e36d5bc4d2613ebf7bb83c10,2025-11-09T18:00:00Z,Tampa Bay Buccaneers,New England Patriots,draftkings,h2h,Tampa Bay Buccaneers,-148,
+2025-10-28T23:55:39Z,39e7c1f6e36d5bc4d2613ebf7bb83c10,2025-11-09T18:00:00Z,Tampa Bay Buccaneers,New England Patriots,draftkings,spreads,New England Patriots,-105,2.5
+2025-10-28T23:55:39Z,39e7c1f6e36d5bc4d2613ebf7bb83c10,2025-11-09T18:00:00Z,Tampa Bay Buccaneers,New England Patriots,draftkings,spreads,Tampa Bay Buccaneers,-115,-2.5
+2025-10-28T23:55:39Z,39e7c1f6e36d5bc4d2613ebf7bb83c10,2025-11-09T18:00:00Z,Tampa Bay Buccaneers,New England Patriots,draftkings,totals,Over,-110,48.5
+2025-10-28T23:55:39Z,39e7c1f6e36d5bc4d2613ebf7bb83c10,2025-11-09T18:00:00Z,Tampa Bay Buccaneers,New England Patriots,draftkings,totals,Under,-110,48.5
+2025-10-28T23:55:39Z,3b1a97366685a96e6e1940ae56cc4d31,2025-11-09T18:00:00Z,Chicago Bears,New York Giants,draftkings,h2h,Chicago Bears,-166,
+2025-10-28T23:55:39Z,3b1a97366685a96e6e1940ae56cc4d31,2025-11-09T18:00:00Z,Chicago Bears,New York Giants,draftkings,h2h,New York Giants,140,
+2025-10-28T23:55:39Z,3b1a97366685a96e6e1940ae56cc4d31,2025-11-09T18:00:00Z,Chicago Bears,New York Giants,draftkings,spreads,Chicago Bears,-115,-3.0
+2025-10-28T23:55:39Z,3b1a97366685a96e6e1940ae56cc4d31,2025-11-09T18:00:00Z,Chicago Bears,New York Giants,draftkings,spreads,New York Giants,-105,3.0
+2025-10-28T23:55:39Z,3b1a97366685a96e6e1940ae56cc4d31,2025-11-09T18:00:00Z,Chicago Bears,New York Giants,draftkings,totals,Over,-110,47.5
+2025-10-28T23:55:39Z,3b1a97366685a96e6e1940ae56cc4d31,2025-11-09T18:00:00Z,Chicago Bears,New York Giants,draftkings,totals,Under,-110,47.5
+2025-10-28T23:55:39Z,3c10bc18680995136017c3bfd3152334,2025-11-09T18:00:00Z,Miami Dolphins,Buffalo Bills,draftkings,h2h,Buffalo Bills,-410,
+2025-10-28T23:55:39Z,3c10bc18680995136017c3bfd3152334,2025-11-09T18:00:00Z,Miami Dolphins,Buffalo Bills,draftkings,h2h,Miami Dolphins,320,
+2025-10-28T23:55:39Z,3c10bc18680995136017c3bfd3152334,2025-11-09T18:00:00Z,Miami Dolphins,Buffalo Bills,draftkings,spreads,Buffalo Bills,-110,-8.5
+2025-10-28T23:55:39Z,3c10bc18680995136017c3bfd3152334,2025-11-09T18:00:00Z,Miami Dolphins,Buffalo Bills,draftkings,spreads,Miami Dolphins,-110,8.5
+2025-10-28T23:55:39Z,3c10bc18680995136017c3bfd3152334,2025-11-09T18:00:00Z,Miami Dolphins,Buffalo Bills,draftkings,totals,Over,-110,50.5
+2025-10-28T23:55:39Z,3c10bc18680995136017c3bfd3152334,2025-11-09T18:00:00Z,Miami Dolphins,Buffalo Bills,draftkings,totals,Under,-110,50.5
+2025-10-28T23:55:39Z,42473c1ddf8f424069ff3f264dd8dca4,2025-11-09T14:30:00Z,Indianapolis Colts,Atlanta Falcons,draftkings,h2h,Atlanta Falcons,270,
+2025-10-28T23:55:39Z,42473c1ddf8f424069ff3f264dd8dca4,2025-11-09T14:30:00Z,Indianapolis Colts,Atlanta Falcons,draftkings,h2h,Indianapolis Colts,-340,
+2025-10-28T23:55:39Z,42473c1ddf8f424069ff3f264dd8dca4,2025-11-09T14:30:00Z,Indianapolis Colts,Atlanta Falcons,draftkings,spreads,Atlanta Falcons,100,6.5
+2025-10-28T23:55:39Z,42473c1ddf8f424069ff3f264dd8dca4,2025-11-09T14:30:00Z,Indianapolis Colts,Atlanta Falcons,draftkings,spreads,Indianapolis Colts,-120,-6.5
+2025-10-28T23:55:39Z,42473c1ddf8f424069ff3f264dd8dca4,2025-11-09T14:30:00Z,Indianapolis Colts,Atlanta Falcons,draftkings,totals,Over,-110,48.5
+2025-10-28T23:55:39Z,42473c1ddf8f424069ff3f264dd8dca4,2025-11-09T14:30:00Z,Indianapolis Colts,Atlanta Falcons,draftkings,totals,Under,-110,48.5
+2025-10-28T23:55:39Z,438868ff90501a1fe9a0fbecbee9dc12,2025-11-11T01:15:00Z,Green Bay Packers,Philadelphia Eagles,draftkings,h2h,Green Bay Packers,-166,
+2025-10-28T23:55:39Z,438868ff90501a1fe9a0fbecbee9dc12,2025-11-11T01:15:00Z,Green Bay Packers,Philadelphia Eagles,draftkings,h2h,Philadelphia Eagles,140,
+2025-10-28T23:55:39Z,438868ff90501a1fe9a0fbecbee9dc12,2025-11-11T01:15:00Z,Green Bay Packers,Philadelphia Eagles,draftkings,spreads,Green Bay Packers,-115,-3.0
+2025-10-28T23:55:39Z,438868ff90501a1fe9a0fbecbee9dc12,2025-11-11T01:15:00Z,Green Bay Packers,Philadelphia Eagles,draftkings,spreads,Philadelphia Eagles,-105,3.0
+2025-10-28T23:55:39Z,438868ff90501a1fe9a0fbecbee9dc12,2025-11-11T01:15:00Z,Green Bay Packers,Philadelphia Eagles,draftkings,totals,Over,-110,45.5
+2025-10-28T23:55:39Z,438868ff90501a1fe9a0fbecbee9dc12,2025-11-11T01:15:00Z,Green Bay Packers,Philadelphia Eagles,draftkings,totals,Under,-110,45.5
+2025-10-28T23:55:39Z,6031b513e188fc19a2311499566c9258,2025-11-02T18:00:00Z,Green Bay Packers,Carolina Panthers,draftkings,h2h,Carolina Panthers,625,
+2025-10-28T23:55:39Z,6031b513e188fc19a2311499566c9258,2025-11-02T18:00:00Z,Green Bay Packers,Carolina Panthers,draftkings,h2h,Green Bay Packers,-950,
+2025-10-28T23:55:39Z,6031b513e188fc19a2311499566c9258,2025-11-02T18:00:00Z,Green Bay Packers,Carolina Panthers,draftkings,spreads,Carolina Panthers,-105,12.5
+2025-10-28T23:55:39Z,6031b513e188fc19a2311499566c9258,2025-11-02T18:00:00Z,Green Bay Packers,Carolina Panthers,draftkings,spreads,Green Bay Packers,-115,-12.5
+2025-10-28T23:55:39Z,6031b513e188fc19a2311499566c9258,2025-11-02T18:00:00Z,Green Bay Packers,Carolina Panthers,draftkings,totals,Over,-108,44.5
+2025-10-28T23:55:39Z,6031b513e188fc19a2311499566c9258,2025-11-02T18:00:00Z,Green Bay Packers,Carolina Panthers,draftkings,totals,Under,-112,44.5
+2025-10-28T23:55:39Z,61531628516decd1ee8116da5f6f9056,2025-11-02T21:25:00Z,Buffalo Bills,Kansas City Chiefs,draftkings,h2h,Buffalo Bills,110,
+2025-10-28T23:55:39Z,61531628516decd1ee8116da5f6f9056,2025-11-02T21:25:00Z,Buffalo Bills,Kansas City Chiefs,draftkings,h2h,Kansas City Chiefs,-130,
+2025-10-28T23:55:39Z,61531628516decd1ee8116da5f6f9056,2025-11-02T21:25:00Z,Buffalo Bills,Kansas City Chiefs,draftkings,spreads,Buffalo Bills,-115,2.5
+2025-10-28T23:55:39Z,61531628516decd1ee8116da5f6f9056,2025-11-02T21:25:00Z,Buffalo Bills,Kansas City Chiefs,draftkings,spreads,Kansas City Chiefs,-105,-2.5
+2025-10-28T23:55:39Z,61531628516decd1ee8116da5f6f9056,2025-11-02T21:25:00Z,Buffalo Bills,Kansas City Chiefs,draftkings,totals,Over,-108,52.5
+2025-10-28T23:55:39Z,61531628516decd1ee8116da5f6f9056,2025-11-02T21:25:00Z,Buffalo Bills,Kansas City Chiefs,draftkings,totals,Under,-112,52.5
+2025-10-28T23:55:39Z,677dbbb6ad96fc5f5b36bb20b43139dd,2025-10-31T00:15:00Z,Miami Dolphins,Baltimore Ravens,draftkings,h2h,Baltimore Ravens,-440,
+2025-10-28T23:55:39Z,677dbbb6ad96fc5f5b36bb20b43139dd,2025-10-31T00:15:00Z,Miami Dolphins,Baltimore Ravens,draftkings,h2h,Miami Dolphins,340,
+2025-10-28T23:55:39Z,677dbbb6ad96fc5f5b36bb20b43139dd,2025-10-31T00:15:00Z,Miami Dolphins,Baltimore Ravens,draftkings,spreads,Baltimore Ravens,-112,-7.5
+2025-10-28T23:55:39Z,677dbbb6ad96fc5f5b36bb20b43139dd,2025-10-31T00:15:00Z,Miami Dolphins,Baltimore Ravens,draftkings,spreads,Miami Dolphins,-108,7.5
+2025-10-28T23:55:39Z,677dbbb6ad96fc5f5b36bb20b43139dd,2025-10-31T00:15:00Z,Miami Dolphins,Baltimore Ravens,draftkings,totals,Over,-110,51.5
+2025-10-28T23:55:39Z,677dbbb6ad96fc5f5b36bb20b43139dd,2025-10-31T00:15:00Z,Miami Dolphins,Baltimore Ravens,draftkings,totals,Under,-110,51.5
+2025-10-28T23:55:39Z,6dd3b8a705ed0db85d59fa19b9062cc8,2025-11-02T18:00:00Z,New England Patriots,Atlanta Falcons,draftkings,h2h,Atlanta Falcons,215,
+2025-10-28T23:55:39Z,6dd3b8a705ed0db85d59fa19b9062cc8,2025-11-02T18:00:00Z,New England Patriots,Atlanta Falcons,draftkings,h2h,New England Patriots,-265,
+2025-10-28T23:55:39Z,6dd3b8a705ed0db85d59fa19b9062cc8,2025-11-02T18:00:00Z,New England Patriots,Atlanta Falcons,draftkings,spreads,Atlanta Falcons,-110,5.5
+2025-10-28T23:55:39Z,6dd3b8a705ed0db85d59fa19b9062cc8,2025-11-02T18:00:00Z,New England Patriots,Atlanta Falcons,draftkings,spreads,New England Patriots,-110,-5.5
+2025-10-28T23:55:39Z,6dd3b8a705ed0db85d59fa19b9062cc8,2025-11-02T18:00:00Z,New England Patriots,Atlanta Falcons,draftkings,totals,Over,-120,44.5
+2025-10-28T23:55:39Z,6dd3b8a705ed0db85d59fa19b9062cc8,2025-11-02T18:00:00Z,New England Patriots,Atlanta Falcons,draftkings,totals,Under,100,44.5
+2025-10-28T23:55:39Z,72e2ce6652bbb3901f60b38bec05bf5f,2025-11-02T18:00:00Z,Houston Texans,Denver Broncos,draftkings,h2h,Denver Broncos,105,
+2025-10-28T23:55:39Z,72e2ce6652bbb3901f60b38bec05bf5f,2025-11-02T18:00:00Z,Houston Texans,Denver Broncos,draftkings,h2h,Houston Texans,-125,
+2025-10-28T23:55:39Z,72e2ce6652bbb3901f60b38bec05bf5f,2025-11-02T18:00:00Z,Houston Texans,Denver Broncos,draftkings,spreads,Denver Broncos,-110,1.5
+2025-10-28T23:55:39Z,72e2ce6652bbb3901f60b38bec05bf5f,2025-11-02T18:00:00Z,Houston Texans,Denver Broncos,draftkings,spreads,Houston Texans,-110,-1.5
+2025-10-28T23:55:39Z,72e2ce6652bbb3901f60b38bec05bf5f,2025-11-02T18:00:00Z,Houston Texans,Denver Broncos,draftkings,totals,Over,-115,39.5
+2025-10-28T23:55:39Z,72e2ce6652bbb3901f60b38bec05bf5f,2025-11-02T18:00:00Z,Houston Texans,Denver Broncos,draftkings,totals,Under,-105,39.5
+2025-10-28T23:55:39Z,740b843794cc89176c4ffe38b66d30d9,2025-11-09T21:05:00Z,Seattle Seahawks,Arizona Cardinals,draftkings,h2h,Arizona Cardinals,230,
+2025-10-28T23:55:39Z,740b843794cc89176c4ffe38b66d30d9,2025-11-09T21:05:00Z,Seattle Seahawks,Arizona Cardinals,draftkings,h2h,Seattle Seahawks,-285,
+2025-10-28T23:55:39Z,740b843794cc89176c4ffe38b66d30d9,2025-11-09T21:05:00Z,Seattle Seahawks,Arizona Cardinals,draftkings,spreads,Arizona Cardinals,-110,6.5
+2025-10-28T23:55:39Z,740b843794cc89176c4ffe38b66d30d9,2025-11-09T21:05:00Z,Seattle Seahawks,Arizona Cardinals,draftkings,spreads,Seattle Seahawks,-110,-6.5
+2025-10-28T23:55:39Z,740b843794cc89176c4ffe38b66d30d9,2025-11-09T21:05:00Z,Seattle Seahawks,Arizona Cardinals,draftkings,totals,Over,-110,45.5
+2025-10-28T23:55:39Z,740b843794cc89176c4ffe38b66d30d9,2025-11-09T21:05:00Z,Seattle Seahawks,Arizona Cardinals,draftkings,totals,Under,-110,45.5
+2025-10-28T23:55:39Z,844b89333f293f055f8e0c147fb9fec5,2025-11-09T18:00:00Z,New York Jets,Cleveland Browns,draftkings,h2h,Cleveland Browns,105,
+2025-10-28T23:55:39Z,844b89333f293f055f8e0c147fb9fec5,2025-11-09T18:00:00Z,New York Jets,Cleveland Browns,draftkings,h2h,New York Jets,-125,
+2025-10-28T23:55:39Z,844b89333f293f055f8e0c147fb9fec5,2025-11-09T18:00:00Z,New York Jets,Cleveland Browns,draftkings,spreads,Cleveland Browns,-110,1.5
+2025-10-28T23:55:39Z,844b89333f293f055f8e0c147fb9fec5,2025-11-09T18:00:00Z,New York Jets,Cleveland Browns,draftkings,spreads,New York Jets,-110,-1.5
+2025-10-28T23:55:39Z,844b89333f293f055f8e0c147fb9fec5,2025-11-09T18:00:00Z,New York Jets,Cleveland Browns,draftkings,totals,Over,-110,38.5
+2025-10-28T23:55:39Z,844b89333f293f055f8e0c147fb9fec5,2025-11-09T18:00:00Z,New York Jets,Cleveland Browns,draftkings,totals,Under,-110,38.5
+2025-10-28T23:55:39Z,93365f943b3aa23705bc9e1c7b47d7f8,2025-11-09T21:25:00Z,Washington Commanders,Detroit Lions,draftkings,h2h,Detroit Lions,-175,
+2025-10-28T23:55:39Z,93365f943b3aa23705bc9e1c7b47d7f8,2025-11-09T21:25:00Z,Washington Commanders,Detroit Lions,draftkings,h2h,Washington Commanders,145,
+2025-10-28T23:55:39Z,93365f943b3aa23705bc9e1c7b47d7f8,2025-11-09T21:25:00Z,Washington Commanders,Detroit Lions,draftkings,spreads,Detroit Lions,-115,-3.0
+2025-10-28T23:55:39Z,93365f943b3aa23705bc9e1c7b47d7f8,2025-11-09T21:25:00Z,Washington Commanders,Detroit Lions,draftkings,spreads,Washington Commanders,-105,3.0
+2025-10-28T23:55:39Z,93365f943b3aa23705bc9e1c7b47d7f8,2025-11-09T21:25:00Z,Washington Commanders,Detroit Lions,draftkings,totals,Over,-110,51.5
+2025-10-28T23:55:39Z,93365f943b3aa23705bc9e1c7b47d7f8,2025-11-09T21:25:00Z,Washington Commanders,Detroit Lions,draftkings,totals,Under,-110,51.5
+2025-10-28T23:55:39Z,9900b89c4776c5b47dd26ca4c755edf9,2025-11-09T18:00:00Z,Minnesota Vikings,Baltimore Ravens,draftkings,h2h,Baltimore Ravens,-185,
+2025-10-28T23:55:39Z,9900b89c4776c5b47dd26ca4c755edf9,2025-11-09T18:00:00Z,Minnesota Vikings,Baltimore Ravens,draftkings,h2h,Minnesota Vikings,154,
+2025-10-28T23:55:39Z,9900b89c4776c5b47dd26ca4c755edf9,2025-11-09T18:00:00Z,Minnesota Vikings,Baltimore Ravens,draftkings,spreads,Baltimore Ravens,-105,-3.5
+2025-10-28T23:55:39Z,9900b89c4776c5b47dd26ca4c755edf9,2025-11-09T18:00:00Z,Minnesota Vikings,Baltimore Ravens,draftkings,spreads,Minnesota Vikings,-115,3.5
+2025-10-28T23:55:39Z,9900b89c4776c5b47dd26ca4c755edf9,2025-11-09T18:00:00Z,Minnesota Vikings,Baltimore Ravens,draftkings,totals,Over,-110,47.5
+2025-10-28T23:55:39Z,9900b89c4776c5b47dd26ca4c755edf9,2025-11-09T18:00:00Z,Minnesota Vikings,Baltimore Ravens,draftkings,totals,Under,-110,47.5
+2025-10-28T23:55:39Z,9dbf94f23521c7cae7fd89b2d33fc3bd,2025-11-09T18:00:00Z,Houston Texans,Jacksonville Jaguars,draftkings,h2h,Houston Texans,-166,
+2025-10-28T23:55:39Z,9dbf94f23521c7cae7fd89b2d33fc3bd,2025-11-09T18:00:00Z,Houston Texans,Jacksonville Jaguars,draftkings,h2h,Jacksonville Jaguars,140,
+2025-10-28T23:55:39Z,9dbf94f23521c7cae7fd89b2d33fc3bd,2025-11-09T18:00:00Z,Houston Texans,Jacksonville Jaguars,draftkings,spreads,Houston Texans,-115,-3.0
+2025-10-28T23:55:39Z,9dbf94f23521c7cae7fd89b2d33fc3bd,2025-11-09T18:00:00Z,Houston Texans,Jacksonville Jaguars,draftkings,spreads,Jacksonville Jaguars,-105,3.0
+2025-10-28T23:55:39Z,9dbf94f23521c7cae7fd89b2d33fc3bd,2025-11-09T18:00:00Z,Houston Texans,Jacksonville Jaguars,draftkings,totals,Over,-110,42.5
+2025-10-28T23:55:39Z,9dbf94f23521c7cae7fd89b2d33fc3bd,2025-11-09T18:00:00Z,Houston Texans,Jacksonville Jaguars,draftkings,totals,Under,-110,42.5
+2025-10-28T23:55:39Z,a788e7cebff4b5fe10034710090e4529,2025-11-02T18:00:00Z,New York Giants,San Francisco 49ers,draftkings,h2h,New York Giants,130,
+2025-10-28T23:55:39Z,a788e7cebff4b5fe10034710090e4529,2025-11-02T18:00:00Z,New York Giants,San Francisco 49ers,draftkings,h2h,San Francisco 49ers,-155,
+2025-10-28T23:55:39Z,a788e7cebff4b5fe10034710090e4529,2025-11-02T18:00:00Z,New York Giants,San Francisco 49ers,draftkings,spreads,New York Giants,100,2.5
+2025-10-28T23:55:39Z,a788e7cebff4b5fe10034710090e4529,2025-11-02T18:00:00Z,New York Giants,San Francisco 49ers,draftkings,spreads,San Francisco 49ers,-120,-2.5
+2025-10-28T23:55:39Z,a788e7cebff4b5fe10034710090e4529,2025-11-02T18:00:00Z,New York Giants,San Francisco 49ers,draftkings,totals,Over,-105,48.5
+2025-10-28T23:55:39Z,a788e7cebff4b5fe10034710090e4529,2025-11-02T18:00:00Z,New York Giants,San Francisco 49ers,draftkings,totals,Under,-115,48.5
+2025-10-28T23:55:39Z,b08df670a95f1809707b335dc75081c6,2025-11-02T21:05:00Z,Los Angeles Rams,New Orleans Saints,draftkings,h2h,Los Angeles Rams,-900,
+2025-10-28T23:55:39Z,b08df670a95f1809707b335dc75081c6,2025-11-02T21:05:00Z,Los Angeles Rams,New Orleans Saints,draftkings,h2h,New Orleans Saints,600,
+2025-10-28T23:55:39Z,b08df670a95f1809707b335dc75081c6,2025-11-02T21:05:00Z,Los Angeles Rams,New Orleans Saints,draftkings,spreads,Los Angeles Rams,-105,-14.0
+2025-10-28T23:55:39Z,b08df670a95f1809707b335dc75081c6,2025-11-02T21:05:00Z,Los Angeles Rams,New Orleans Saints,draftkings,spreads,New Orleans Saints,-115,14.0
+2025-10-28T23:55:39Z,b08df670a95f1809707b335dc75081c6,2025-11-02T21:05:00Z,Los Angeles Rams,New Orleans Saints,draftkings,totals,Over,-115,43.5
+2025-10-28T23:55:39Z,b08df670a95f1809707b335dc75081c6,2025-11-02T21:05:00Z,Los Angeles Rams,New Orleans Saints,draftkings,totals,Under,-105,43.5
+2025-10-28T23:55:39Z,b60025aea576e2e89ef7bc7303f847ec,2025-11-02T18:00:00Z,Tennessee Titans,Los Angeles Chargers,draftkings,h2h,Los Angeles Chargers,-520,
+2025-10-28T23:55:39Z,b60025aea576e2e89ef7bc7303f847ec,2025-11-02T18:00:00Z,Tennessee Titans,Los Angeles Chargers,draftkings,h2h,Tennessee Titans,390,
+2025-10-28T23:55:39Z,b60025aea576e2e89ef7bc7303f847ec,2025-11-02T18:00:00Z,Tennessee Titans,Los Angeles Chargers,draftkings,spreads,Los Angeles Chargers,-115,-9.5
+2025-10-28T23:55:39Z,b60025aea576e2e89ef7bc7303f847ec,2025-11-02T18:00:00Z,Tennessee Titans,Los Angeles Chargers,draftkings,spreads,Tennessee Titans,-105,9.5
+2025-10-28T23:55:39Z,b60025aea576e2e89ef7bc7303f847ec,2025-11-02T18:00:00Z,Tennessee Titans,Los Angeles Chargers,draftkings,totals,Over,-108,43.5
+2025-10-28T23:55:39Z,b60025aea576e2e89ef7bc7303f847ec,2025-11-02T18:00:00Z,Tennessee Titans,Los Angeles Chargers,draftkings,totals,Under,-112,43.5
+2025-10-28T23:55:39Z,c2fd8a23091a954fb21ff6d3537db826,2025-11-03T01:20:00Z,Washington Commanders,Seattle Seahawks,draftkings,h2h,Seattle Seahawks,-175,
+2025-10-28T23:55:39Z,c2fd8a23091a954fb21ff6d3537db826,2025-11-03T01:20:00Z,Washington Commanders,Seattle Seahawks,draftkings,h2h,Washington Commanders,145,
+2025-10-28T23:55:39Z,c2fd8a23091a954fb21ff6d3537db826,2025-11-03T01:20:00Z,Washington Commanders,Seattle Seahawks,draftkings,spreads,Seattle Seahawks,-115,-3.0
+2025-10-28T23:55:39Z,c2fd8a23091a954fb21ff6d3537db826,2025-11-03T01:20:00Z,Washington Commanders,Seattle Seahawks,draftkings,spreads,Washington Commanders,-105,3.0
+2025-10-28T23:55:39Z,c2fd8a23091a954fb21ff6d3537db826,2025-11-03T01:20:00Z,Washington Commanders,Seattle Seahawks,draftkings,totals,Over,-105,47.5
+2025-10-28T23:55:39Z,c2fd8a23091a954fb21ff6d3537db826,2025-11-03T01:20:00Z,Washington Commanders,Seattle Seahawks,draftkings,totals,Under,-115,47.5
+2025-10-28T23:55:39Z,cf95657d78ab3e515203df1d19c3b0c2,2025-11-02T18:00:00Z,Detroit Lions,Minnesota Vikings,draftkings,h2h,Detroit Lions,-470,
+2025-10-28T23:55:39Z,cf95657d78ab3e515203df1d19c3b0c2,2025-11-02T18:00:00Z,Detroit Lions,Minnesota Vikings,draftkings,h2h,Minnesota Vikings,360,
+2025-10-28T23:55:39Z,cf95657d78ab3e515203df1d19c3b0c2,2025-11-02T18:00:00Z,Detroit Lions,Minnesota Vikings,draftkings,spreads,Detroit Lions,-110,-8.5
+2025-10-28T23:55:39Z,cf95657d78ab3e515203df1d19c3b0c2,2025-11-02T18:00:00Z,Detroit Lions,Minnesota Vikings,draftkings,spreads,Minnesota Vikings,-110,8.5
+2025-10-28T23:55:39Z,cf95657d78ab3e515203df1d19c3b0c2,2025-11-02T18:00:00Z,Detroit Lions,Minnesota Vikings,draftkings,totals,Over,-105,48.5
+2025-10-28T23:55:39Z,cf95657d78ab3e515203df1d19c3b0c2,2025-11-02T18:00:00Z,Detroit Lions,Minnesota Vikings,draftkings,totals,Under,-115,48.5
+2025-10-28T23:55:39Z,d0bf341e7959d69b55f1a8ff09065234,2025-11-02T21:05:00Z,Las Vegas Raiders,Jacksonville Jaguars,draftkings,h2h,Jacksonville Jaguars,-175,
+2025-10-28T23:55:39Z,d0bf341e7959d69b55f1a8ff09065234,2025-11-02T21:05:00Z,Las Vegas Raiders,Jacksonville Jaguars,draftkings,h2h,Las Vegas Raiders,145,
+2025-10-28T23:55:39Z,d0bf341e7959d69b55f1a8ff09065234,2025-11-02T21:05:00Z,Las Vegas Raiders,Jacksonville Jaguars,draftkings,spreads,Jacksonville Jaguars,-118,-3.0
+2025-10-28T23:55:39Z,d0bf341e7959d69b55f1a8ff09065234,2025-11-02T21:05:00Z,Las Vegas Raiders,Jacksonville Jaguars,draftkings,spreads,Las Vegas Raiders,-102,3.0
+2025-10-28T23:55:39Z,d0bf341e7959d69b55f1a8ff09065234,2025-11-02T21:05:00Z,Las Vegas Raiders,Jacksonville Jaguars,draftkings,totals,Over,-108,45.5
+2025-10-28T23:55:39Z,d0bf341e7959d69b55f1a8ff09065234,2025-11-02T21:05:00Z,Las Vegas Raiders,Jacksonville Jaguars,draftkings,totals,Under,-112,45.5
+2025-10-28T23:55:39Z,f3dfb574e0a542375a480534525ee6cf,2025-11-04T01:15:00Z,Dallas Cowboys,Arizona Cardinals,draftkings,h2h,Arizona Cardinals,124,
+2025-10-28T23:55:39Z,f3dfb574e0a542375a480534525ee6cf,2025-11-04T01:15:00Z,Dallas Cowboys,Arizona Cardinals,draftkings,h2h,Dallas Cowboys,-148,
+2025-10-28T23:55:39Z,f3dfb574e0a542375a480534525ee6cf,2025-11-04T01:15:00Z,Dallas Cowboys,Arizona Cardinals,draftkings,spreads,Arizona Cardinals,-102,2.5
+2025-10-28T23:55:39Z,f3dfb574e0a542375a480534525ee6cf,2025-11-04T01:15:00Z,Dallas Cowboys,Arizona Cardinals,draftkings,spreads,Dallas Cowboys,-118,-2.5
+2025-10-28T23:55:39Z,f3dfb574e0a542375a480534525ee6cf,2025-11-04T01:15:00Z,Dallas Cowboys,Arizona Cardinals,draftkings,totals,Over,-110,54.5
+2025-10-28T23:55:39Z,f3dfb574e0a542375a480534525ee6cf,2025-11-04T01:15:00Z,Dallas Cowboys,Arizona Cardinals,draftkings,totals,Under,-110,54.5
+2025-11-04T23:55:37Z,0ae85bbc3711ad0cb94475a40e2364f0,2025-11-16T18:00:00Z,Atlanta Falcons,Carolina Panthers,draftkings,h2h,Atlanta Falcons,-175,
+2025-11-04T23:55:37Z,0ae85bbc3711ad0cb94475a40e2364f0,2025-11-16T18:00:00Z,Atlanta Falcons,Carolina Panthers,draftkings,h2h,Carolina Panthers,145,
+2025-11-04T23:55:37Z,0ae85bbc3711ad0cb94475a40e2364f0,2025-11-16T18:00:00Z,Atlanta Falcons,Carolina Panthers,draftkings,spreads,Atlanta Falcons,-105,-3.5
+2025-11-04T23:55:37Z,0ae85bbc3711ad0cb94475a40e2364f0,2025-11-16T18:00:00Z,Atlanta Falcons,Carolina Panthers,draftkings,spreads,Carolina Panthers,-115,3.5
+2025-11-04T23:55:37Z,0ae85bbc3711ad0cb94475a40e2364f0,2025-11-16T18:00:00Z,Atlanta Falcons,Carolina Panthers,draftkings,totals,Over,-110,44.5
+2025-11-04T23:55:37Z,0ae85bbc3711ad0cb94475a40e2364f0,2025-11-16T18:00:00Z,Atlanta Falcons,Carolina Panthers,draftkings,totals,Under,-110,44.5
+2025-11-04T23:55:37Z,13bdffda97e8fb13179fe3f2f69d66f8,2025-11-07T01:15:00Z,Denver Broncos,Las Vegas Raiders,draftkings,h2h,Denver Broncos,-500,
+2025-11-04T23:55:37Z,13bdffda97e8fb13179fe3f2f69d66f8,2025-11-07T01:15:00Z,Denver Broncos,Las Vegas Raiders,draftkings,h2h,Las Vegas Raiders,380,
+2025-11-04T23:55:37Z,13bdffda97e8fb13179fe3f2f69d66f8,2025-11-07T01:15:00Z,Denver Broncos,Las Vegas Raiders,draftkings,spreads,Denver Broncos,-110,-9.5
+2025-11-04T23:55:37Z,13bdffda97e8fb13179fe3f2f69d66f8,2025-11-07T01:15:00Z,Denver Broncos,Las Vegas Raiders,draftkings,spreads,Las Vegas Raiders,-110,9.5
+2025-11-04T23:55:37Z,13bdffda97e8fb13179fe3f2f69d66f8,2025-11-07T01:15:00Z,Denver Broncos,Las Vegas Raiders,draftkings,totals,Over,-118,42.5
+2025-11-04T23:55:37Z,13bdffda97e8fb13179fe3f2f69d66f8,2025-11-07T01:15:00Z,Denver Broncos,Las Vegas Raiders,draftkings,totals,Under,-102,42.5
+2025-11-04T23:55:37Z,21f47a328fb2ab65c01360a7a2bd9571,2025-11-09T18:00:00Z,Carolina Panthers,New Orleans Saints,draftkings,h2h,Carolina Panthers,-245,
+2025-11-04T23:55:37Z,21f47a328fb2ab65c01360a7a2bd9571,2025-11-09T18:00:00Z,Carolina Panthers,New Orleans Saints,draftkings,h2h,New Orleans Saints,200,
+2025-11-04T23:55:37Z,21f47a328fb2ab65c01360a7a2bd9571,2025-11-09T18:00:00Z,Carolina Panthers,New Orleans Saints,draftkings,spreads,Carolina Panthers,-108,-5.5
+2025-11-04T23:55:37Z,21f47a328fb2ab65c01360a7a2bd9571,2025-11-09T18:00:00Z,Carolina Panthers,New Orleans Saints,draftkings,spreads,New Orleans Saints,-112,5.5
+2025-11-04T23:55:37Z,21f47a328fb2ab65c01360a7a2bd9571,2025-11-09T18:00:00Z,Carolina Panthers,New Orleans Saints,draftkings,totals,Over,-120,39.5
+2025-11-04T23:55:37Z,21f47a328fb2ab65c01360a7a2bd9571,2025-11-09T18:00:00Z,Carolina Panthers,New Orleans Saints,draftkings,totals,Under,100,39.5
+2025-11-04T23:55:37Z,229a5e9ce60dcb344a8cc3c97121154e,2025-11-16T18:00:00Z,Minnesota Vikings,Chicago Bears,draftkings,h2h,Chicago Bears,130,
+2025-11-04T23:55:37Z,229a5e9ce60dcb344a8cc3c97121154e,2025-11-16T18:00:00Z,Minnesota Vikings,Chicago Bears,draftkings,h2h,Minnesota Vikings,-155,
+2025-11-04T23:55:37Z,229a5e9ce60dcb344a8cc3c97121154e,2025-11-16T18:00:00Z,Minnesota Vikings,Chicago Bears,draftkings,spreads,Chicago Bears,100,2.5
+2025-11-04T23:55:37Z,229a5e9ce60dcb344a8cc3c97121154e,2025-11-16T18:00:00Z,Minnesota Vikings,Chicago Bears,draftkings,spreads,Minnesota Vikings,-120,-2.5
+2025-11-04T23:55:37Z,229a5e9ce60dcb344a8cc3c97121154e,2025-11-16T18:00:00Z,Minnesota Vikings,Chicago Bears,draftkings,totals,Over,-110,47.5
+2025-11-04T23:55:37Z,229a5e9ce60dcb344a8cc3c97121154e,2025-11-16T18:00:00Z,Minnesota Vikings,Chicago Bears,draftkings,totals,Under,-110,47.5
+2025-11-04T23:55:37Z,265f0188945bb81ec64751571eb724cb,2025-11-16T14:30:00Z,Miami Dolphins,Washington Commanders,draftkings,h2h,Miami Dolphins,105,
+2025-11-04T23:55:37Z,265f0188945bb81ec64751571eb724cb,2025-11-16T14:30:00Z,Miami Dolphins,Washington Commanders,draftkings,h2h,Washington Commanders,-125,
+2025-11-04T23:55:37Z,265f0188945bb81ec64751571eb724cb,2025-11-16T14:30:00Z,Miami Dolphins,Washington Commanders,draftkings,spreads,Miami Dolphins,-110,1.5
+2025-11-04T23:55:37Z,265f0188945bb81ec64751571eb724cb,2025-11-16T14:30:00Z,Miami Dolphins,Washington Commanders,draftkings,spreads,Washington Commanders,-110,-1.5
+2025-11-04T23:55:37Z,265f0188945bb81ec64751571eb724cb,2025-11-16T14:30:00Z,Miami Dolphins,Washington Commanders,draftkings,totals,Over,-110,45.5
+2025-11-04T23:55:37Z,265f0188945bb81ec64751571eb724cb,2025-11-16T14:30:00Z,Miami Dolphins,Washington Commanders,draftkings,totals,Under,-110,45.5
+2025-11-04T23:55:37Z,2710103fe4fb0170ae03b4e34bde8132,2025-11-09T21:25:00Z,San Francisco 49ers,Los Angeles Rams,draftkings,h2h,Los Angeles Rams,-198,
+2025-11-04T23:55:37Z,2710103fe4fb0170ae03b4e34bde8132,2025-11-09T21:25:00Z,San Francisco 49ers,Los Angeles Rams,draftkings,h2h,San Francisco 49ers,164,
+2025-11-04T23:55:37Z,2710103fe4fb0170ae03b4e34bde8132,2025-11-09T21:25:00Z,San Francisco 49ers,Los Angeles Rams,draftkings,spreads,Los Angeles Rams,-110,-3.5
+2025-11-04T23:55:37Z,2710103fe4fb0170ae03b4e34bde8132,2025-11-09T21:25:00Z,San Francisco 49ers,Los Angeles Rams,draftkings,spreads,San Francisco 49ers,-110,3.5
+2025-11-04T23:55:37Z,2710103fe4fb0170ae03b4e34bde8132,2025-11-09T21:25:00Z,San Francisco 49ers,Los Angeles Rams,draftkings,totals,Over,-110,49.5
+2025-11-04T23:55:37Z,2710103fe4fb0170ae03b4e34bde8132,2025-11-09T21:25:00Z,San Francisco 49ers,Los Angeles Rams,draftkings,totals,Under,-110,49.5
+2025-11-04T23:55:37Z,32ec2bd4ac9e4c40f9f5cbed7e67f837,2025-11-14T01:15:00Z,New England Patriots,New York Jets,draftkings,h2h,New England Patriots,-535,
+2025-11-04T23:55:37Z,32ec2bd4ac9e4c40f9f5cbed7e67f837,2025-11-14T01:15:00Z,New England Patriots,New York Jets,draftkings,h2h,New York Jets,400,
+2025-11-04T23:55:37Z,32ec2bd4ac9e4c40f9f5cbed7e67f837,2025-11-14T01:15:00Z,New England Patriots,New York Jets,draftkings,spreads,New England Patriots,-110,-10.5
+2025-11-04T23:55:37Z,32ec2bd4ac9e4c40f9f5cbed7e67f837,2025-11-14T01:15:00Z,New England Patriots,New York Jets,draftkings,spreads,New York Jets,-110,10.5
+2025-11-04T23:55:37Z,32ec2bd4ac9e4c40f9f5cbed7e67f837,2025-11-14T01:15:00Z,New England Patriots,New York Jets,draftkings,totals,Over,-110,46.5
+2025-11-04T23:55:37Z,32ec2bd4ac9e4c40f9f5cbed7e67f837,2025-11-14T01:15:00Z,New England Patriots,New York Jets,draftkings,totals,Under,-110,46.5
+2025-11-04T23:55:37Z,349d53a4f89591312ea528e81b786474,2025-11-10T01:20:00Z,Los Angeles Chargers,Pittsburgh Steelers,draftkings,h2h,Los Angeles Chargers,-166,
+2025-11-04T23:55:37Z,349d53a4f89591312ea528e81b786474,2025-11-10T01:20:00Z,Los Angeles Chargers,Pittsburgh Steelers,draftkings,h2h,Pittsburgh Steelers,140,
+2025-11-04T23:55:37Z,349d53a4f89591312ea528e81b786474,2025-11-10T01:20:00Z,Los Angeles Chargers,Pittsburgh Steelers,draftkings,spreads,Los Angeles Chargers,-110,-3.0
+2025-11-04T23:55:37Z,349d53a4f89591312ea528e81b786474,2025-11-10T01:20:00Z,Los Angeles Chargers,Pittsburgh Steelers,draftkings,spreads,Pittsburgh Steelers,-110,3.0
+2025-11-04T23:55:37Z,349d53a4f89591312ea528e81b786474,2025-11-10T01:20:00Z,Los Angeles Chargers,Pittsburgh Steelers,draftkings,totals,Over,-105,45.5
+2025-11-04T23:55:37Z,349d53a4f89591312ea528e81b786474,2025-11-10T01:20:00Z,Los Angeles Chargers,Pittsburgh Steelers,draftkings,totals,Under,-115,45.5
+2025-11-04T23:55:37Z,39e7c1f6e36d5bc4d2613ebf7bb83c10,2025-11-09T18:00:00Z,Tampa Bay Buccaneers,New England Patriots,draftkings,h2h,New England Patriots,120,
+2025-11-04T23:55:37Z,39e7c1f6e36d5bc4d2613ebf7bb83c10,2025-11-09T18:00:00Z,Tampa Bay Buccaneers,New England Patriots,draftkings,h2h,Tampa Bay Buccaneers,-142,
+2025-11-04T23:55:37Z,39e7c1f6e36d5bc4d2613ebf7bb83c10,2025-11-09T18:00:00Z,Tampa Bay Buccaneers,New England Patriots,draftkings,spreads,New England Patriots,-105,2.5
+2025-11-04T23:55:37Z,39e7c1f6e36d5bc4d2613ebf7bb83c10,2025-11-09T18:00:00Z,Tampa Bay Buccaneers,New England Patriots,draftkings,spreads,Tampa Bay Buccaneers,-115,-2.5
+2025-11-04T23:55:37Z,39e7c1f6e36d5bc4d2613ebf7bb83c10,2025-11-09T18:00:00Z,Tampa Bay Buccaneers,New England Patriots,draftkings,totals,Over,-110,48.5
+2025-11-04T23:55:37Z,39e7c1f6e36d5bc4d2613ebf7bb83c10,2025-11-09T18:00:00Z,Tampa Bay Buccaneers,New England Patriots,draftkings,totals,Under,-110,48.5
+2025-11-04T23:55:37Z,3b1a97366685a96e6e1940ae56cc4d31,2025-11-09T18:00:00Z,Chicago Bears,New York Giants,draftkings,h2h,Chicago Bears,-192,
+2025-11-04T23:55:37Z,3b1a97366685a96e6e1940ae56cc4d31,2025-11-09T18:00:00Z,Chicago Bears,New York Giants,draftkings,h2h,New York Giants,160,
+2025-11-04T23:55:37Z,3b1a97366685a96e6e1940ae56cc4d31,2025-11-09T18:00:00Z,Chicago Bears,New York Giants,draftkings,spreads,Chicago Bears,-110,-3.5
+2025-11-04T23:55:37Z,3b1a97366685a96e6e1940ae56cc4d31,2025-11-09T18:00:00Z,Chicago Bears,New York Giants,draftkings,spreads,New York Giants,-110,3.5
+2025-11-04T23:55:37Z,3b1a97366685a96e6e1940ae56cc4d31,2025-11-09T18:00:00Z,Chicago Bears,New York Giants,draftkings,totals,Over,-115,47.5
+2025-11-04T23:55:37Z,3b1a97366685a96e6e1940ae56cc4d31,2025-11-09T18:00:00Z,Chicago Bears,New York Giants,draftkings,totals,Under,-105,47.5
+2025-11-04T23:55:37Z,3c10bc18680995136017c3bfd3152334,2025-11-09T18:00:00Z,Miami Dolphins,Buffalo Bills,draftkings,h2h,Buffalo Bills,-455,
+2025-11-04T23:55:37Z,3c10bc18680995136017c3bfd3152334,2025-11-09T18:00:00Z,Miami Dolphins,Buffalo Bills,draftkings,h2h,Miami Dolphins,350,
+2025-11-04T23:55:37Z,3c10bc18680995136017c3bfd3152334,2025-11-09T18:00:00Z,Miami Dolphins,Buffalo Bills,draftkings,spreads,Buffalo Bills,-110,-9.5
+2025-11-04T23:55:37Z,3c10bc18680995136017c3bfd3152334,2025-11-09T18:00:00Z,Miami Dolphins,Buffalo Bills,draftkings,spreads,Miami Dolphins,-110,9.5
+2025-11-04T23:55:37Z,3c10bc18680995136017c3bfd3152334,2025-11-09T18:00:00Z,Miami Dolphins,Buffalo Bills,draftkings,totals,Over,-115,49.5
+2025-11-04T23:55:37Z,3c10bc18680995136017c3bfd3152334,2025-11-09T18:00:00Z,Miami Dolphins,Buffalo Bills,draftkings,totals,Under,-105,49.5
+2025-11-04T23:55:37Z,42473c1ddf8f424069ff3f264dd8dca4,2025-11-09T14:30:00Z,Indianapolis Colts,Atlanta Falcons,draftkings,h2h,Atlanta Falcons,245,
+2025-11-04T23:55:37Z,42473c1ddf8f424069ff3f264dd8dca4,2025-11-09T14:30:00Z,Indianapolis Colts,Atlanta Falcons,draftkings,h2h,Indianapolis Colts,-305,
+2025-11-04T23:55:37Z,42473c1ddf8f424069ff3f264dd8dca4,2025-11-09T14:30:00Z,Indianapolis Colts,Atlanta Falcons,draftkings,spreads,Atlanta Falcons,-112,6.5
+2025-11-04T23:55:37Z,42473c1ddf8f424069ff3f264dd8dca4,2025-11-09T14:30:00Z,Indianapolis Colts,Atlanta Falcons,draftkings,spreads,Indianapolis Colts,-108,-6.5
+2025-11-04T23:55:37Z,42473c1ddf8f424069ff3f264dd8dca4,2025-11-09T14:30:00Z,Indianapolis Colts,Atlanta Falcons,draftkings,totals,Over,-108,48.5
+2025-11-04T23:55:37Z,42473c1ddf8f424069ff3f264dd8dca4,2025-11-09T14:30:00Z,Indianapolis Colts,Atlanta Falcons,draftkings,totals,Under,-112,48.5
+2025-11-04T23:55:37Z,438868ff90501a1fe9a0fbecbee9dc12,2025-11-11T01:15:00Z,Green Bay Packers,Philadelphia Eagles,draftkings,h2h,Green Bay Packers,-135,
+2025-11-04T23:55:37Z,438868ff90501a1fe9a0fbecbee9dc12,2025-11-11T01:15:00Z,Green Bay Packers,Philadelphia Eagles,draftkings,h2h,Philadelphia Eagles,114,
+2025-11-04T23:55:37Z,438868ff90501a1fe9a0fbecbee9dc12,2025-11-11T01:15:00Z,Green Bay Packers,Philadelphia Eagles,draftkings,spreads,Green Bay Packers,-110,-2.5
+2025-11-04T23:55:37Z,438868ff90501a1fe9a0fbecbee9dc12,2025-11-11T01:15:00Z,Green Bay Packers,Philadelphia Eagles,draftkings,spreads,Philadelphia Eagles,-110,2.5
+2025-11-04T23:55:37Z,438868ff90501a1fe9a0fbecbee9dc12,2025-11-11T01:15:00Z,Green Bay Packers,Philadelphia Eagles,draftkings,totals,Over,-115,44.5
+2025-11-04T23:55:37Z,438868ff90501a1fe9a0fbecbee9dc12,2025-11-11T01:15:00Z,Green Bay Packers,Philadelphia Eagles,draftkings,totals,Under,-105,44.5
+2025-11-04T23:55:37Z,591fd7cff37201a14cbdfbd457592445,2025-11-16T18:00:00Z,Jacksonville Jaguars,Los Angeles Chargers,draftkings,h2h,Jacksonville Jaguars,105,
+2025-11-04T23:55:37Z,591fd7cff37201a14cbdfbd457592445,2025-11-16T18:00:00Z,Jacksonville Jaguars,Los Angeles Chargers,draftkings,h2h,Los Angeles Chargers,-125,
+2025-11-04T23:55:37Z,591fd7cff37201a14cbdfbd457592445,2025-11-16T18:00:00Z,Jacksonville Jaguars,Los Angeles Chargers,draftkings,spreads,Jacksonville Jaguars,-110,1.5
+2025-11-04T23:55:37Z,591fd7cff37201a14cbdfbd457592445,2025-11-16T18:00:00Z,Jacksonville Jaguars,Los Angeles Chargers,draftkings,spreads,Los Angeles Chargers,-110,-1.5
+2025-11-04T23:55:37Z,591fd7cff37201a14cbdfbd457592445,2025-11-16T18:00:00Z,Jacksonville Jaguars,Los Angeles Chargers,draftkings,totals,Over,-110,45.5
+2025-11-04T23:55:37Z,591fd7cff37201a14cbdfbd457592445,2025-11-16T18:00:00Z,Jacksonville Jaguars,Los Angeles Chargers,draftkings,totals,Under,-110,45.5
+2025-11-04T23:55:37Z,5c06e82838fcfade9adf1e89b8bd3081,2025-11-16T18:00:00Z,New York Giants,Green Bay Packers,draftkings,h2h,Green Bay Packers,-310,
+2025-11-04T23:55:37Z,5c06e82838fcfade9adf1e89b8bd3081,2025-11-16T18:00:00Z,New York Giants,Green Bay Packers,draftkings,h2h,New York Giants,250,
+2025-11-04T23:55:37Z,5c06e82838fcfade9adf1e89b8bd3081,2025-11-16T18:00:00Z,New York Giants,Green Bay Packers,draftkings,spreads,Green Bay Packers,-110,-7.0
+2025-11-04T23:55:37Z,5c06e82838fcfade9adf1e89b8bd3081,2025-11-16T18:00:00Z,New York Giants,Green Bay Packers,draftkings,spreads,New York Giants,-110,7.0
+2025-11-04T23:55:37Z,5c06e82838fcfade9adf1e89b8bd3081,2025-11-16T18:00:00Z,New York Giants,Green Bay Packers,draftkings,totals,Over,-110,46.5
+2025-11-04T23:55:37Z,5c06e82838fcfade9adf1e89b8bd3081,2025-11-16T18:00:00Z,New York Giants,Green Bay Packers,draftkings,totals,Under,-110,46.5
+2025-11-04T23:55:37Z,6d209e0e637f3b116ec958e0634f2a02,2025-11-17T01:20:00Z,Philadelphia Eagles,Detroit Lions,draftkings,h2h,Detroit Lions,105,
+2025-11-04T23:55:37Z,6d209e0e637f3b116ec958e0634f2a02,2025-11-17T01:20:00Z,Philadelphia Eagles,Detroit Lions,draftkings,h2h,Philadelphia Eagles,-125,
+2025-11-04T23:55:37Z,6d209e0e637f3b116ec958e0634f2a02,2025-11-17T01:20:00Z,Philadelphia Eagles,Detroit Lions,draftkings,spreads,Detroit Lions,-110,1.5
+2025-11-04T23:55:37Z,6d209e0e637f3b116ec958e0634f2a02,2025-11-17T01:20:00Z,Philadelphia Eagles,Detroit Lions,draftkings,spreads,Philadelphia Eagles,-110,-1.5
+2025-11-04T23:55:37Z,6d209e0e637f3b116ec958e0634f2a02,2025-11-17T01:20:00Z,Philadelphia Eagles,Detroit Lions,draftkings,totals,Over,-110,49.5
+2025-11-04T23:55:37Z,6d209e0e637f3b116ec958e0634f2a02,2025-11-17T01:20:00Z,Philadelphia Eagles,Detroit Lions,draftkings,totals,Under,-110,49.5
+2025-11-04T23:55:37Z,7147476b5d96c0ee874b838de3910ee3,2025-11-16T18:00:00Z,Pittsburgh Steelers,Cincinnati Bengals,draftkings,h2h,Cincinnati Bengals,230,
+2025-11-04T23:55:37Z,7147476b5d96c0ee874b838de3910ee3,2025-11-16T18:00:00Z,Pittsburgh Steelers,Cincinnati Bengals,draftkings,h2h,Pittsburgh Steelers,-285,
+2025-11-04T23:55:37Z,7147476b5d96c0ee874b838de3910ee3,2025-11-16T18:00:00Z,Pittsburgh Steelers,Cincinnati Bengals,draftkings,spreads,Cincinnati Bengals,-110,6.5
+2025-11-04T23:55:37Z,7147476b5d96c0ee874b838de3910ee3,2025-11-16T18:00:00Z,Pittsburgh Steelers,Cincinnati Bengals,draftkings,spreads,Pittsburgh Steelers,-110,-6.5
+2025-11-04T23:55:37Z,7147476b5d96c0ee874b838de3910ee3,2025-11-16T18:00:00Z,Pittsburgh Steelers,Cincinnati Bengals,draftkings,totals,Over,-110,50.5
+2025-11-04T23:55:37Z,7147476b5d96c0ee874b838de3910ee3,2025-11-16T18:00:00Z,Pittsburgh Steelers,Cincinnati Bengals,draftkings,totals,Under,-110,50.5
+2025-11-04T23:55:37Z,740b843794cc89176c4ffe38b66d30d9,2025-11-09T21:05:00Z,Seattle Seahawks,Arizona Cardinals,draftkings,h2h,Arizona Cardinals,245,
+2025-11-04T23:55:37Z,740b843794cc89176c4ffe38b66d30d9,2025-11-09T21:05:00Z,Seattle Seahawks,Arizona Cardinals,draftkings,h2h,Seattle Seahawks,-305,
+2025-11-04T23:55:37Z,740b843794cc89176c4ffe38b66d30d9,2025-11-09T21:05:00Z,Seattle Seahawks,Arizona Cardinals,draftkings,spreads,Arizona Cardinals,-105,6.5
+2025-11-04T23:55:37Z,740b843794cc89176c4ffe38b66d30d9,2025-11-09T21:05:00Z,Seattle Seahawks,Arizona Cardinals,draftkings,spreads,Seattle Seahawks,-115,-6.5
+2025-11-04T23:55:37Z,740b843794cc89176c4ffe38b66d30d9,2025-11-09T21:05:00Z,Seattle Seahawks,Arizona Cardinals,draftkings,totals,Over,-110,45.5
+2025-11-04T23:55:37Z,740b843794cc89176c4ffe38b66d30d9,2025-11-09T21:05:00Z,Seattle Seahawks,Arizona Cardinals,draftkings,totals,Under,-110,45.5
+2025-11-04T23:55:37Z,80d04ba917883a6438580ebae9fb0f22,2025-11-18T01:15:00Z,Las Vegas Raiders,Dallas Cowboys,draftkings,h2h,Dallas Cowboys,-185,
+2025-11-04T23:55:37Z,80d04ba917883a6438580ebae9fb0f22,2025-11-18T01:15:00Z,Las Vegas Raiders,Dallas Cowboys,draftkings,h2h,Las Vegas Raiders,154,
+2025-11-04T23:55:37Z,80d04ba917883a6438580ebae9fb0f22,2025-11-18T01:15:00Z,Las Vegas Raiders,Dallas Cowboys,draftkings,spreads,Dallas Cowboys,-110,-3.5
+2025-11-04T23:55:37Z,80d04ba917883a6438580ebae9fb0f22,2025-11-18T01:15:00Z,Las Vegas Raiders,Dallas Cowboys,draftkings,spreads,Las Vegas Raiders,-110,3.5
+2025-11-04T23:55:37Z,80d04ba917883a6438580ebae9fb0f22,2025-11-18T01:15:00Z,Las Vegas Raiders,Dallas Cowboys,draftkings,totals,Over,-110,50.5
+2025-11-04T23:55:37Z,80d04ba917883a6438580ebae9fb0f22,2025-11-18T01:15:00Z,Las Vegas Raiders,Dallas Cowboys,draftkings,totals,Under,-110,50.5
+2025-11-04T23:55:37Z,844b89333f293f055f8e0c147fb9fec5,2025-11-09T18:00:00Z,New York Jets,Cleveland Browns,draftkings,h2h,Cleveland Browns,-142,
+2025-11-04T23:55:37Z,844b89333f293f055f8e0c147fb9fec5,2025-11-09T18:00:00Z,New York Jets,Cleveland Browns,draftkings,h2h,New York Jets,120,
+2025-11-04T23:55:37Z,844b89333f293f055f8e0c147fb9fec5,2025-11-09T18:00:00Z,New York Jets,Cleveland Browns,draftkings,spreads,Cleveland Browns,-110,-2.5
+2025-11-04T23:55:37Z,844b89333f293f055f8e0c147fb9fec5,2025-11-09T18:00:00Z,New York Jets,Cleveland Browns,draftkings,spreads,New York Jets,-110,2.5
+2025-11-04T23:55:37Z,844b89333f293f055f8e0c147fb9fec5,2025-11-09T18:00:00Z,New York Jets,Cleveland Browns,draftkings,totals,Over,-112,37.5
+2025-11-04T23:55:37Z,844b89333f293f055f8e0c147fb9fec5,2025-11-09T18:00:00Z,New York Jets,Cleveland Browns,draftkings,totals,Under,-108,37.5
+2025-11-04T23:55:37Z,91630b9c62640117918fa30d2a62d2db,2025-11-16T21:05:00Z,Arizona Cardinals,San Francisco 49ers,draftkings,h2h,Arizona Cardinals,105,
+2025-11-04T23:55:37Z,91630b9c62640117918fa30d2a62d2db,2025-11-16T21:05:00Z,Arizona Cardinals,San Francisco 49ers,draftkings,h2h,San Francisco 49ers,-125,
+2025-11-04T23:55:37Z,91630b9c62640117918fa30d2a62d2db,2025-11-16T21:05:00Z,Arizona Cardinals,San Francisco 49ers,draftkings,spreads,Arizona Cardinals,-110,1.5
+2025-11-04T23:55:37Z,91630b9c62640117918fa30d2a62d2db,2025-11-16T21:05:00Z,Arizona Cardinals,San Francisco 49ers,draftkings,spreads,San Francisco 49ers,-110,-1.5
+2025-11-04T23:55:37Z,91630b9c62640117918fa30d2a62d2db,2025-11-16T21:05:00Z,Arizona Cardinals,San Francisco 49ers,draftkings,totals,Over,-110,47.5
+2025-11-04T23:55:37Z,91630b9c62640117918fa30d2a62d2db,2025-11-16T21:05:00Z,Arizona Cardinals,San Francisco 49ers,draftkings,totals,Under,-110,47.5
+2025-11-04T23:55:37Z,93365f943b3aa23705bc9e1c7b47d7f8,2025-11-09T21:25:00Z,Washington Commanders,Detroit Lions,draftkings,h2h,Detroit Lions,-535,
+2025-11-04T23:55:37Z,93365f943b3aa23705bc9e1c7b47d7f8,2025-11-09T21:25:00Z,Washington Commanders,Detroit Lions,draftkings,h2h,Washington Commanders,400,
+2025-11-04T23:55:37Z,93365f943b3aa23705bc9e1c7b47d7f8,2025-11-09T21:25:00Z,Washington Commanders,Detroit Lions,draftkings,spreads,Detroit Lions,-108,-9.5
+2025-11-04T23:55:37Z,93365f943b3aa23705bc9e1c7b47d7f8,2025-11-09T21:25:00Z,Washington Commanders,Detroit Lions,draftkings,spreads,Washington Commanders,-112,9.5
+2025-11-04T23:55:37Z,93365f943b3aa23705bc9e1c7b47d7f8,2025-11-09T21:25:00Z,Washington Commanders,Detroit Lions,draftkings,totals,Over,-110,49.5
+2025-11-04T23:55:37Z,93365f943b3aa23705bc9e1c7b47d7f8,2025-11-09T21:25:00Z,Washington Commanders,Detroit Lions,draftkings,totals,Under,-110,49.5
+2025-11-04T23:55:37Z,96377d2fb55e3cef733cecccdecaed5f,2025-11-16T18:00:00Z,Buffalo Bills,Tampa Bay Buccaneers,draftkings,h2h,Buffalo Bills,-265,
+2025-11-04T23:55:37Z,96377d2fb55e3cef733cecccdecaed5f,2025-11-16T18:00:00Z,Buffalo Bills,Tampa Bay Buccaneers,draftkings,h2h,Tampa Bay Buccaneers,215,
+2025-11-04T23:55:37Z,96377d2fb55e3cef733cecccdecaed5f,2025-11-16T18:00:00Z,Buffalo Bills,Tampa Bay Buccaneers,draftkings,spreads,Buffalo Bills,-110,-6.0
+2025-11-04T23:55:37Z,96377d2fb55e3cef733cecccdecaed5f,2025-11-16T18:00:00Z,Buffalo Bills,Tampa Bay Buccaneers,draftkings,spreads,Tampa Bay Buccaneers,-110,6.0
+2025-11-04T23:55:37Z,96377d2fb55e3cef733cecccdecaed5f,2025-11-16T18:00:00Z,Buffalo Bills,Tampa Bay Buccaneers,draftkings,totals,Over,-115,50.5
+2025-11-04T23:55:37Z,96377d2fb55e3cef733cecccdecaed5f,2025-11-16T18:00:00Z,Buffalo Bills,Tampa Bay Buccaneers,draftkings,totals,Under,-105,50.5
+2025-11-04T23:55:37Z,96ce7785b0980b03282c7e10d4c58d4a,2025-11-16T21:25:00Z,Denver Broncos,Kansas City Chiefs,draftkings,h2h,Denver Broncos,130,
+2025-11-04T23:55:37Z,96ce7785b0980b03282c7e10d4c58d4a,2025-11-16T21:25:00Z,Denver Broncos,Kansas City Chiefs,draftkings,h2h,Kansas City Chiefs,-155,
+2025-11-04T23:55:37Z,96ce7785b0980b03282c7e10d4c58d4a,2025-11-16T21:25:00Z,Denver Broncos,Kansas City Chiefs,draftkings,spreads,Denver Broncos,100,2.5
+2025-11-04T23:55:37Z,96ce7785b0980b03282c7e10d4c58d4a,2025-11-16T21:25:00Z,Denver Broncos,Kansas City Chiefs,draftkings,spreads,Kansas City Chiefs,-120,-2.5
+2025-11-04T23:55:37Z,96ce7785b0980b03282c7e10d4c58d4a,2025-11-16T21:25:00Z,Denver Broncos,Kansas City Chiefs,draftkings,totals,Over,-115,44.5
+2025-11-04T23:55:37Z,96ce7785b0980b03282c7e10d4c58d4a,2025-11-16T21:25:00Z,Denver Broncos,Kansas City Chiefs,draftkings,totals,Under,-105,44.5
+2025-11-04T23:55:37Z,9900b89c4776c5b47dd26ca4c755edf9,2025-11-09T18:00:00Z,Minnesota Vikings,Baltimore Ravens,draftkings,h2h,Baltimore Ravens,-225,
+2025-11-04T23:55:37Z,9900b89c4776c5b47dd26ca4c755edf9,2025-11-09T18:00:00Z,Minnesota Vikings,Baltimore Ravens,draftkings,h2h,Minnesota Vikings,185,
+2025-11-04T23:55:37Z,9900b89c4776c5b47dd26ca4c755edf9,2025-11-09T18:00:00Z,Minnesota Vikings,Baltimore Ravens,draftkings,spreads,Baltimore Ravens,-115,-3.5
+2025-11-04T23:55:37Z,9900b89c4776c5b47dd26ca4c755edf9,2025-11-09T18:00:00Z,Minnesota Vikings,Baltimore Ravens,draftkings,spreads,Minnesota Vikings,-105,3.5
+2025-11-04T23:55:37Z,9900b89c4776c5b47dd26ca4c755edf9,2025-11-09T18:00:00Z,Minnesota Vikings,Baltimore Ravens,draftkings,totals,Over,-112,48.5
+2025-11-04T23:55:37Z,9900b89c4776c5b47dd26ca4c755edf9,2025-11-09T18:00:00Z,Minnesota Vikings,Baltimore Ravens,draftkings,totals,Under,-108,48.5
+2025-11-04T23:55:37Z,9dbf94f23521c7cae7fd89b2d33fc3bd,2025-11-09T18:00:00Z,Houston Texans,Jacksonville Jaguars,draftkings,h2h,Houston Texans,-125,
+2025-11-04T23:55:37Z,9dbf94f23521c7cae7fd89b2d33fc3bd,2025-11-09T18:00:00Z,Houston Texans,Jacksonville Jaguars,draftkings,h2h,Jacksonville Jaguars,105,
+2025-11-04T23:55:37Z,9dbf94f23521c7cae7fd89b2d33fc3bd,2025-11-09T18:00:00Z,Houston Texans,Jacksonville Jaguars,draftkings,spreads,Houston Texans,-108,-1.5
+2025-11-04T23:55:37Z,9dbf94f23521c7cae7fd89b2d33fc3bd,2025-11-09T18:00:00Z,Houston Texans,Jacksonville Jaguars,draftkings,spreads,Jacksonville Jaguars,-112,1.5
+2025-11-04T23:55:37Z,9dbf94f23521c7cae7fd89b2d33fc3bd,2025-11-09T18:00:00Z,Houston Texans,Jacksonville Jaguars,draftkings,totals,Over,-112,37.5
+2025-11-04T23:55:37Z,9dbf94f23521c7cae7fd89b2d33fc3bd,2025-11-09T18:00:00Z,Houston Texans,Jacksonville Jaguars,draftkings,totals,Under,-108,37.5
+2025-11-04T23:55:37Z,cc60225b5a907bd9ba7c27c23131fc5c,2025-11-16T21:25:00Z,Cleveland Browns,Baltimore Ravens,draftkings,h2h,Baltimore Ravens,-360,
+2025-11-04T23:55:37Z,cc60225b5a907bd9ba7c27c23131fc5c,2025-11-16T21:25:00Z,Cleveland Browns,Baltimore Ravens,draftkings,h2h,Cleveland Browns,285,
+2025-11-04T23:55:37Z,cc60225b5a907bd9ba7c27c23131fc5c,2025-11-16T21:25:00Z,Cleveland Browns,Baltimore Ravens,draftkings,spreads,Baltimore Ravens,-110,-7.5
+2025-11-04T23:55:37Z,cc60225b5a907bd9ba7c27c23131fc5c,2025-11-16T21:25:00Z,Cleveland Browns,Baltimore Ravens,draftkings,spreads,Cleveland Browns,-110,7.5
+2025-11-04T23:55:37Z,cc60225b5a907bd9ba7c27c23131fc5c,2025-11-16T21:25:00Z,Cleveland Browns,Baltimore Ravens,draftkings,totals,Over,-110,41.5
+2025-11-04T23:55:37Z,cc60225b5a907bd9ba7c27c23131fc5c,2025-11-16T21:25:00Z,Cleveland Browns,Baltimore Ravens,draftkings,totals,Under,-110,41.5
+2025-11-04T23:55:37Z,e926e654cedeb65fcfcc389a5158ef4e,2025-11-16T21:05:00Z,Los Angeles Rams,Seattle Seahawks,draftkings,h2h,Los Angeles Rams,-155,
+2025-11-04T23:55:37Z,e926e654cedeb65fcfcc389a5158ef4e,2025-11-16T21:05:00Z,Los Angeles Rams,Seattle Seahawks,draftkings,h2h,Seattle Seahawks,130,
+2025-11-04T23:55:37Z,e926e654cedeb65fcfcc389a5158ef4e,2025-11-16T21:05:00Z,Los Angeles Rams,Seattle Seahawks,draftkings,spreads,Los Angeles Rams,-120,-2.5
+2025-11-04T23:55:37Z,e926e654cedeb65fcfcc389a5158ef4e,2025-11-16T21:05:00Z,Los Angeles Rams,Seattle Seahawks,draftkings,spreads,Seattle Seahawks,100,2.5
+2025-11-04T23:55:37Z,e926e654cedeb65fcfcc389a5158ef4e,2025-11-16T21:05:00Z,Los Angeles Rams,Seattle Seahawks,draftkings,totals,Over,-110,47.5
+2025-11-04T23:55:37Z,e926e654cedeb65fcfcc389a5158ef4e,2025-11-16T21:05:00Z,Los Angeles Rams,Seattle Seahawks,draftkings,totals,Under,-110,47.5
+2025-11-04T23:55:37Z,fd2f29289d6437a7c07d4780c5f04936,2025-11-16T18:00:00Z,Tennessee Titans,Houston Texans,draftkings,h2h,Houston Texans,-425,
+2025-11-04T23:55:37Z,fd2f29289d6437a7c07d4780c5f04936,2025-11-16T18:00:00Z,Tennessee Titans,Houston Texans,draftkings,h2h,Tennessee Titans,330,
+2025-11-04T23:55:37Z,fd2f29289d6437a7c07d4780c5f04936,2025-11-16T18:00:00Z,Tennessee Titans,Houston Texans,draftkings,spreads,Houston Texans,-110,-8.5
+2025-11-04T23:55:37Z,fd2f29289d6437a7c07d4780c5f04936,2025-11-16T18:00:00Z,Tennessee Titans,Houston Texans,draftkings,spreads,Tennessee Titans,-110,8.5
+2025-11-04T23:55:37Z,fd2f29289d6437a7c07d4780c5f04936,2025-11-16T18:00:00Z,Tennessee Titans,Houston Texans,draftkings,totals,Over,-110,38.5
+2025-11-04T23:55:37Z,fd2f29289d6437a7c07d4780c5f04936,2025-11-16T18:00:00Z,Tennessee Titans,Houston Texans,draftkings,totals,Under,-110,38.5
+2025-11-11T23:55:37Z,0ae85bbc3711ad0cb94475a40e2364f0,2025-11-16T18:00:00Z,Atlanta Falcons,Carolina Panthers,draftkings,h2h,Atlanta Falcons,-192,
+2025-11-11T23:55:37Z,0ae85bbc3711ad0cb94475a40e2364f0,2025-11-16T18:00:00Z,Atlanta Falcons,Carolina Panthers,draftkings,h2h,Carolina Panthers,160,
+2025-11-11T23:55:37Z,0ae85bbc3711ad0cb94475a40e2364f0,2025-11-16T18:00:00Z,Atlanta Falcons,Carolina Panthers,draftkings,spreads,Atlanta Falcons,-110,-3.5
+2025-11-11T23:55:37Z,0ae85bbc3711ad0cb94475a40e2364f0,2025-11-16T18:00:00Z,Atlanta Falcons,Carolina Panthers,draftkings,spreads,Carolina Panthers,-110,3.5
+2025-11-11T23:55:37Z,0ae85bbc3711ad0cb94475a40e2364f0,2025-11-16T18:00:00Z,Atlanta Falcons,Carolina Panthers,draftkings,totals,Over,-115,42.5
+2025-11-11T23:55:37Z,0ae85bbc3711ad0cb94475a40e2364f0,2025-11-16T18:00:00Z,Atlanta Falcons,Carolina Panthers,draftkings,totals,Under,-105,42.5
+2025-11-11T23:55:37Z,0ff4e68cf39cc57ca7cf1276e4a44d2f,2025-11-23T18:00:00Z,Tennessee Titans,Seattle Seahawks,draftkings,h2h,Seattle Seahawks,-675,
+2025-11-11T23:55:37Z,0ff4e68cf39cc57ca7cf1276e4a44d2f,2025-11-23T18:00:00Z,Tennessee Titans,Seattle Seahawks,draftkings,h2h,Tennessee Titans,490,
+2025-11-11T23:55:37Z,0ff4e68cf39cc57ca7cf1276e4a44d2f,2025-11-23T18:00:00Z,Tennessee Titans,Seattle Seahawks,draftkings,spreads,Seattle Seahawks,-110,-12.5
+2025-11-11T23:55:37Z,0ff4e68cf39cc57ca7cf1276e4a44d2f,2025-11-23T18:00:00Z,Tennessee Titans,Seattle Seahawks,draftkings,spreads,Tennessee Titans,-110,12.5
+2025-11-11T23:55:37Z,0ff4e68cf39cc57ca7cf1276e4a44d2f,2025-11-23T18:00:00Z,Tennessee Titans,Seattle Seahawks,draftkings,totals,Over,-110,43.5
+2025-11-11T23:55:37Z,0ff4e68cf39cc57ca7cf1276e4a44d2f,2025-11-23T18:00:00Z,Tennessee Titans,Seattle Seahawks,draftkings,totals,Under,-110,43.5
+2025-11-11T23:55:37Z,1a8f3d70399a5cad83c95196795ed77b,2025-11-23T18:00:00Z,Cincinnati Bengals,New England Patriots,draftkings,h2h,Cincinnati Bengals,195,
+2025-11-11T23:55:37Z,1a8f3d70399a5cad83c95196795ed77b,2025-11-23T18:00:00Z,Cincinnati Bengals,New England Patriots,draftkings,h2h,New England Patriots,-238,
+2025-11-11T23:55:37Z,1a8f3d70399a5cad83c95196795ed77b,2025-11-23T18:00:00Z,Cincinnati Bengals,New England Patriots,draftkings,spreads,Cincinnati Bengals,-110,5.5
+2025-11-11T23:55:37Z,1a8f3d70399a5cad83c95196795ed77b,2025-11-23T18:00:00Z,Cincinnati Bengals,New England Patriots,draftkings,spreads,New England Patriots,-110,-5.5
+2025-11-11T23:55:37Z,1a8f3d70399a5cad83c95196795ed77b,2025-11-23T18:00:00Z,Cincinnati Bengals,New England Patriots,draftkings,totals,Over,-110,51.5
+2025-11-11T23:55:37Z,1a8f3d70399a5cad83c95196795ed77b,2025-11-23T18:00:00Z,Cincinnati Bengals,New England Patriots,draftkings,totals,Under,-110,51.5
+2025-11-11T23:55:37Z,229a5e9ce60dcb344a8cc3c97121154e,2025-11-16T18:00:00Z,Minnesota Vikings,Chicago Bears,draftkings,h2h,Chicago Bears,140,
+2025-11-11T23:55:37Z,229a5e9ce60dcb344a8cc3c97121154e,2025-11-16T18:00:00Z,Minnesota Vikings,Chicago Bears,draftkings,h2h,Minnesota Vikings,-166,
+2025-11-11T23:55:37Z,229a5e9ce60dcb344a8cc3c97121154e,2025-11-16T18:00:00Z,Minnesota Vikings,Chicago Bears,draftkings,spreads,Chicago Bears,-108,3.0
+2025-11-11T23:55:37Z,229a5e9ce60dcb344a8cc3c97121154e,2025-11-16T18:00:00Z,Minnesota Vikings,Chicago Bears,draftkings,spreads,Minnesota Vikings,-112,-3.0
+2025-11-11T23:55:37Z,229a5e9ce60dcb344a8cc3c97121154e,2025-11-16T18:00:00Z,Minnesota Vikings,Chicago Bears,draftkings,totals,Over,-110,48.5
+2025-11-11T23:55:37Z,229a5e9ce60dcb344a8cc3c97121154e,2025-11-16T18:00:00Z,Minnesota Vikings,Chicago Bears,draftkings,totals,Under,-110,48.5
+2025-11-11T23:55:37Z,265f0188945bb81ec64751571eb724cb,2025-11-16T14:30:00Z,Miami Dolphins,Washington Commanders,draftkings,h2h,Miami Dolphins,-148,
+2025-11-11T23:55:37Z,265f0188945bb81ec64751571eb724cb,2025-11-16T14:30:00Z,Miami Dolphins,Washington Commanders,draftkings,h2h,Washington Commanders,124,
+2025-11-11T23:55:37Z,265f0188945bb81ec64751571eb724cb,2025-11-16T14:30:00Z,Miami Dolphins,Washington Commanders,draftkings,spreads,Miami Dolphins,-115,-2.5
+2025-11-11T23:55:37Z,265f0188945bb81ec64751571eb724cb,2025-11-16T14:30:00Z,Miami Dolphins,Washington Commanders,draftkings,spreads,Washington Commanders,-105,2.5
+2025-11-11T23:55:37Z,265f0188945bb81ec64751571eb724cb,2025-11-16T14:30:00Z,Miami Dolphins,Washington Commanders,draftkings,totals,Over,-112,47.5
+2025-11-11T23:55:37Z,265f0188945bb81ec64751571eb724cb,2025-11-16T14:30:00Z,Miami Dolphins,Washington Commanders,draftkings,totals,Under,-108,47.5
+2025-11-11T23:55:37Z,27f50ddbc4c3fbad10398c5187a28dc7,2025-11-23T21:05:00Z,Las Vegas Raiders,Cleveland Browns,draftkings,h2h,Cleveland Browns,105,
+2025-11-11T23:55:37Z,27f50ddbc4c3fbad10398c5187a28dc7,2025-11-23T21:05:00Z,Las Vegas Raiders,Cleveland Browns,draftkings,h2h,Las Vegas Raiders,-125,
+2025-11-11T23:55:37Z,27f50ddbc4c3fbad10398c5187a28dc7,2025-11-23T21:05:00Z,Las Vegas Raiders,Cleveland Browns,draftkings,spreads,Cleveland Browns,-110,1.5
+2025-11-11T23:55:37Z,27f50ddbc4c3fbad10398c5187a28dc7,2025-11-23T21:05:00Z,Las Vegas Raiders,Cleveland Browns,draftkings,spreads,Las Vegas Raiders,-110,-1.5
+2025-11-11T23:55:37Z,27f50ddbc4c3fbad10398c5187a28dc7,2025-11-23T21:05:00Z,Las Vegas Raiders,Cleveland Browns,draftkings,totals,Over,-110,37.5
+2025-11-11T23:55:37Z,27f50ddbc4c3fbad10398c5187a28dc7,2025-11-23T21:05:00Z,Las Vegas Raiders,Cleveland Browns,draftkings,totals,Under,-110,37.5
+2025-11-11T23:55:37Z,32ec2bd4ac9e4c40f9f5cbed7e67f837,2025-11-14T01:15:00Z,New England Patriots,New York Jets,draftkings,h2h,New England Patriots,-900,
+2025-11-11T23:55:37Z,32ec2bd4ac9e4c40f9f5cbed7e67f837,2025-11-14T01:15:00Z,New England Patriots,New York Jets,draftkings,h2h,New York Jets,600,
+2025-11-11T23:55:37Z,32ec2bd4ac9e4c40f9f5cbed7e67f837,2025-11-14T01:15:00Z,New England Patriots,New York Jets,draftkings,spreads,New England Patriots,-105,-13.5
+2025-11-11T23:55:37Z,32ec2bd4ac9e4c40f9f5cbed7e67f837,2025-11-14T01:15:00Z,New England Patriots,New York Jets,draftkings,spreads,New York Jets,-115,13.5
+2025-11-11T23:55:37Z,32ec2bd4ac9e4c40f9f5cbed7e67f837,2025-11-14T01:15:00Z,New England Patriots,New York Jets,draftkings,totals,Over,-105,43.5
+2025-11-11T23:55:37Z,32ec2bd4ac9e4c40f9f5cbed7e67f837,2025-11-14T01:15:00Z,New England Patriots,New York Jets,draftkings,totals,Under,-115,43.5
+2025-11-11T23:55:37Z,4553ba763cb3cfcfc33fd62672a2057f,2025-11-23T21:25:00Z,Dallas Cowboys,Philadelphia Eagles,draftkings,h2h,Dallas Cowboys,170,
+2025-11-11T23:55:37Z,4553ba763cb3cfcfc33fd62672a2057f,2025-11-23T21:25:00Z,Dallas Cowboys,Philadelphia Eagles,draftkings,h2h,Philadelphia Eagles,-205,
+2025-11-11T23:55:37Z,4553ba763cb3cfcfc33fd62672a2057f,2025-11-23T21:25:00Z,Dallas Cowboys,Philadelphia Eagles,draftkings,spreads,Dallas Cowboys,-105,3.5
+2025-11-11T23:55:37Z,4553ba763cb3cfcfc33fd62672a2057f,2025-11-23T21:25:00Z,Dallas Cowboys,Philadelphia Eagles,draftkings,spreads,Philadelphia Eagles,-115,-3.5
+2025-11-11T23:55:37Z,4553ba763cb3cfcfc33fd62672a2057f,2025-11-23T21:25:00Z,Dallas Cowboys,Philadelphia Eagles,draftkings,totals,Over,-110,50.5
+2025-11-11T23:55:37Z,4553ba763cb3cfcfc33fd62672a2057f,2025-11-23T21:25:00Z,Dallas Cowboys,Philadelphia Eagles,draftkings,totals,Under,-110,50.5
+2025-11-11T23:55:37Z,535bbe97d4e56494b039ade88459c338,2025-11-23T18:00:00Z,Detroit Lions,New York Giants,draftkings,h2h,Detroit Lions,-625,
+2025-11-11T23:55:37Z,535bbe97d4e56494b039ade88459c338,2025-11-23T18:00:00Z,Detroit Lions,New York Giants,draftkings,h2h,New York Giants,455,
+2025-11-11T23:55:37Z,535bbe97d4e56494b039ade88459c338,2025-11-23T18:00:00Z,Detroit Lions,New York Giants,draftkings,spreads,Detroit Lions,-110,-11.5
+2025-11-11T23:55:37Z,535bbe97d4e56494b039ade88459c338,2025-11-23T18:00:00Z,Detroit Lions,New York Giants,draftkings,spreads,New York Giants,-110,11.5
+2025-11-11T23:55:37Z,535bbe97d4e56494b039ade88459c338,2025-11-23T18:00:00Z,Detroit Lions,New York Giants,draftkings,totals,Over,-110,49.5
+2025-11-11T23:55:37Z,535bbe97d4e56494b039ade88459c338,2025-11-23T18:00:00Z,Detroit Lions,New York Giants,draftkings,totals,Under,-110,49.5
+2025-11-11T23:55:37Z,591fd7cff37201a14cbdfbd457592445,2025-11-16T18:00:00Z,Jacksonville Jaguars,Los Angeles Chargers,draftkings,h2h,Jacksonville Jaguars,124,
+2025-11-11T23:55:37Z,591fd7cff37201a14cbdfbd457592445,2025-11-16T18:00:00Z,Jacksonville Jaguars,Los Angeles Chargers,draftkings,h2h,Los Angeles Chargers,-148,
+2025-11-11T23:55:37Z,591fd7cff37201a14cbdfbd457592445,2025-11-16T18:00:00Z,Jacksonville Jaguars,Los Angeles Chargers,draftkings,spreads,Jacksonville Jaguars,-118,3.0
+2025-11-11T23:55:37Z,591fd7cff37201a14cbdfbd457592445,2025-11-16T18:00:00Z,Jacksonville Jaguars,Los Angeles Chargers,draftkings,spreads,Los Angeles Chargers,-102,-3.0
+2025-11-11T23:55:37Z,591fd7cff37201a14cbdfbd457592445,2025-11-16T18:00:00Z,Jacksonville Jaguars,Los Angeles Chargers,draftkings,totals,Over,-112,43.5
+2025-11-11T23:55:37Z,591fd7cff37201a14cbdfbd457592445,2025-11-16T18:00:00Z,Jacksonville Jaguars,Los Angeles Chargers,draftkings,totals,Under,-108,43.5
+2025-11-11T23:55:37Z,5c06e82838fcfade9adf1e89b8bd3081,2025-11-16T18:00:00Z,New York Giants,Green Bay Packers,draftkings,h2h,Green Bay Packers,-360,
+2025-11-11T23:55:37Z,5c06e82838fcfade9adf1e89b8bd3081,2025-11-16T18:00:00Z,New York Giants,Green Bay Packers,draftkings,h2h,New York Giants,285,
+2025-11-11T23:55:37Z,5c06e82838fcfade9adf1e89b8bd3081,2025-11-16T18:00:00Z,New York Giants,Green Bay Packers,draftkings,spreads,Green Bay Packers,-110,-7.0
+2025-11-11T23:55:37Z,5c06e82838fcfade9adf1e89b8bd3081,2025-11-16T18:00:00Z,New York Giants,Green Bay Packers,draftkings,spreads,New York Giants,-110,7.0
+2025-11-11T23:55:37Z,5c06e82838fcfade9adf1e89b8bd3081,2025-11-16T18:00:00Z,New York Giants,Green Bay Packers,draftkings,totals,Over,-108,43.5
+2025-11-11T23:55:37Z,5c06e82838fcfade9adf1e89b8bd3081,2025-11-16T18:00:00Z,New York Giants,Green Bay Packers,draftkings,totals,Under,-112,43.5
+2025-11-11T23:55:37Z,6d209e0e637f3b116ec958e0634f2a02,2025-11-17T01:20:00Z,Philadelphia Eagles,Detroit Lions,draftkings,h2h,Detroit Lions,124,
+2025-11-11T23:55:37Z,6d209e0e637f3b116ec958e0634f2a02,2025-11-17T01:20:00Z,Philadelphia Eagles,Detroit Lions,draftkings,h2h,Philadelphia Eagles,-148,
+2025-11-11T23:55:37Z,6d209e0e637f3b116ec958e0634f2a02,2025-11-17T01:20:00Z,Philadelphia Eagles,Detroit Lions,draftkings,spreads,Detroit Lions,-118,3.0
+2025-11-11T23:55:37Z,6d209e0e637f3b116ec958e0634f2a02,2025-11-17T01:20:00Z,Philadelphia Eagles,Detroit Lions,draftkings,spreads,Philadelphia Eagles,-102,-3.0
+2025-11-11T23:55:37Z,6d209e0e637f3b116ec958e0634f2a02,2025-11-17T01:20:00Z,Philadelphia Eagles,Detroit Lions,draftkings,totals,Over,-112,46.5
+2025-11-11T23:55:37Z,6d209e0e637f3b116ec958e0634f2a02,2025-11-17T01:20:00Z,Philadelphia Eagles,Detroit Lions,draftkings,totals,Under,-108,46.5
+2025-11-11T23:55:37Z,7147476b5d96c0ee874b838de3910ee3,2025-11-16T18:00:00Z,Pittsburgh Steelers,Cincinnati Bengals,draftkings,h2h,Cincinnati Bengals,195,
+2025-11-11T23:55:37Z,7147476b5d96c0ee874b838de3910ee3,2025-11-16T18:00:00Z,Pittsburgh Steelers,Cincinnati Bengals,draftkings,h2h,Pittsburgh Steelers,-238,
+2025-11-11T23:55:37Z,7147476b5d96c0ee874b838de3910ee3,2025-11-16T18:00:00Z,Pittsburgh Steelers,Cincinnati Bengals,draftkings,spreads,Cincinnati Bengals,-115,5.5
+2025-11-11T23:55:37Z,7147476b5d96c0ee874b838de3910ee3,2025-11-16T18:00:00Z,Pittsburgh Steelers,Cincinnati Bengals,draftkings,spreads,Pittsburgh Steelers,-105,-5.5
+2025-11-11T23:55:37Z,7147476b5d96c0ee874b838de3910ee3,2025-11-16T18:00:00Z,Pittsburgh Steelers,Cincinnati Bengals,draftkings,totals,Over,-112,49.5
+2025-11-11T23:55:37Z,7147476b5d96c0ee874b838de3910ee3,2025-11-16T18:00:00Z,Pittsburgh Steelers,Cincinnati Bengals,draftkings,totals,Under,-108,49.5
+2025-11-11T23:55:37Z,7159d60c7a31c7d593167637723d7663,2025-11-23T18:00:00Z,Baltimore Ravens,New York Jets,draftkings,h2h,Baltimore Ravens,-1000,
+2025-11-11T23:55:37Z,7159d60c7a31c7d593167637723d7663,2025-11-23T18:00:00Z,Baltimore Ravens,New York Jets,draftkings,h2h,New York Jets,650,
+2025-11-11T23:55:37Z,7159d60c7a31c7d593167637723d7663,2025-11-23T18:00:00Z,Baltimore Ravens,New York Jets,draftkings,spreads,Baltimore Ravens,-110,-14.5
+2025-11-11T23:55:37Z,7159d60c7a31c7d593167637723d7663,2025-11-23T18:00:00Z,Baltimore Ravens,New York Jets,draftkings,spreads,New York Jets,-110,14.5
+2025-11-11T23:55:37Z,7159d60c7a31c7d593167637723d7663,2025-11-23T18:00:00Z,Baltimore Ravens,New York Jets,draftkings,totals,Over,-110,45.5
+2025-11-11T23:55:37Z,7159d60c7a31c7d593167637723d7663,2025-11-23T18:00:00Z,Baltimore Ravens,New York Jets,draftkings,totals,Under,-110,45.5
+2025-11-11T23:55:37Z,80d04ba917883a6438580ebae9fb0f22,2025-11-18T01:15:00Z,Las Vegas Raiders,Dallas Cowboys,draftkings,h2h,Dallas Cowboys,-185,
+2025-11-11T23:55:37Z,80d04ba917883a6438580ebae9fb0f22,2025-11-18T01:15:00Z,Las Vegas Raiders,Dallas Cowboys,draftkings,h2h,Las Vegas Raiders,154,
+2025-11-11T23:55:37Z,80d04ba917883a6438580ebae9fb0f22,2025-11-18T01:15:00Z,Las Vegas Raiders,Dallas Cowboys,draftkings,spreads,Dallas Cowboys,-105,-3.5
+2025-11-11T23:55:37Z,80d04ba917883a6438580ebae9fb0f22,2025-11-18T01:15:00Z,Las Vegas Raiders,Dallas Cowboys,draftkings,spreads,Las Vegas Raiders,-115,3.5
+2025-11-11T23:55:37Z,80d04ba917883a6438580ebae9fb0f22,2025-11-18T01:15:00Z,Las Vegas Raiders,Dallas Cowboys,draftkings,totals,Over,-110,50.5
+2025-11-11T23:55:37Z,80d04ba917883a6438580ebae9fb0f22,2025-11-18T01:15:00Z,Las Vegas Raiders,Dallas Cowboys,draftkings,totals,Under,-110,50.5
+2025-11-11T23:55:37Z,8b39d8dc550ced94f9faa91878ebf6b6,2025-11-23T18:00:00Z,Kansas City Chiefs,Indianapolis Colts,draftkings,h2h,Indianapolis Colts,180,
+2025-11-11T23:55:37Z,8b39d8dc550ced94f9faa91878ebf6b6,2025-11-23T18:00:00Z,Kansas City Chiefs,Indianapolis Colts,draftkings,h2h,Kansas City Chiefs,-218,
+2025-11-11T23:55:37Z,8b39d8dc550ced94f9faa91878ebf6b6,2025-11-23T18:00:00Z,Kansas City Chiefs,Indianapolis Colts,draftkings,spreads,Indianapolis Colts,-110,4.5
+2025-11-11T23:55:37Z,8b39d8dc550ced94f9faa91878ebf6b6,2025-11-23T18:00:00Z,Kansas City Chiefs,Indianapolis Colts,draftkings,spreads,Kansas City Chiefs,-110,-4.5
+2025-11-11T23:55:37Z,8b39d8dc550ced94f9faa91878ebf6b6,2025-11-23T18:00:00Z,Kansas City Chiefs,Indianapolis Colts,draftkings,totals,Over,-110,50.5
+2025-11-11T23:55:37Z,8b39d8dc550ced94f9faa91878ebf6b6,2025-11-23T18:00:00Z,Kansas City Chiefs,Indianapolis Colts,draftkings,totals,Under,-110,50.5
+2025-11-11T23:55:37Z,8c2d6a56aa63f42227f18a18fc3d2146,2025-11-23T21:25:00Z,New Orleans Saints,Atlanta Falcons,draftkings,h2h,Atlanta Falcons,-170,
+2025-11-11T23:55:37Z,8c2d6a56aa63f42227f18a18fc3d2146,2025-11-23T21:25:00Z,New Orleans Saints,Atlanta Falcons,draftkings,h2h,New Orleans Saints,142,
+2025-11-11T23:55:37Z,8c2d6a56aa63f42227f18a18fc3d2146,2025-11-23T21:25:00Z,New Orleans Saints,Atlanta Falcons,draftkings,spreads,Atlanta Falcons,-120,-3.0
+2025-11-11T23:55:37Z,8c2d6a56aa63f42227f18a18fc3d2146,2025-11-23T21:25:00Z,New Orleans Saints,Atlanta Falcons,draftkings,spreads,New Orleans Saints,100,3.0
+2025-11-11T23:55:37Z,8c2d6a56aa63f42227f18a18fc3d2146,2025-11-23T21:25:00Z,New Orleans Saints,Atlanta Falcons,draftkings,totals,Over,-110,41.5
+2025-11-11T23:55:37Z,8c2d6a56aa63f42227f18a18fc3d2146,2025-11-23T21:25:00Z,New Orleans Saints,Atlanta Falcons,draftkings,totals,Under,-110,41.5
+2025-11-11T23:55:37Z,90391be251d876bb41d36978a43c7ac2,2025-11-25T01:15:00Z,San Francisco 49ers,Carolina Panthers,draftkings,h2h,Carolina Panthers,245,
+2025-11-11T23:55:37Z,90391be251d876bb41d36978a43c7ac2,2025-11-25T01:15:00Z,San Francisco 49ers,Carolina Panthers,draftkings,h2h,San Francisco 49ers,-305,
+2025-11-11T23:55:37Z,90391be251d876bb41d36978a43c7ac2,2025-11-25T01:15:00Z,San Francisco 49ers,Carolina Panthers,draftkings,spreads,Carolina Panthers,-120,7.0
+2025-11-11T23:55:37Z,90391be251d876bb41d36978a43c7ac2,2025-11-25T01:15:00Z,San Francisco 49ers,Carolina Panthers,draftkings,spreads,San Francisco 49ers,100,-7.0
+2025-11-11T23:55:37Z,90391be251d876bb41d36978a43c7ac2,2025-11-25T01:15:00Z,San Francisco 49ers,Carolina Panthers,draftkings,totals,Over,-110,45.5
+2025-11-11T23:55:37Z,90391be251d876bb41d36978a43c7ac2,2025-11-25T01:15:00Z,San Francisco 49ers,Carolina Panthers,draftkings,totals,Under,-110,45.5
+2025-11-11T23:55:37Z,91019a528f43cd28965fdc68a3f3ef85,2025-11-23T18:00:00Z,Green Bay Packers,Minnesota Vikings,draftkings,h2h,Green Bay Packers,-278,
+2025-11-11T23:55:37Z,91019a528f43cd28965fdc68a3f3ef85,2025-11-23T18:00:00Z,Green Bay Packers,Minnesota Vikings,draftkings,h2h,Minnesota Vikings,225,
+2025-11-11T23:55:37Z,91019a528f43cd28965fdc68a3f3ef85,2025-11-23T18:00:00Z,Green Bay Packers,Minnesota Vikings,draftkings,spreads,Green Bay Packers,-110,-6.5
+2025-11-11T23:55:37Z,91019a528f43cd28965fdc68a3f3ef85,2025-11-23T18:00:00Z,Green Bay Packers,Minnesota Vikings,draftkings,spreads,Minnesota Vikings,-110,6.5
+2025-11-11T23:55:37Z,91019a528f43cd28965fdc68a3f3ef85,2025-11-23T18:00:00Z,Green Bay Packers,Minnesota Vikings,draftkings,totals,Over,-110,43.5
+2025-11-11T23:55:37Z,91019a528f43cd28965fdc68a3f3ef85,2025-11-23T18:00:00Z,Green Bay Packers,Minnesota Vikings,draftkings,totals,Under,-110,43.5
+2025-11-11T23:55:37Z,91630b9c62640117918fa30d2a62d2db,2025-11-16T21:05:00Z,Arizona Cardinals,San Francisco 49ers,draftkings,h2h,Arizona Cardinals,124,
+2025-11-11T23:55:37Z,91630b9c62640117918fa30d2a62d2db,2025-11-16T21:05:00Z,Arizona Cardinals,San Francisco 49ers,draftkings,h2h,San Francisco 49ers,-148,
+2025-11-11T23:55:37Z,91630b9c62640117918fa30d2a62d2db,2025-11-16T21:05:00Z,Arizona Cardinals,San Francisco 49ers,draftkings,spreads,Arizona Cardinals,-105,2.5
+2025-11-11T23:55:37Z,91630b9c62640117918fa30d2a62d2db,2025-11-16T21:05:00Z,Arizona Cardinals,San Francisco 49ers,draftkings,spreads,San Francisco 49ers,-115,-2.5
+2025-11-11T23:55:37Z,91630b9c62640117918fa30d2a62d2db,2025-11-16T21:05:00Z,Arizona Cardinals,San Francisco 49ers,draftkings,totals,Over,-108,48.5
+2025-11-11T23:55:37Z,91630b9c62640117918fa30d2a62d2db,2025-11-16T21:05:00Z,Arizona Cardinals,San Francisco 49ers,draftkings,totals,Under,-112,48.5
+2025-11-11T23:55:37Z,96377d2fb55e3cef733cecccdecaed5f,2025-11-16T18:00:00Z,Buffalo Bills,Tampa Bay Buccaneers,draftkings,h2h,Buffalo Bills,-230,
+2025-11-11T23:55:37Z,96377d2fb55e3cef733cecccdecaed5f,2025-11-16T18:00:00Z,Buffalo Bills,Tampa Bay Buccaneers,draftkings,h2h,Tampa Bay Buccaneers,190,
+2025-11-11T23:55:37Z,96377d2fb55e3cef733cecccdecaed5f,2025-11-16T18:00:00Z,Buffalo Bills,Tampa Bay Buccaneers,draftkings,spreads,Buffalo Bills,-110,-5.5
+2025-11-11T23:55:37Z,96377d2fb55e3cef733cecccdecaed5f,2025-11-16T18:00:00Z,Buffalo Bills,Tampa Bay Buccaneers,draftkings,spreads,Tampa Bay Buccaneers,-110,5.5
+2025-11-11T23:55:37Z,96377d2fb55e3cef733cecccdecaed5f,2025-11-16T18:00:00Z,Buffalo Bills,Tampa Bay Buccaneers,draftkings,totals,Over,-115,47.5
+2025-11-11T23:55:37Z,96377d2fb55e3cef733cecccdecaed5f,2025-11-16T18:00:00Z,Buffalo Bills,Tampa Bay Buccaneers,draftkings,totals,Under,-105,47.5
+2025-11-11T23:55:37Z,96ce7785b0980b03282c7e10d4c58d4a,2025-11-16T21:25:00Z,Denver Broncos,Kansas City Chiefs,draftkings,h2h,Denver Broncos,170,
+2025-11-11T23:55:37Z,96ce7785b0980b03282c7e10d4c58d4a,2025-11-16T21:25:00Z,Denver Broncos,Kansas City Chiefs,draftkings,h2h,Kansas City Chiefs,-205,
+2025-11-11T23:55:37Z,96ce7785b0980b03282c7e10d4c58d4a,2025-11-16T21:25:00Z,Denver Broncos,Kansas City Chiefs,draftkings,spreads,Denver Broncos,-110,3.5
+2025-11-11T23:55:37Z,96ce7785b0980b03282c7e10d4c58d4a,2025-11-16T21:25:00Z,Denver Broncos,Kansas City Chiefs,draftkings,spreads,Kansas City Chiefs,-110,-3.5
+2025-11-11T23:55:37Z,96ce7785b0980b03282c7e10d4c58d4a,2025-11-16T21:25:00Z,Denver Broncos,Kansas City Chiefs,draftkings,totals,Over,-115,43.5
+2025-11-11T23:55:37Z,96ce7785b0980b03282c7e10d4c58d4a,2025-11-16T21:25:00Z,Denver Broncos,Kansas City Chiefs,draftkings,totals,Under,-105,43.5
+2025-11-11T23:55:37Z,9e7119f5a24471c39145663b84f100b2,2025-11-24T01:20:00Z,Los Angeles Rams,Tampa Bay Buccaneers,draftkings,h2h,Los Angeles Rams,-258,
+2025-11-11T23:55:37Z,9e7119f5a24471c39145663b84f100b2,2025-11-24T01:20:00Z,Los Angeles Rams,Tampa Bay Buccaneers,draftkings,h2h,Tampa Bay Buccaneers,210,
+2025-11-11T23:55:37Z,9e7119f5a24471c39145663b84f100b2,2025-11-24T01:20:00Z,Los Angeles Rams,Tampa Bay Buccaneers,draftkings,spreads,Los Angeles Rams,-110,-6.0
+2025-11-11T23:55:37Z,9e7119f5a24471c39145663b84f100b2,2025-11-24T01:20:00Z,Los Angeles Rams,Tampa Bay Buccaneers,draftkings,spreads,Tampa Bay Buccaneers,-110,6.0
+2025-11-11T23:55:37Z,9e7119f5a24471c39145663b84f100b2,2025-11-24T01:20:00Z,Los Angeles Rams,Tampa Bay Buccaneers,draftkings,totals,Over,-110,49.5
+2025-11-11T23:55:37Z,9e7119f5a24471c39145663b84f100b2,2025-11-24T01:20:00Z,Los Angeles Rams,Tampa Bay Buccaneers,draftkings,totals,Under,-110,49.5
+2025-11-11T23:55:37Z,c8913b70b63ae247f23a4e1dec08c668,2025-11-23T18:00:00Z,Chicago Bears,Pittsburgh Steelers,draftkings,h2h,Chicago Bears,-125,
+2025-11-11T23:55:37Z,c8913b70b63ae247f23a4e1dec08c668,2025-11-23T18:00:00Z,Chicago Bears,Pittsburgh Steelers,draftkings,h2h,Pittsburgh Steelers,105,
+2025-11-11T23:55:37Z,c8913b70b63ae247f23a4e1dec08c668,2025-11-23T18:00:00Z,Chicago Bears,Pittsburgh Steelers,draftkings,spreads,Chicago Bears,-110,-1.5
+2025-11-11T23:55:37Z,c8913b70b63ae247f23a4e1dec08c668,2025-11-23T18:00:00Z,Chicago Bears,Pittsburgh Steelers,draftkings,spreads,Pittsburgh Steelers,-110,1.5
+2025-11-11T23:55:37Z,c8913b70b63ae247f23a4e1dec08c668,2025-11-23T18:00:00Z,Chicago Bears,Pittsburgh Steelers,draftkings,totals,Over,-110,46.5
+2025-11-11T23:55:37Z,c8913b70b63ae247f23a4e1dec08c668,2025-11-23T18:00:00Z,Chicago Bears,Pittsburgh Steelers,draftkings,totals,Under,-110,46.5
+2025-11-11T23:55:37Z,cc60225b5a907bd9ba7c27c23131fc5c,2025-11-16T21:25:00Z,Cleveland Browns,Baltimore Ravens,draftkings,h2h,Baltimore Ravens,-425,
+2025-11-11T23:55:37Z,cc60225b5a907bd9ba7c27c23131fc5c,2025-11-16T21:25:00Z,Cleveland Browns,Baltimore Ravens,draftkings,h2h,Cleveland Browns,330,
+2025-11-11T23:55:37Z,cc60225b5a907bd9ba7c27c23131fc5c,2025-11-16T21:25:00Z,Cleveland Browns,Baltimore Ravens,draftkings,spreads,Baltimore Ravens,-115,-7.5
+2025-11-11T23:55:37Z,cc60225b5a907bd9ba7c27c23131fc5c,2025-11-16T21:25:00Z,Cleveland Browns,Baltimore Ravens,draftkings,spreads,Cleveland Browns,-105,7.5
+2025-11-11T23:55:37Z,cc60225b5a907bd9ba7c27c23131fc5c,2025-11-16T21:25:00Z,Cleveland Browns,Baltimore Ravens,draftkings,totals,Over,-112,39.5
+2025-11-11T23:55:37Z,cc60225b5a907bd9ba7c27c23131fc5c,2025-11-16T21:25:00Z,Cleveland Browns,Baltimore Ravens,draftkings,totals,Under,-108,39.5
+2025-11-11T23:55:37Z,cd2e0964817c30ad3f5144ea49b55f2b,2025-11-21T01:15:00Z,Houston Texans,Buffalo Bills,draftkings,h2h,Buffalo Bills,-135,
+2025-11-11T23:55:37Z,cd2e0964817c30ad3f5144ea49b55f2b,2025-11-21T01:15:00Z,Houston Texans,Buffalo Bills,draftkings,h2h,Houston Texans,114,
+2025-11-11T23:55:37Z,cd2e0964817c30ad3f5144ea49b55f2b,2025-11-21T01:15:00Z,Houston Texans,Buffalo Bills,draftkings,spreads,Buffalo Bills,-110,-2.5
+2025-11-11T23:55:37Z,cd2e0964817c30ad3f5144ea49b55f2b,2025-11-21T01:15:00Z,Houston Texans,Buffalo Bills,draftkings,spreads,Houston Texans,-110,2.5
+2025-11-11T23:55:37Z,cd2e0964817c30ad3f5144ea49b55f2b,2025-11-21T01:15:00Z,Houston Texans,Buffalo Bills,draftkings,totals,Over,-110,44.5
+2025-11-11T23:55:37Z,cd2e0964817c30ad3f5144ea49b55f2b,2025-11-21T01:15:00Z,Houston Texans,Buffalo Bills,draftkings,totals,Under,-110,44.5
+2025-11-11T23:55:37Z,e32e0030899c06fdf2c74745ca27d85a,2025-11-23T21:05:00Z,Arizona Cardinals,Jacksonville Jaguars,draftkings,h2h,Arizona Cardinals,-125,
+2025-11-11T23:55:37Z,e32e0030899c06fdf2c74745ca27d85a,2025-11-23T21:05:00Z,Arizona Cardinals,Jacksonville Jaguars,draftkings,h2h,Jacksonville Jaguars,105,
+2025-11-11T23:55:37Z,e32e0030899c06fdf2c74745ca27d85a,2025-11-23T21:05:00Z,Arizona Cardinals,Jacksonville Jaguars,draftkings,spreads,Arizona Cardinals,-110,-1.5
+2025-11-11T23:55:37Z,e32e0030899c06fdf2c74745ca27d85a,2025-11-23T21:05:00Z,Arizona Cardinals,Jacksonville Jaguars,draftkings,spreads,Jacksonville Jaguars,-110,1.5
+2025-11-11T23:55:37Z,e32e0030899c06fdf2c74745ca27d85a,2025-11-23T21:05:00Z,Arizona Cardinals,Jacksonville Jaguars,draftkings,totals,Over,-110,45.5
+2025-11-11T23:55:37Z,e32e0030899c06fdf2c74745ca27d85a,2025-11-23T21:05:00Z,Arizona Cardinals,Jacksonville Jaguars,draftkings,totals,Under,-110,45.5
+2025-11-11T23:55:37Z,e926e654cedeb65fcfcc389a5158ef4e,2025-11-16T21:05:00Z,Los Angeles Rams,Seattle Seahawks,draftkings,h2h,Los Angeles Rams,-155,
+2025-11-11T23:55:37Z,e926e654cedeb65fcfcc389a5158ef4e,2025-11-16T21:05:00Z,Los Angeles Rams,Seattle Seahawks,draftkings,h2h,Seattle Seahawks,130,
+2025-11-11T23:55:37Z,e926e654cedeb65fcfcc389a5158ef4e,2025-11-16T21:05:00Z,Los Angeles Rams,Seattle Seahawks,draftkings,spreads,Los Angeles Rams,-120,-2.5
+2025-11-11T23:55:37Z,e926e654cedeb65fcfcc389a5158ef4e,2025-11-16T21:05:00Z,Los Angeles Rams,Seattle Seahawks,draftkings,spreads,Seattle Seahawks,100,2.5
+2025-11-11T23:55:37Z,e926e654cedeb65fcfcc389a5158ef4e,2025-11-16T21:05:00Z,Los Angeles Rams,Seattle Seahawks,draftkings,totals,Over,-108,48.5
+2025-11-11T23:55:37Z,e926e654cedeb65fcfcc389a5158ef4e,2025-11-16T21:05:00Z,Los Angeles Rams,Seattle Seahawks,draftkings,totals,Under,-112,48.5
+2025-11-11T23:55:37Z,fd2f29289d6437a7c07d4780c5f04936,2025-11-16T18:00:00Z,Tennessee Titans,Houston Texans,draftkings,h2h,Houston Texans,-340,
+2025-11-11T23:55:37Z,fd2f29289d6437a7c07d4780c5f04936,2025-11-16T18:00:00Z,Tennessee Titans,Houston Texans,draftkings,h2h,Tennessee Titans,270,
+2025-11-11T23:55:37Z,fd2f29289d6437a7c07d4780c5f04936,2025-11-16T18:00:00Z,Tennessee Titans,Houston Texans,draftkings,spreads,Houston Texans,-105,-7.5
+2025-11-11T23:55:37Z,fd2f29289d6437a7c07d4780c5f04936,2025-11-16T18:00:00Z,Tennessee Titans,Houston Texans,draftkings,spreads,Tennessee Titans,-115,7.5
+2025-11-11T23:55:37Z,fd2f29289d6437a7c07d4780c5f04936,2025-11-16T18:00:00Z,Tennessee Titans,Houston Texans,draftkings,totals,Over,-105,39.5
+2025-11-11T23:55:37Z,fd2f29289d6437a7c07d4780c5f04936,2025-11-16T18:00:00Z,Tennessee Titans,Houston Texans,draftkings,totals,Under,-115,39.5

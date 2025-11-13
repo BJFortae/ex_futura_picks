@@ -76,7 +76,7 @@ pos = pd.Series(range(len(ordered_starts)), index=ordered_starts)
 week_map = ((pos % 22) +1).astype(int)
 
 # season year: start at 2024, advance by 1 every 22 weeks
-BASE_SEASON_YEAR = 2024
+BASE_SEASON_YEAR = 2025
 season_year_map = (pos // 22 + BASE_SEASON_YEAR).astype(str)
 
 # assign to rows (only where the game is within the window)
